@@ -1,0 +1,125 @@
+{
+  "id": "magazzino_logistica",
+  "title": {
+    "it": "Magazzino / Logistica"
+  },
+  "description": {
+    "it": "Logistica e carico/scarico. Muletti, camion, imballaggi."
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono previste operazioni con carichi sospesi (gru, carriponte, paranchi)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "area_carico_scarico_delimitata",
+      "text": {
+        "it": "Le aree di carico/scarico sono chiaramente delimitate e segnalate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["logistica", "carico_scarico", "viabilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_viabilita_separata",
+      "text": {
+        "it": "È garantita la separazione tra percorsi pedonali e mezzi di movimentazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "sicurezza_pedoni", "movimentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uso_muletti_abilitazione",
+      "text": {
+        "it": "Gli operatori che utilizzano muletti o carrelli elevatori risultano abilitati secondo normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "muletti", "carrelli"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpc_imballaggi_sicuri",
+      "text": {
+        "it": "Gli imballaggi e le protezioni sono idonei a prevenire cadute o cedimenti durante il trasporto?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["imballaggi", "trasporto", "dpc"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_logistica_obbligatori",
+      "text": {
+        "it": "Gli operatori indossano i DPI previsti (scarpe antinfortunistiche, giubbotti alta visibilità, elmetti ove richiesto)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "logistica", "visibilità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_formazione_movimentazione",
+      "text": {
+        "it": "È verificata la formazione per la movimentazione manuale e meccanica dei carichi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "movimentazione_carichi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "condizioni_ambientali_magazzino",
+      "text": {
+        "it": "Le condizioni ambientali del magazzino (illuminazione, temperatura, ventilazione) sono adeguate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "ventilazione", "ambiente"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "mezzi_movimentazione_manutenzione",
+      "text": {
+        "it": "I mezzi di movimentazione (es. muletti) sono sottoposti a controlli e manutenzione regolare?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["muletti", "manutenzione", "controlli"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

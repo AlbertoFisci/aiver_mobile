@@ -1,0 +1,131 @@
+{
+  "id": "organizzazione_servizio_prevenzione_protezione",
+  "title": {
+    "it": "Organizzazione Servizio Prevenzione e Protezione"
+  },
+  "description": {
+    "it": "Verifica della nomina, composizione, formazione e gestione del servizio di prevenzione e protezione"
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "rspp_nominato_in_regola",
+      "text": {
+        "it": "È stato formalmente nominato un RSPP (Responsabile del Servizio di Prevenzione e Protezione) e possiede i requisiti formativi previsti?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["RSPP", "nomina", "formazione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "aspp_presenti_formati",
+      "text": {
+        "it": "Sono presenti ASPP (Addetti al Servizio di Prevenzione e Protezione) in numero adeguato e con formazione aggiornata?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ASPP", "formazione", "copertura"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "medico_competente_nominato_presente",
+      "text": {
+        "it": "Il Medico Competente è nominato, presente, e partecipa alle riunioni periodiche previste?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["medico", "competente", "sorveglianza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "addetti_emergenze_designati_formati",
+      "text": {
+        "it": "Gli addetti al primo soccorso e antincendio sono stati designati formalmente e adeguatamente formati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "primo_soccorso", "antincendio"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "preposti_identificati_formati",
+      "text": {
+        "it": "I preposti sono chiaramente individuati e hanno ricevuto formazione obbligatoria specifica?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["preposti", "formazione", "gestione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dirigenti_formati_sicurezza",
+      "text": {
+        "it": "I dirigenti sono stati formati secondo l’accordo Stato-Regioni e sono coinvolti nella gestione della sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dirigenti", "formazione", "ruolo"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dl_coinvolto_riunione_periodica",
+      "text": {
+        "it": "Il Datore di Lavoro partecipa attivamente alla riunione periodica e alla gestione del SPP?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DL", "ruolo", "partecipazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "rappresentante_lavoratori_presente",
+      "text": {
+        "it": "È stato nominato il RLS (Rappresentante dei Lavoratori per la Sicurezza) ed è coinvolto nella gestione della sicurezza?"
+      },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["RLS", "partecipazione", "nomina"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "registro_nomini_aggiornato",
+      "text": {
+        "it": "È presente e aggiornato il registro delle nomine di tutte le figure coinvolte (RSPP, ASPP, MC, RLS, preposti, emergenze)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["registro", "nomine", "SPP"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

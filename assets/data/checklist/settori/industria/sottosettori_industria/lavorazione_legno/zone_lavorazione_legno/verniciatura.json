@@ -1,0 +1,86 @@
+{
+  "id": "verniciatura",
+  "title": { "it": "Verniciatura e cabine spruzzo"},
+  "description": { "it": "Solventi, nebbie, estrazione forzata"
+  },
+  "type": "specifica",
+  "subsector": "lavorazione_legno",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Vengono utilizzati prodotti infiammabili o con rischio di esplosione (es. vernici, solventi)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti lampade UV o altre fonti di radiazioni non ionizzanti nel processo di asciugatura o trattamento?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Le cabine di verniciatura possono configurarsi come spazi confinati (accesso limitato, ventilazione forzata)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ventilazione_estrazione_forzata",
+      "text": { "it": "È presente un sistema di ventilazione e aspirazione forzata in cabina e nelle aree di spruzzo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "estrazione", "DPC"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "vernici_prodotti_infiammabili_schede",
+      "text": { "it": "Le vernici e i prodotti utilizzati sono correttamente etichettati e accompagnati da SDS (schede di sicurezza)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["SDS", "chimici", "etichettatura"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_adeguati_operatori",
+      "text": { "it": "Gli operatori usano DPI adeguati: maschere, guanti resistenti, tute protettive, occhiali?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "verniciatura", "protezione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presidi_antincendio_idonei",
+      "text": { "it": "Sono presenti presidi antincendio specifici per prodotti infiammabili (es. estintori CO2, coperte antifiamma)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["antincendio", "presidi", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_addetti_prodotti_pericolosi",
+      "text": { "it": "Gli addetti sono formati sui rischi legati a vernici, solventi e alla gestione della cabina?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "rischio chimico", "addetti"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

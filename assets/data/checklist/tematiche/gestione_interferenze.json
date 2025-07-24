@@ -1,0 +1,169 @@
+{
+  "id": "gestione_interferenze",
+  "title": {
+    "it": "Gestione interferenze e ditte esterne"
+  },
+  "description": {
+    "it": "Verifica globale della gestione delle interferenze operative e della presenza di appaltatori o ditte esterne, con attenzione alla documentazione, al coordinamento e ai rischi condivisi (art. 26 e Titolo IV del D.Lgs. 81/08)."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "duvri_presente_aggiornato",
+      "text": {
+        "it": "È presente un DUVRI (Documento Unico di Valutazione dei Rischi Interferenziali) aggiornato, se previsto?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_idoneita_tecnico_professionale",
+      "text": {
+        "it": "È stata verificata l’idoneità tecnico-professionale delle ditte appaltatrici secondo quanto previsto dall’art. 26 del D.Lgs. 81/08?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_nomine_coordinamento",
+      "text": {
+        "it": "Sono state nominate le figure di coordinamento (es. CSE, RUP) se previste?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "piani_sicurezza_aziende_esterne",
+      "text": {
+        "it": "Le ditte esterne hanno presentato e condiviso i propri piani di sicurezza (POS, PSC, procedure interne)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "accessi_ditte_esterne_registrati",
+      "text": {
+        "it": "Gli accessi delle ditte esterne sono regolamentati e registrati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "coordinamento_operativo_effettuato",
+      "text": {
+        "it": "È stato effettuato un coordinamento operativo prima dell’avvio delle attività esterne (riunioni, briefing, verbali)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_specifica_appaltatori",
+      "text": {
+        "it": "Le ditte esterne hanno ricevuto formazione specifica sui rischi interferenziali del sito?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_periodica_documenti",
+      "text": {
+        "it": "È prevista una verifica periodica dell’aggiornamento della documentazione e delle condizioni operative delle ditte esterne?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "coordinamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "segnaletica_percorsi_condivisi",
+      "text": {
+        "it": "Sono presenti segnaletica e delimitazioni chiare per i percorsi condivisi tra personale interno e ditte esterne?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "ditte_esterne", "viabilità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_rischi_incrocio_movimentazione",
+      "text": {
+        "it": "È stata valutata la possibilità di incrocio tra mezzi, materiali e persone in aree condivise?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "logistica", "viabilità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uso_dispositivi_comunicazione_comuni",
+      "text": {
+        "it": "Sono previsti dispositivi o procedure di comunicazione tra ditte esterne e operatori interni (es. radio, briefing, hotline)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "comunicazione", "dispositivi"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "gestione_emergenze_ditte_esterne",
+      "text": {
+        "it": "Le ditte esterne sono informate e formate sulle procedure di emergenza del sito?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "emergenze", "formazione"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

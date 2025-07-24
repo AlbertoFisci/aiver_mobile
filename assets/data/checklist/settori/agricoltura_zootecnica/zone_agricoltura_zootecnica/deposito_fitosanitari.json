@@ -1,0 +1,80 @@
+{
+  "id": "deposito_fitosanitari",
+  "title": {
+    "it": "Deposito fitosanitari e fertilizzanti"
+  },
+  "description": {
+    "it": "Sostanze tossiche, infiammabili, regolamentate"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "locale_chiuso_separato_aerato",
+      "text": {
+        "it": "Il deposito è in locale chiuso, separato da altre attività e adeguatamente aerato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["locale", "aerazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "cartelli_divieto_accesso_non_autorizzati",
+      "text": {
+        "it": "Sono presenti cartelli di divieto accesso ai non autorizzati e segnalazioni di pericolo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "pericolo"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "contenitori_etichettati_integri",
+      "text": {
+        "it": "Tutti i contenitori sono integri, correttamente etichettati e chiusi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "integrità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_kit_spandimento_emergenze",
+      "text": {
+        "it": "È disponibile un kit di contenimento per spandimenti accidentali e un piano di emergenza interno?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["emergenze", "kit"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "uso_dpi_sicurezza_carico_scarico",
+      "text": {
+        "it": "Durante le operazioni di carico/scarico vengono utilizzati DPI adeguati (guanti chimici, visiere, mascherine)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "carico_scarico"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": []
+}

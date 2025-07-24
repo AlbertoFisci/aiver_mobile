@@ -1,0 +1,118 @@
+{
+  "id": "cultura_coinvolgimento_sicurezza",
+  "title": {
+    "it": "Cultura della sicurezza e coinvolgimento dei lavoratori"
+  },
+  "description": {
+    "it": "Verifica del livello di partecipazione, consapevolezza e coinvolgimento dei lavoratori nella gestione della sicurezza, inclusa la consultazione dei rappresentanti, la comunicazione interna e la promozione della cultura della prevenzione."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "sicurezza_01",
+      "text": {
+        "it": "Esiste un sistema strutturato di comunicazione interna in materia di sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["comunicazione", "sistema_sicurezza"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "sicurezza_02",
+      "text": {
+        "it": "I lavoratori sono informati regolarmente su rischi, misure preventive e aggiornamenti normativi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "informazione", "aggiornamento"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "sicurezza_03",
+      "text": {
+        "it": "I lavoratori partecipano attivamente a incontri, riunioni o segnalazioni in tema di sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["partecipazione", "riunioni", "coinvolgimento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sicurezza_04",
+      "text": {
+        "it": "Il RLS è consultato periodicamente e coinvolto nelle valutazioni dei rischi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["RLS", "valutazione_rischi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "sicurezza_05",
+      "text": {
+        "it": "Viene promosso attivamente il valore della sicurezza come cultura organizzativa?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cultura", "valori", "organizzazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "sicurezza_06",
+      "text": {
+        "it": "È prevista una procedura per accogliere segnalazioni o proposte di miglioramento da parte dei lavoratori?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["proposte", "miglioramento", "segnalazioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "sicurezza_07",
+      "text": {
+        "it": "Le segnalazioni dei lavoratori ricevono risposta e generano azioni concrete?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["azioni_correttive", "ascolto", "risposte"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "sicurezza_08",
+      "text": {
+        "it": "Sono previsti programmi formativi o iniziative per promuovere la cultura della sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["cultura", "formazione", "iniziative"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

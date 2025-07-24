@@ -1,0 +1,119 @@
+{
+  "id": "spogliatoi_mense",
+  "title": {
+    "it": "Spogliatoi / Mense"
+  },
+  "description": {
+    "it": "Aree comuni destinate al personale: spogliatoi, mense, servizi igienici"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "mobbing",
+      "activation_question": {
+        "it": "Sono presenti situazioni di tensione, conflitto o comportamenti discriminatori tra il personale nelle aree comuni?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "igiene_generale_spogliatoi",
+      "text": {
+        "it": "Gli spogliatoi sono mantenuti in condizioni igieniche adeguate e sottoposti a pulizia regolare?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "spogliatoi", "pulizia"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "armadietti_sufficienti_sicuri",
+      "text": {
+        "it": "Sono disponibili armadietti individuali in numero sufficiente, con possibilità di chiusura e separazione indumenti puliti/sporchi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["armadietti", "sicurezza", "spogliatoi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_spogliatoi_adeguata",
+      "text": {
+        "it": "La ventilazione degli spogliatoi è sufficiente per evitare ristagni di odori, umidità o muffe?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "spogliatoi", "microclima"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "igiene_generale_mensa",
+      "text": {
+        "it": "La mensa è pulita, ben tenuta, con tavoli, sedute e attrezzature in buone condizioni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mensa", "igiene", "attrezzature"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dimensionamento_mensa_personale",
+      "text": {
+        "it": "La mensa è adeguata per numero di posti, spazi di passaggio e sicurezza alimentare rispetto al numero di lavoratori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mensa", "dimensionamento", "posti"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "assenza_conflitti_zone_comuni",
+      "text": {
+        "it": "Non sono emersi episodi di tensione, discriminazione o conflitto tra lavoratori nelle aree comuni (spogliatoi, mense, servizi)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["conflitti", "relazioni", "mobbing"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "cartellonistica_spogliatoi_mensa",
+      "text": {
+        "it": "Sono presenti indicazioni, istruzioni igieniche e norme di comportamento ben visibili nelle aree comuni?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartellonistica", "norme", "comportamento"],
+      "scoring_weight": 1.1
+    }
+  ]
+}

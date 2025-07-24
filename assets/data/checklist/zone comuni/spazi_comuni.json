@@ -1,0 +1,99 @@
+{
+  "id": "spazi_comuni",
+  "title": {
+    "it": "Corridoi, atri, scale, ascensori"
+  },
+  "description": {
+    "it": "Aree di transito comuni tra i reparti, utilizzate da personale, visitatori o operatori, inclusi corridoi, scale, atri, ascensori, passaggi interni ed esterni."
+  },
+  "type": "comune",
+  "ambiente": "Aree di transito e interazione",
+  "type": "base",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "corridoi_liberi_sgombri",
+      "text": {
+        "it": "I corridoi e gli spazi comuni sono sgombri, senza ostacoli o materiali depositati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ingombri", "transito", "ostacoli"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "scale_con_corrimano_illuminazione",
+      "text": {
+        "it": "Le scale sono dotate di corrimano e correttamente illuminate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scale", "illuminazione", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ascensori_funzionali_verificati",
+      "text": {
+        "it": "Gli ascensori sono funzionanti, verificati periodicamente e riportano le indicazioni di portata?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["ascensori", "manutenzione", "portata"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "uscite_emergenza_comunicazioni_segni",
+      "text": {
+        "it": "Le uscite di emergenza e i percorsi sono segnalati, accessibili e collegano direttamente con le aree sicure?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "uscite", "segnaletica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_cartelli_direzione_sicurezza",
+      "text": {
+        "it": "Sono presenti cartelli direzionali, avvisi di sicurezza e indicazioni per il corretto utilizzo degli spazi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartelli", "indicazioni", "sicurezza"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "pulizia_e_ordine_generale_transito",
+      "text": {
+        "it": "Gli spazi comuni sono puliti, ordinati e mantengono condizioni igienico-sanitarie adeguate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pulizia", "ordine", "igiene"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "carichi_sospesi",
+  "title": {
+    "it": "Verifica sicurezza nella gestione di carichi sospesi"
+  },
+  "description": {
+    "it": "Checklist per la verifica della sicurezza nelle attività di sollevamento e movimentazione di carichi sospesi, conforme al D.Lgs. 81/08, Allegato VI e alle norme tecniche UNI/EN/ISO."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "verifica_attrezzature_idonee",
+      "text": {
+        "it": "Le attrezzature di sollevamento utilizzate sono idonee, marcate CE e sottoposte a controlli periodici?"
+      },
+      "tags": ["attrezzature", "controlli_periodici", "sollevamento"],
+      "scoring_weight": 1.8,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "carichi_ganci_adeguati",
+      "text": {
+        "it": "I ganci, funi, catene e accessori di sollevamento sono integri e correttamente dimensionati per i carichi previsti?"
+      },
+      "tags": ["accessori_sollevamento", "verifica_integrità"],
+      "scoring_weight": 1.6,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_condizioni_ambientali",
+      "text": {
+        "it": "Sono state verificate le condizioni ambientali (vento, visibilità, pioggia, ghiaccio) prima di procedere al sollevamento?"
+      },
+      "tags": ["condizioni_ambientali", "preparazione"],
+      "scoring_weight": 1.5,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_fondo_e_stabilita_mezzi",
+      "text": {
+        "it": "Il fondo di appoggio dei mezzi di sollevamento è stabile, livellato e privo di ostacoli o cedimenti?"
+      },
+      "tags": ["stabilità", "preparazione_area"],
+      "scoring_weight": 1.4,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "operatori_addestrati_movimentazione",
+      "text": {
+        "it": "Gli operatori incaricati della movimentazione dei carichi sono adeguatamente formati e addestrati?"
+      },
+      "tags": ["formazione", "operatori"],
+      "scoring_weight": 1.9,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "zona_lavoro_interdetta",
+      "text": {
+        "it": "La zona sottostante al carico sospeso è stata interdetta all’accesso del personale non coinvolto?"
+      },
+      "tags": ["interdizione_area", "sicurezza_personale"],
+      "scoring_weight": 1.7,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_movimentazione",
+      "text": {
+        "it": "Gli operatori indossano DPI specifici per la movimentazione di carichi (casco con sottogola, guanti, calzature rinforzate)?"
+      },
+      "tags": ["DPI", "sollevamento", "protezione_individuale"],
+      "scoring_weight": 2.0,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_segali_acustici_luminosi",
+      "text": {
+        "it": "Sono presenti segnalazioni acustiche e visive (lampeggianti, sirene) durante il sollevamento?"
+      },
+      "tags": ["segnalazioni", "sicurezza_visiva"],
+      "scoring_weight": 1.3,
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "visibilita_manovra_comunicazione",
+      "text": {
+        "it": "È garantita la comunicazione tra operatori a terra e conducente (uomo bandiera, segnali, radio)?"
+      },
+      "tags": ["comunicazione", "coordinamento"],
+      "scoring_weight": 1.6,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "dpc_delimitazione_area_carichi",
+      "text": {
+        "it": "Sono stati predisposti DPC per la delimitazione dell’area interessata (barriere mobili, coni, nastro)?"
+      },
+      "tags": ["DPC", "delimitazione_area"],
+      "scoring_weight": 1.5,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_piano_movimentazione",
+      "text": {
+        "it": "Esiste un piano operativo di sollevamento o movimentazione del carico con indicazione dei passaggi e rischi?"
+      },
+      "tags": ["piano_operativo", "documentazione"],
+      "scoring_weight": 1.2,
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

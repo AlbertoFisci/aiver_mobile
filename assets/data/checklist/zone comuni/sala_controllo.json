@@ -1,0 +1,99 @@
+{
+  "id": "sala_controllo",
+  "title": {
+    "it": "Sala controllo / supervisione"
+  },
+  "description": {
+    "it": "Quadro comandi, supervisione impianti"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparecchiature con emissione di radiazioni ionizzanti (es. RX, portali controllo)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ergonomia_postazioni_controllo",
+      "text": {
+        "it": "Le postazioni di controllo sono ergonomiche e consentono una postura corretta e varia?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "postazioni", "sala_controllo"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "illuminazione_conforme_locali_controllo",
+      "text": {
+        "it": "L’illuminazione dei locali è adeguata e non genera riflessi sugli schermi o abbagliamenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "comfort_visivo", "sala_controllo"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "ventilazione_microclima_sala_controllo",
+      "text": {
+        "it": "È garantito un buon microclima (temperatura, ventilazione, umidità) per la permanenza prolungata?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["microclima", "ventilazione", "sala_controllo"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "accesso_riservato_personale_autorizzato",
+      "text": {
+        "it": "L’accesso alla sala è riservato esclusivamente al personale autorizzato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accessi", "autorizzazioni", "sicurezza_aree"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_uso_quadri_comando",
+      "text": {
+        "it": "Il personale è formato sull’utilizzo dei quadri di comando, segnali e dispositivi di emergenza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "comandi", "emergenza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "assenza_sorgenti_radiazioni_non_segnalate",
+      "text": {
+        "it": "Non sono presenti sorgenti di radiazioni (ionizzanti o non ionizzanti) non segnalate o non schermate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["radiazioni", "sicurezza", "segnaletica"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

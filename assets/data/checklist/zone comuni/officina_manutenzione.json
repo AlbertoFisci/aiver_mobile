@@ -1,0 +1,92 @@
+{
+  "id": "officina_manutenzione",
+  "title": {
+    "it": "Officina / Manutenzioni"
+  },
+  "description": {
+    "it": "Riparazione impianti, utensili, ricambi."
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "utensili_in_buono_stato",
+      "text": {
+        "it": "Gli utensili e le attrezzature sono in buono stato e utilizzati correttamente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["utensili", "manutenzione", "attrezzature"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_messa_in_sicurezza",
+      "text": {
+        "it": "Gli impianti o macchinari oggetto di manutenzione sono stati messi in sicurezza (interruttori, blocchi, cartelli)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["messa_in_sicurezza", "lockout", "impianti"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpi_manutentori_corretto_uso",
+      "text": {
+        "it": "I manutentori utilizzano correttamente i DPI previsti (guanti, occhiali, scarpe, altri DPI specifici)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "manutentori", "protezione_individuale"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ricambi_adeguati_certificati",
+      "text": {
+        "it": "I ricambi o materiali utilizzati risultano adeguati, integri e certificati ove previsto?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["ricambi", "certificazioni", "materiali"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_formazione_manutenzione",
+      "text": {
+        "it": "È verificata la formazione specifica degli addetti alla manutenzione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "manutentori", "competenze"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ambienti_lavoro_ordinati_puliti",
+      "text": {
+        "it": "I luoghi di lavoro risultano ordinati, sgombri da ostacoli e con buona illuminazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ordine", "pulizia", "ambiente_lavoro"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

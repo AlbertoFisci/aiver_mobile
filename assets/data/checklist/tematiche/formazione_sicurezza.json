@@ -1,0 +1,131 @@
+{
+  "id": "formazione_sicurezza",
+  "title": {
+    "it": "Formazione e informazione lavoratori"
+  },
+  "description": {
+    "it": "Verifica della formazione, informazione e addestramento obbligatori per i lavoratori secondo quanto previsto dal D.Lgs. 81/08."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "formazione_generale_specifica",
+      "text": {
+        "it": "Tutti i lavoratori hanno ricevuto la formazione generale e specifica obbligatoria?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "obbligo_legale", "dlgs81"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "addestramento_attrezzature",
+      "text": {
+        "it": "I lavoratori incaricati dell’uso di attrezzature hanno ricevuto addestramento pratico documentato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["addestramento", "attrezzature", "dpi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_aggiornata",
+      "text": {
+        "it": "La formazione dei lavoratori risulta aggiornata nei tempi previsti dalla normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "aggiornamento", "scadenze"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "conoscenza_procedure_emergenza",
+      "text": {
+        "it": "I lavoratori conoscono le procedure da seguire in caso di emergenza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "procedure", "formazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_preposti_dirigenti",
+      "text": {
+        "it": "Preposti e dirigenti hanno ricevuto la formazione specifica prevista per il loro ruolo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["preposti", "dirigenti", "formazione_ruolo"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_dpi",
+      "text": {
+        "it": "I lavoratori hanno ricevuto informazione e formazione sull’uso corretto dei DPI?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "formazione", "uso_corretto"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "registro_formazione_aggiornato",
+      "text": {
+        "it": "È presente un registro della formazione con date e firme aggiornate?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["registro", "formazione", "documentazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "formazione_lavoratori_temporanei",
+      "text": {
+        "it": "Anche i lavoratori temporanei, interinali o occasionali hanno ricevuto adeguata formazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["temporanei", "formazione", "obbligo_dlgs"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_emergenza_soccorso",
+      "text": {
+        "it": "Gli addetti antincendio e primo soccorso hanno ricevuto la formazione prevista e sono aggiornati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "emergenza", "primo_soccorso", "antincendio"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

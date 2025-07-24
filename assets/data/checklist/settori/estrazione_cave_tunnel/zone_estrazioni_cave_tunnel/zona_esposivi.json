@@ -1,0 +1,109 @@
+{
+  "id": "zona_esplosivi",
+  "title": {
+    "it": "Deposito esplosivi / inneschi"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Cariche, detonatori, protezioni passive"
+  },
+  "checklist": [
+    {
+      "id": "accesso_autorizzato_personale",
+      "text": { "it": "L’accesso al deposito è riservato esclusivamente a personale autorizzato e tracciato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accesso", "autorizzazioni"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "deposito_segnalato_zona_rischio",
+      "text": { "it": "La zona deposito è chiaramente segnalata come area a rischio esplosione con cartelli conformi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_elettrici_atmosfera_controllata",
+      "text": { "it": "Gli impianti elettrici sono certificati per atmosfere a rischio esplosione (Ex)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "atex"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_documentazione_autorizzazioni",
+      "text": { "it": "È disponibile la documentazione autorizzativa aggiornata per la detenzione e gestione degli esplosivi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "legale"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dotazioni_emergenza_specifiche",
+      "text": { "it": "Sono presenti dotazioni specifiche per emergenze (es. sabbia, coperte antincendio, cartelli evacuazione)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "dotazioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "verifica_manutenzione_locale_esplosivi",
+      "text": { "it": "Il locale deposito è mantenuto pulito, asciutto, privo di fonti di calore e soggetto a manutenzione periodica?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["manutenzione", "locale"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "distanze_sicurezza_altri_locali",
+      "text": { "it": "Sono rispettate le distanze di sicurezza da altri locali, impianti e aree frequentate?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["distanze", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_operatori_manipolazione",
+      "text": { "it": "Il personale è formato specificamente alla manipolazione, custodia e trasporto degli esplosivi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti sostanze o impianti che possono generare atmosfere esplosive (ATEX)?"
+      }
+    }
+  ]
+}

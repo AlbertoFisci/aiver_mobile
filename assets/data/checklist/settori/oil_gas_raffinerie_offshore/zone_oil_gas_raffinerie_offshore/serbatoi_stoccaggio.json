@@ -1,0 +1,115 @@
+{
+  "id": "serbatoi_stoccaggio",
+  "title": {
+    "it": "Serbatoi / tank / cisterne"
+  },
+  "description": {
+    "it": "Contenitori liquidi infiammabili"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "accesso_area_serbatoi_limitato",
+      "text": { "it": "L’accesso all’area serbatoi è limitato a personale autorizzato e adeguatamente formato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accesso", "autorizzazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "segnaletica_pericolo_infiammabili",
+      "text": { "it": "Sono presenti cartelli di pericolo 'infiammabile', 'vietato fumare', 'vietato uso fiamme libere' visibili e in buono stato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "rischio_incendio"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianto_messa_a_terra_testato",
+      "text": { "it": "L’impianto di messa a terra dei serbatoi è presente, certificato e testato regolarmente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "verifica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_vasca_contenimento",
+      "text": { "it": "I serbatoi sono dotati di vasche di contenimento o bacini di raccolta in caso di perdita?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ambiente", "contenimento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "valvole_chiusura_ispezionate",
+      "text": { "it": "Le valvole di intercettazione sono in buono stato, facilmente accessibili e ispezionate periodicamente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["valvole", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_rivelatori_gas_vapori",
+      "text": { "it": "Sono presenti rivelatori di gas o vapori infiammabili in prossimità dei serbatoi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["monitoraggio", "gas"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpi_specifici_area_serbatoi",
+      "text": { "it": "Il personale utilizza DPI adeguati (es. antistatici, visiere, tute ignifughe) durante le operazioni in area serbatoi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "protezione"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "manutenzione_periodica_registrata",
+      "text": { "it": "È disponibile un registro aggiornato delle ispezioni e manutenzioni dei serbatoi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "manutenzione"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "L’area serbatoi è classificata come zona ATEX (atmosfera esplosiva)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le condizioni di rischio elevato e attenzione costante possono generare stress per il personale?"
+      }
+    }
+  ]
+}

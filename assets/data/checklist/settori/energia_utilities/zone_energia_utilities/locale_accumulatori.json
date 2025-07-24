@@ -1,0 +1,92 @@
+{
+  "id": "locale_accumulatori",
+  "title": {
+    "it": "Accumulatori, UPS, batterie"
+  },
+  "description": {
+    "it": "Batterie stazionarie, ventilazione, rischio incendio"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Il locale contiene gas o vapori infiammabili, con possibile formazione di atmosfere esplosive?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "batterie_protette_contenute",
+      "text": {
+        "it": "Le batterie sono correttamente protette, contenute e mantenute in buono stato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["batterie", "manutenzione", "protezione"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "locale_ventilato_adeguatamente",
+      "text": {
+        "it": "Il locale è ventilato adeguatamente per prevenire l'accumulo di gas potenzialmente esplosivi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["ventilazione", "gas", "esplosione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "rilevatori_gas_presenti",
+      "text": {
+        "it": "Sono presenti rilevatori di gas (es. idrogeno) e sistemi di allarme funzionanti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["rilevatori", "gas", "allarmi"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_dpc_antincendio",
+      "text": {
+        "it": "Sono presenti idonei dispositivi di protezione collettiva contro il rischio incendio (es. estintori, rilevatori)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["antincendio", "dpc", "prevenzione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_specifica_uso_manutenzione",
+      "text": {
+        "it": "Gli addetti hanno ricevuto formazione specifica sull’uso e la manutenzione in sicurezza degli accumulatori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["formazione", "manutenzione", "accumulatori"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "sala_operatoria",
+  "title": {
+    "it": "Sala operatoria"
+  },
+  "description": {
+    "it": "Area sterile, attività chirurgiche"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": "checklist_sala_operatoria__activation__radiazioni_ionizzanti"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_sala_operatoria__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "controllo_accessi_area_sterile",
+      "text": {
+        "it": "L’accesso all’area sterile è regolamentato e protetto da sistemi di controllo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["accessi", "controllo", "sterilità"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_area_operatoria",
+      "text": {
+        "it": "Sono disponibili e utilizzati DPI specifici per la sala operatoria (maschere FFP3, guanti sterili, occhiali protettivi)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.3,
+      "tags": ["dpi", "chirurgia", "sterili"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_filtrazione_aria",
+      "text": {
+        "it": "È presente un sistema di filtrazione e ventilazione con ricambi d’aria controllati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["aria", "ventilazione", "contaminazione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_rischi_operatori",
+      "text": {
+        "it": "Il personale ha ricevuto formazione sui rischi specifici delle attività chirurgiche?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.1,
+      "tags": ["formazione", "chirurgia", "rischi"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "gestione_rifiuti_infettivi",
+      "text": {
+        "it": "È presente una gestione sicura dei rifiuti infettivi e taglienti nella sala?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.2,
+      "tags": ["rifiuti", "infettivi", "taglienti"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_checklist_chirurgica",
+      "text": {
+        "it": "Viene regolarmente utilizzata la checklist chirurgica pre-operatoria secondo le procedure di sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.6,
+      "tags": ["procedure", "preoperatoria", "sicurezza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

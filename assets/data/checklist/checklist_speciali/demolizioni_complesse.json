@@ -1,0 +1,167 @@
+{
+  "id": "demolizioni_complesse",
+  "title": {
+    "it": "Verifica sicurezza in demolizioni complesse o strutturali"
+  },
+  "description": {
+    "it": "Checklist per la valutazione delle condizioni di sicurezza in demolizioni complesse, strutturali o ad alto rischio, conforme al D.Lgs. 81/08 (Titolo IV), all’Allegato XV e alle prassi operative di coordinamento tecnico e ispettivo."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "presenza_piano_demolizione",
+      "text": {
+        "it": "È presente un piano dettagliato di demolizione firmato da tecnico abilitato?"
+      },
+      "tags": ["documentazione", "piano_demolizione"],
+      "scoring_weight": 1.9,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "valutazione_statica_preliminare",
+      "text": {
+        "it": "È stata eseguita una valutazione statica della struttura prima dell’avvio della demolizione?"
+      },
+      "tags": ["struttura", "valutazione_statica"],
+      "scoring_weight": 1.8,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_rischi_amianto_atex",
+      "text": {
+        "it": "È stata verificata la presenza di materiali pericolosi o rischi specifici (es. amianto, ATEX, polveri, radon)?"
+      },
+      "tags": ["rischi_specifici", "amianto", "atex", "polveri"],
+      "scoring_weight": 1.7,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "protezione_edifici_adiacenti",
+      "text": {
+        "it": "Sono state adottate misure per la protezione degli edifici adiacenti o confinanti?"
+      },
+      "tags": ["protezione_terzi", "adiacenti"],
+      "scoring_weight": 1.6,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "barriere_dpc_antiribaltamento",
+      "text": {
+        "it": "Sono stati installati DPC fisici (barriere, reti, impalcati) contro crolli parziali o ribaltamenti accidentali?"
+      },
+      "tags": ["DPC", "barriere", "antiribaltamento"],
+      "scoring_weight": 1.7,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "controllo_accessi_sicurezza",
+      "text": {
+        "it": "È stato predisposto un controllo accessi sicuro e limitato alle sole persone autorizzate?"
+      },
+      "tags": ["controllo_accessi", "autorizzazioni"],
+      "scoring_weight": 1.5,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "coordinamento_demolizione_altre_imprese",
+      "text": {
+        "it": "È stata verificata l’assenza di interferenze con altre attività (altri appaltatori, fornitori, lavoratori)?"
+      },
+      "tags": ["interferenze", "coordinamento"],
+      "scoring_weight": 1.6,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "uso_attrezzature_demolizione_idonee",
+      "text": {
+        "it": "Le attrezzature da demolizione (martelli, escavatori, bracci) sono idonee e manutenute?"
+      },
+      "tags": ["attrezzature", "manutenzione"],
+      "scoring_weight": 1.8,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_demolizione",
+      "text": {
+        "it": "Gli operatori indossano DPI specifici per demolizione (elmetto con sottogola, visiera, maschera polveri, guanti antiurto)?"
+      },
+      "tags": ["DPI", "demolizione"],
+      "scoring_weight": 2.0,
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_formazione_specifica_demolizione",
+      "text": {
+        "it": "Il personale incaricato ha ricevuto formazione documentata specifica sulla demolizione in sicurezza?"
+      },
+      "tags": ["formazione", "documentazione"],
+      "scoring_weight": 1.9,
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_sequenza_operativa",
+      "text": {
+        "it": "La sequenza delle fasi di demolizione è stata verificata rispetto al piano, ed eventuali modifiche sono state approvate?"
+      },
+      "tags": ["sequenza", "verifica_fasi", "modifiche"],
+      "scoring_weight": 1.5,
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@@locale": "it",
+  "menu_home": "Home",
+  "home_welcome": "Benvenuto in AiVer",
+  "home_description": "Utilizza il menu per iniziare a ispezionare, segnalare e migliorare la sicurezza.",
+  "menu_options": "Opzioni",
+  "menu_checklist": "Checklist AiVer",
+  "menu_incidenti": "Incidenti / Near Miss",
+  "menu_segnalazioni": "Segnalazioni / Rapporti",
+  "menu_crea_sito": "Crea nuovo sito / cantiere",
+  "drawer_change_profile": "Cambia profilo",
+  "drawer_user_role": "Ruolo: {role}",
+  "@drawer_user_role": {
+    "description": "Etichetta che mostra il ruolo attivo nel drawer",
+    "placeholders": {
+      "role": {}
+    }
+  },
+  "permissionRequest_title": "Permessi necessari",
+  "permissionRequest_description": "Per usare tutte le funzionalità di AiVer, concedi i permessi dalle impostazioni del dispositivo.",
+  "permissionRequest_explanation": "AiVer richiede alcuni permessi per funzionare correttamente.",
+  "permissionRequest_button_request": "Concedi permessi",
+  "permissionRequest_button_loading": "Controllo in corso...",
+  "permissionRequest_button_cancel": "Annulla",
+  "permissionRequest_button_settings": "Apri impostazioni",
+
+
+  "select_sector": "Seleziona Settore",
+  "select_subsector": "Seleziona Sottosettore",
+  "checklist_specials_header": "Per questa checklist sono attivabili le seguenti checklist speciali:",
+  "select_sector_tooltip": "Seleziona il settore per visualizzare le relative opzioni.",
+  "select_subsector_tooltip": "Seleziona un sottosettore, visibile solo per il settore Industria.",
+  "reset_data": "Azzera Selezioni",
+  "reset_data_tooltip": "Clicca per ripristinare tutte le selezioni e tornare ai valori predefiniti."
+}
+
+
+

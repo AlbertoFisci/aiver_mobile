@@ -1,0 +1,87 @@
+{
+  "id": "stalle_allevamenti",
+  "title": {
+    "it": "Stalle / allevamenti"
+  },
+  "description": {
+    "it": "Bovini, suini, pollame, sistemi di ventilazione"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "ventilazione_idonea_controllata",
+      "text": {
+        "it": "Le stalle sono dotate di un sistema di ventilazione adeguato e funzionante per evitare accumuli di gas e vapori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "microclima"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "gestione_rifiuti_zootecnici",
+      "text": {
+        "it": "I reflui e i rifiuti zootecnici sono raccolti e smaltiti secondo procedure igienico-sanitarie adeguate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["rifiuti", "igiene"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "accesso_sicuro_operatori",
+      "text": {
+        "it": "Gli accessi alle stalle sono sicuri e dotati di barriere, porte o passaggi che impediscono il contatto accidentale con gli animali?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accessi", "animali"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dpi_utilizzati_gestione_animali",
+      "text": {
+        "it": "Vengono utilizzati DPI specifici per il contatto con animali (stivali, guanti impermeabili, mascherina, ecc.)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "animali"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_sicurezza_operatori",
+      "text": {
+        "it": "Gli operatori sono formati sui rischi di contatto, movimentazione animali e norme igienico-sanitarie?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "biologico"],
+      "scoring_weight": 1.1
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Gli operatori possono venire a contatto con liquami, aerosol o fluidi biologici durante le attività?"
+      }
+    }
+  ]
+}

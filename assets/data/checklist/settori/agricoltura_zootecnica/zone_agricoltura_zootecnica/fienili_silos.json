@@ -1,0 +1,93 @@
+{
+  "id": "fienili_silos",
+  "title": {
+    "it": "Fienili e silos per mangimi"
+  },
+  "description": {
+    "it": "Ambienti chiusi, rischio gas e fermentazioni"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "accesso_controllato_silos",
+      "text": {
+        "it": "L’accesso ai silos e fienili è controllato e riservato a personale autorizzato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "autorizzazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_naturale_o_meccanica",
+      "text": {
+        "it": "È garantita una ventilazione naturale o meccanica adeguata per prevenire accumulo di gas?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "aria"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_protezioni_contro_cadute_dall_alto",
+      "text": {
+        "it": "Sono presenti parapetti o protezioni contro le cadute dall’alto nelle zone di stoccaggio?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cadute", "protezioni"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uso_dpi_durante_carico_scarico",
+      "text": {
+        "it": "Durante carico/scarico del foraggio o mangimi vengono utilizzati DPI adeguati (mascherine, guanti, occhiali)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "carico_scarico"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "struttura_stabile_senza_criticita",
+      "text": {
+        "it": "La struttura dei fienili/silos è stabile, senza evidenze di crolli, sfondamenti o segni di degrado?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["struttura", "integrità"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Il silo è accessibile per manutenzione o lavorazioni interne?"
+      }
+    },
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Vengono movimentati carichi sospesi durante le operazioni di stoccaggio?"
+      }
+    }
+  ]
+}

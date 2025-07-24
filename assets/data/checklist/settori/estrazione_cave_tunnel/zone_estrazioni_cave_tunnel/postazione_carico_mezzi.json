@@ -1,0 +1,115 @@
+{
+  "id": "postazione_carico_mezzi",
+  "title": {
+    "it": "Postazione carico mezzi pesanti"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Pale, escavatori, nastri, ralla"
+  },
+  "checklist": [
+    {
+      "id": "viabilita_segnaletica_adeguata",
+      "text": { "it": "La viabilità interna e la segnaletica nella zona di carico sono adeguate e visibili?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "aree_transito_pedonale_protette",
+      "text": { "it": "Sono presenti percorsi protetti o separati per i pedoni nelle zone trafficate dai mezzi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pedoni", "viabilità", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "operatori_addestrati_mezzi_movimento",
+      "text": { "it": "Gli operatori alla guida dei mezzi sono addestrati, abilitati e consapevoli dei rischi dell’area?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori", "abilitazione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "funzionamento_sistemi_segnalazione_mezzi",
+      "text": { "it": "I mezzi sono dotati di sistemi di segnalazione visiva e acustica funzionanti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mezzi", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "carico_materiali_stabile_e_sicuro",
+      "text": { "it": "Il carico dei materiali avviene in modo stabile e senza rischio di caduta o ribaltamento?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["carico", "materiali"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_dpi_visibilita_mezzi",
+      "text": { "it": "Gli operatori indossano DPI ad alta visibilità e dispositivi specifici per la zona di carico?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "visibilità"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "manutenzione_mezzi_e_impianti_carico",
+      "text": { "it": "I mezzi e le attrezzature utilizzate per il carico sono sottoposte a manutenzione periodica e documentata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_dispositivi_emergenza_carico",
+      "text": { "it": "Sono presenti dispositivi di emergenza accessibili (estintori, segnalatori acustici) nelle aree di carico?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "sicurezza"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti carichi sospesi movimentati con gru, nastri, ralle o altri dispositivi?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Gli operatori sono soggetti a ritmi elevati, pressioni o condizioni potenzialmente stressogene?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Aiver Mobile</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>aiver_mobile</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
+	<!-- 🔐 PERMESSI RICHIESTI SU iOS -->
+	<key>NSCameraUsageDescription</key>
+	<string>AiVer ha bisogno della fotocamera per scattare foto durante le ispezioni.</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>AiVer richiede il microfono per registrare note vocali.</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>AiVer necessita dell'accesso alla libreria foto per allegare immagini alle ispezioni.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>AiVer può salvare foto nella libreria solo se autorizzato.</string>
+
+	<key>NSUserTrackingUsageDescription</key>
+	<string>AiVer non raccoglie dati sensibili. Il tracciamento è usato solo per migliorare l'esperienza utente.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AiVer può utilizzare la posizione per geolocalizzare ispezioni e segnalazioni se abilitato.</string>
+
+</dict>
+</plist>

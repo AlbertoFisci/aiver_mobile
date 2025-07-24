@@ -1,0 +1,49 @@
+{
+  "id": "sanita_rsa",
+  "title": {
+    "it": "Sanità e strutture socio-sanitarie"
+  },
+  "description": {
+    "it": "Ospedali, ambulatori, RSA, laboratori e ambienti sanitari"
+  },
+  "has_subsectors": false,
+  "comuni": [
+    "magazzino_logistica",
+    "officina_manutenzione",
+    "spogliatoi_mense",
+    "uffici_servizi",
+    "sala_controllo",
+    "viabilita",
+    "spazi_comuni",
+    "locali_quadri_elettrici",
+    "deposito_materiale",
+    "area_esterna_viabilita",
+    "cucine_laboratori_preparazione",
+    "magazzino_chimici",
+    "aree_aperte_pubblico"
+  ],
+  "tematiche": [
+    "ponteggi_trabattelli",
+    "cultura_coinvolgimento_sicurezza",
+    "gestione_sostanze_pericolose",
+    "piano_miglioramento_obbiettivi_sicurezza",
+    "organizzazione_servizio_prevenzione_protezione",
+    "gestione_emergenze",
+    "formazione_sicurezza",
+    "sorveglianza_sanitaria",
+    "verifica_documentazione",
+    "gestione_interferenze",
+    "Verifiche_globali_macchine_impianti",
+    "Verifiche_globali_DPI_DPC_attrezzature"
+  ],
+  "specifiche": [
+    "reparti_degenza",
+    "ambulatori_visite",
+    "pronto_soccorso",
+    "sala_operatoria",
+    "laboratori_analisi",
+    "farmacia_ospedaliera",
+    "locale_rifiuti_sanitari",
+    "locale_radiologia"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "scavi_opere_profonde",
+  "title": {
+    "it": "Scavi e opere profonde"
+  },
+  "description": {
+    "it": "Trincee, pozzi, micropali, fondazioni profonde"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Le lavorazioni prevedono accesso o permanenza all’interno di spazi confinati (pozzi, cunicoli, camere di spinta)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_stabilità_pareti",
+      "text": {
+        "it": "È stata verificata la stabilità delle pareti dello scavo o adottate protezioni (armature, puntellamenti)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.9,
+      "tags": ["stabilità", "protezione_scavi", "pareti"]
+    },
+    {
+      "id": "accesso_sicuro_scavo",
+      "text": {
+        "it": "Sono previsti accessi sicuri (scale, rampe, parapetti) per entrare/uscire dagli scavi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "scoring_weight": 1.8,
+      "tags": ["accessi", "sicurezza_accessi", "uscita_emergenza"]
+    },
+    {
+      "id": "segnaletica_pericolo_scavo",
+      "text": {
+        "it": "Lo scavo è correttamente segnalato (cartelli, delimitazioni) per evitare cadute accidentali?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.7,
+      "tags": ["segnaletica", "delimitazione", "cadute"]
+    },
+    {
+      "id": "impianti_interrati_identificati",
+      "text": {
+        "it": "È stata verificata la presenza di cavi, tubazioni o altri impianti interrati prima dell’inizio lavori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 2.0,
+      "tags": ["impianti", "cavi_interrati", "rischio_scavi"],
+      "allow_file": true
+    },
+    {
+      "id": "verifica_rischio_riempimento",
+      "text": {
+        "it": "Sono state valutate le possibili fonti di riempimento accidentale (piogge, acque, sabbie mobili)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.8,
+      "tags": ["acqua", "riempimento", "rischio_ambiente"]
+    },
+    {
+      "id": "impianto_estrazione_gas",
+      "text": {
+        "it": "È previsto un sistema di estrazione e monitoraggio gas nel caso di scavi profondi o ambienti confinati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "scoring_weight": 1.5,
+      "tags": ["gas", "monitoraggio", "spazi_confinati"]
+    },
+    {
+      "id": "formazione_operatori_scavo",
+      "text": {
+        "it": "Gli operatori impiegati sono stati formati per le attività di scavo e gestione emergenze?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "scoring_weight": 1.7,
+      "tags": ["formazione", "emergenze", "scavo"]
+    },
+    {
+      "id": "condizioni_ambientali_scavo",
+      "text": {
+        "it": "Le condizioni ambientali (illuminazione, ventilazione, meteo) sono adeguate per lavorare nello scavo?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "scoring_weight": 1.4,
+      "tags": ["ambiente", "lavoro_sicuro", "ventilazione"]
+    },
+    {
+      "id": "dpi_specifici_scavi",
+      "text": {
+        "it": "Sono stati forniti e sono utilizzati correttamente i DPI specifici per attività in scavo (elmetto, guanti, calzature, cinture se necessarie)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "scoring_weight": 1.9,
+      "tags": ["dpi", "scavi", "dispositivi_protezione"]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "impianto_galvanico",
+  "title": { "it": "Impianto galvanico / bagni" },
+  "description": { "it": "Vasche galvaniche, acidi, ventilazione"
+  },
+  "type": "specifica",
+  "subsector": "verniciatura_galvanica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti sostanze infiammabili o emissioni che possono generare atmosfere esplosive (ATEX)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti fonti di radiazioni non ionizzanti (es. UV per trattamento superfici, rilevatori)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ventilazione_localizzata_bagni",
+      "text": { "it": "È presente e funzionante un sistema di ventilazione localizzata sui bagni galvanici?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "bagni", "salute"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "contenimento_sversamenti_vasche",
+      "text": { "it": "Le vasche sono dotate di sistemi di contenimento contro sversamenti accidentali?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["vasche", "contenimento", "emergenze"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_operatori_galvanica",
+      "text": { "it": "Gli operatori indossano DPI adeguati per i rischi chimici e termici presenti (guanti, occhiali, grembiuli)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "chimico", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "etichettatura_adeguata_prodotti",
+      "text": { "it": "Tutte le sostanze chimiche utilizzate sono etichettate correttamente secondo CLP?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "CLP", "chimico"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "manutenzione_periodica_vasche",
+      "text": { "it": "Le vasche e le pompe sono sottoposte a manutenzione periodica documentata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "pompe", "vasche"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "segnalazione_pericoli_galvanica",
+      "text": { "it": "Sono presenti segnalazioni ben visibili sui pericoli chimici e comportamentali nell’area galvanica?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "pericoli", "visibilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dispositivi_emergenza_attivi",
+      "text": { "it": "Docce lavaocchi e presidi antinfortunistici sono presenti, accessibili e funzionanti?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "lavaocchi", "docce"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_specifica_galvanica",
+      "text": { "it": "Gli operatori hanno ricevuto formazione specifica sui rischi della galvanica e delle sostanze impiegate?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "chimico", "galvanica"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

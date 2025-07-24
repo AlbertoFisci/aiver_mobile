@@ -1,0 +1,98 @@
+{
+  "id": "impianto_fotovoltaico",
+  "title": {
+    "it": "Campo fotovoltaico"
+  },
+  "description": {
+    "it": "Pannelli, inverter, quadri stringa, recinzioni"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti gru o mezzi per il sollevamento di pannelli o strutture?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Le lavorazioni prevedono accessi in quota su coperture, tetti o strutture elevate?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_recinzioni_area",
+      "text": {
+        "it": "L'area del campo fotovoltaico è adeguatamente recintata e protetta da accessi non autorizzati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "tags": ["recinzioni", "accessi", "protezione_area"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "quadro_inverter_segnalazioni",
+      "text": {
+        "it": "I quadri inverter e i dispositivi elettrici sono provvisti di segnaletica e protezioni contro i contatti accidentali?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["segnaletica", "elettrico", "inverter", "quadri"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "accessi_manutenzione",
+      "text": {
+        "it": "Gli accessi per la manutenzione ai pannelli e agli inverter sono sicuri, con percorsi agevoli e assenza di ostacoli?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["manutenzione", "accessi", "sicurezza_percorsi"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_elettrici",
+      "text": {
+        "it": "Sono utilizzati DPI specifici per rischio elettrico (guanti isolanti, visiere, scarpe idonee)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dpi", "elettrico", "protezione_personale"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_connettori_e_stringhe",
+      "text": {
+        "it": "I connettori e le stringhe dei pannelli risultano integri, correttamente collegati e privi di ossidazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["stringhe", "connettori", "efficienza_impianto"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "cucine_laboratori_preparazione",
+  "title": {
+    "it": "Cucine e laboratori preparazione"
+  },
+  "description": {
+    "it": "Cottura, preparazione piatti pronti, mense, centri cottura"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono presenti alimenti deperibili o condizioni favorevoli alla proliferazione microbica (temperatura, umidità)?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti celle frigo o ambienti ristretti soggetti a permanenza prolungata?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "superfici_piani_lavabili_disinfettabili",
+      "text": {
+        "it": "Le superfici di lavoro e i piani sono lavabili, disinfettabili e in buono stato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "sanificazione", "superfici"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "filtri_cappe_funzionanti_manutenzione",
+      "text": {
+        "it": "Le cappe e i sistemi di aspirazione sono funzionanti e manutenuti regolarmente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aspirazione", "filtri", "cappe"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_dpi_corretti_cucina",
+      "text": {
+        "it": "Gli operatori utilizzano DPI idonei (guanti monouso, cuffie, grembiuli)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "cucina", "igiene"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_cottura_sicurezza_gas_elettrico",
+      "text": {
+        "it": "Gli impianti di cottura (gas, elettrici) sono sicuri, certificati e privi di perdite?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "cottura", "gas", "elettrico"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "scarti_alimentari_smaltimento_igienico",
+      "text": {
+        "it": "Lo smaltimento degli scarti alimentari è gestito in modo igienico e controllato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scarti", "rifiuti", "igiene"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "frigoriferi_temperatura_controllata",
+      "text": {
+        "it": "I frigoriferi e congelatori funzionano correttamente e mantengono la temperatura idonea?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["refrigerazione", "conservazione", "HACCP"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "schede_haccp_presenti_visibili",
+      "text": {
+        "it": "Sono presenti le schede HACCP aggiornate e visibili per le preparazioni alimentari?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["HACCP", "documenti", "alimentare"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

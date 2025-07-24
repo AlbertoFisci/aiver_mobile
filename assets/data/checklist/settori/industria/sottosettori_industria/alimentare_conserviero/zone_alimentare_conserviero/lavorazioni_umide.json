@@ -1,0 +1,134 @@
+{
+  "id": "lavorazioni_umide",
+  "title": { "it": "Reparti lavorazioni umide" },
+  "description": { "it": "Lavaggio, taglio, cottura, sterilizzazione"
+  },
+  "type": "specifica",
+  "subsector": "alimentare_conserviero",
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono presenti alimenti potenzialmente contaminati o scarti organici da trattare con precauzioni biologiche?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti vasche, ambienti chiusi o ambienti accessibili solo tramite botole o aperture ridotte?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_superfici_igienizzabili",
+      "text": { "it": "Le superfici e attrezzature sono lavabili, disinfettabili e in buono stato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "materiali", "pulizia"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_vapore_umidita_gestita",
+      "text": { "it": "L’umidità e il vapore generato dalle lavorazioni sono gestiti da sistemi di ventilazione e aspirazione adeguati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "umidità", "condensa"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "pavimenti_antisdrucciolo_puliti",
+      "text": { "it": "I pavimenti sono antisdrucciolo, puliti e regolarmente asciugati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pavimenti", "scivolosità", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_cottura_sicuri_manutenzionati",
+      "text": { "it": "Gli impianti di cottura sono in buono stato, regolarmente controllati e dotati di protezioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "cottura", "manutenzione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "impianti_taglio_sicuri_schermati",
+      "text": { "it": "Le macchine da taglio sono schermate, con pulsanti di emergenza e dispositivi di blocco?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchine", "taglio", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_cartellonistica_dpi",
+      "text": { "it": "È presente cartellonistica chiara sui DPI obbligatori (guanti, grembiule, copricapo, scarpe antiscivolo)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "cartelli", "obblighi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_addetti_procedure",
+      "text": { "it": "Gli addetti hanno ricevuto formazione sulle procedure di sicurezza e igiene?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "addetti", "procedure"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rimozione_scarti_contaminati",
+      "text": { "it": "Gli scarti alimentari vengono rimossi frequentemente e smaltiti in modo sicuro?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scarti", "igiene", "smaltimento"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "illuminazione_area_lavoro",
+      "text": { "it": "L’illuminazione dei banchi di lavoro è sufficiente e non genera ombre pericolose?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "visibilità", "ambiente"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_emergenze_incendio",
+      "text": { "it": "Sono presenti presidi antincendio e vie di fuga facilmente accessibili?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "incendio", "evacuazione"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "sorveglianza_sanitaria",
+  "title": {
+    "it": "Sorveglianza sanitaria e idoneità"
+  },
+  "description": {
+    "it": "Verifica dell'applicazione della sorveglianza sanitaria obbligatoria, del rilascio di idoneità e della corretta gestione del rapporto con il medico competente."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "sorveglianza_obbligatoria_prevista",
+      "text": {
+        "it": "Per le mansioni presenti è prevista la sorveglianza sanitaria obbligatoria?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sorveglianza", "mansioni", "idoneità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "lavoratori_sottoposti_visita",
+      "text": {
+        "it": "I lavoratori soggetti a sorveglianza sanitaria sono stati effettivamente sottoposti a visita?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["visite", "sorveglianza", "lavoratori"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "idoneita_medica_rilasciata",
+      "text": {
+        "it": "Le visite hanno portato al rilascio di certificati di idoneità alla mansione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["certificato", "idoneità", "visite"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "registro_visite_presente",
+      "text": {
+        "it": "È presente un registro delle visite mediche e dei giudizi di idoneità?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["registro", "giudizi", "archivio"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "medico_competente_nominato",
+      "text": {
+        "it": "È stato nominato un medico competente e ne è verificabile l’incarico?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["medico", "competente", "nomina"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rapporti_medico_datore_lavoro",
+      "text": {
+        "it": "Sono presenti rapporti o relazioni periodiche del medico competente al datore di lavoro?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["rapporti", "medico", "datore_lavoro"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "idoneita_limitata_o_con_prescrizioni",
+      "text": {
+        "it": "Sono stati gestiti correttamente i casi di idoneità con limitazioni o prescrizioni?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["limitazioni", "prescrizioni", "idoneità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "informazione_lavoratori_visite",
+      "text": {
+        "it": "I lavoratori sono stati informati sulle finalità e modalità delle visite sanitarie?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["informazione", "visite", "lavoratori"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

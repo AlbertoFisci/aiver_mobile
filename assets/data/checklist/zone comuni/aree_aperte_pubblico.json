@@ -1,0 +1,138 @@
+{
+  "id": "aree_aperte_pubblico",
+  "title": {
+    "it": "Aree aperte al pubblico"
+  },
+  "description": {
+    "it": "Verifica delle condizioni di sicurezza e accessibilità per aree accessibili a terzi (visitatori, clienti, pazienti, studenti)"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "mobbing",
+      "activation_question": {
+        "it": "Quest’area è accessibile a studenti, pazienti o lavoratori potenzialmente esposti a situazioni di disagio relazionale o conflittualità?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "percorsi_sicuri_identificati",
+      "text": {
+        "it": "I percorsi per il pubblico sono chiaramente identificati e separati da quelli operativi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "segnaletica", "accesso_pubblico"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "segnaletica_chiara_visibile",
+      "text": {
+        "it": "La segnaletica di sicurezza è chiara, visibile e comprensibile anche per utenti esterni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "informazione", "utenti_esterni"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "barriere_accesso_zone_rischiose",
+      "text": {
+        "it": "Sono presenti barriere o sistemi per impedire l’accesso del pubblico a zone pericolose?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["barriere", "pericoli", "protezione_pubblico"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "accessibilita_disabili_garantita",
+      "text": {
+        "it": "L’accessibilità per persone con disabilità è garantita secondo normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["disabilità", "accessibilità", "barriere_architettoniche"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_rischi_specifici_comunicata",
+      "text": {
+        "it": "Eventuali rischi specifici per il pubblico (es. pavimenti scivolosi, zone rumorose) sono chiaramente segnalati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rischi_pubblico", "comunicazione", "prevenzione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_addetti_accoglienza",
+      "text": {
+        "it": "Sono presenti addetti formati all’accoglienza e gestione del pubblico?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accoglienza", "formazione", "interazione_pubblico"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "procedure_emergenza_comunicate",
+      "text": {
+        "it": "Le procedure di emergenza sono esposte e comunicate in modo comprensibile al pubblico?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "informazione", "pubblico"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uscite_emergenza_segnalate_illuminate",
+      "text": {
+        "it": "Le uscite di emergenza sono chiaramente segnalate e illuminate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["uscite_emergenza", "illuminazione", "sicurezza_pubblico"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "assenza_ostacoli_visivi_pericolosi",
+      "text": {
+        "it": "Sono assenti ostacoli visivi o elementi potenzialmente pericolosi (vetrate trasparenti, spigoli vivi, ecc.) lungo i percorsi del pubblico?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ostacoli", "visibilità", "protezione_pubblico"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

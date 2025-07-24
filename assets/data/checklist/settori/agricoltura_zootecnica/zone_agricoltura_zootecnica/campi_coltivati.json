@@ -1,0 +1,79 @@
+{
+  "id": "campi_coltivati",
+  "title": {
+    "it": "Campi aperti / colture estensive"
+  },
+  "description": {
+    "it": "Seminativi, frutteti, vigneti, ortaggi"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "verifica_condizioni_meteo",
+      "text": {
+        "it": "Le condizioni meteo sono valutate prima delle attività in campo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ambiente", "valutazione rischio"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "verifica_stato_macchine",
+      "text": {
+        "it": "Le macchine agricole (trattori, irroratrici, ecc.) sono in buono stato e regolarmente manutenute?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mezzi", "manutenzione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_dispositivi_protezione_collettiva",
+      "text": {
+        "it": "Sono disponibili e utilizzati dispositivi di protezione collettiva dove necessario (paratie, segnali, ecc.)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpc", "prevenzione"],
+      "scoring_weight": 0.8
+    },
+    {
+      "id": "dpi_obbligatori_utilizzati_correttamente",
+      "text": {
+        "it": "Gli operatori utilizzano correttamente i DPI richiesti (guanti, occhiali, tute, stivali, protezione udito)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "protezione individuale"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "rischio_investimento_valutato",
+      "text": {
+        "it": "Sono valutati i rischi di investimento da parte di macchine in movimento?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rischi specifici", "macchine agricole"],
+      "scoring_weight": 1.0
+    }
+  ]
+}

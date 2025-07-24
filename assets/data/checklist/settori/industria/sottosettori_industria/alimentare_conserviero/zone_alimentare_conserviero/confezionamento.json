@@ -1,0 +1,107 @@
+{
+  "id": "confezionamento",
+  "title": { "it": "Confezionamento e imballaggio" },
+  "description": { "it": "Linee automatiche, etichettatura, incartonatrici"
+  },
+
+  "type": "specifica",
+  "subsector": "alimentare_conserviero",
+  "special_checklists": [
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Gli operatori eseguono attività ripetitive, in postazioni fisse o con ritmi elevati?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "protezioni_linee_attive",
+      "text": { "it": "Le linee di confezionamento sono protette da ripari, barriere o sensori attivi?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchine", "protezioni", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "etichettatura_leggibile_conforme",
+      "text": { "it": "L’etichettatura dei prodotti è leggibile, completa e conforme alle normative alimentari?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "normative", "qualità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ordine_postazioni_imballaggio",
+      "text": { "it": "Le postazioni di imballaggio sono ordinate, pulite e prive di ostacoli al passaggio?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ordine", "pulizia", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_addetti_confezionamento",
+      "text": { "it": "Gli addetti hanno ricevuto formazione specifica sull’uso delle macchine di confezionamento?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "addetti", "macchine"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_dpi_sicurezza_mani",
+      "text": { "it": "Sono utilizzati DPI adeguati per la protezione delle mani e la movimentazione manuale?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "mani", "movimentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "scarti_materiali_raccolti_separatamente",
+      "text": { "it": "Gli scarti e i materiali di confezionamento vengono raccolti in modo differenziato?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rifiuti", "differenziata", "ambiente"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "regolazioni_macchine_registrate",
+      "text": { "it": "Le regolazioni e i settaggi delle macchine sono registrati e controllati periodicamente?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["macchine", "controlli", "manutenzione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "carichi_pesanti_gestiti_sicurezza",
+      "text": { "it": "I carichi pesanti (es. scatole, bobine film) sono movimentati in sicurezza, anche con ausili?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["carichi", "movimentazione", "ausili"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

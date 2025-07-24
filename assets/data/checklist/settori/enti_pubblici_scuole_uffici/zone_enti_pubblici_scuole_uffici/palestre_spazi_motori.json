@@ -1,0 +1,86 @@
+{
+  "id": "palestra_spazi_motori",
+  "title": {
+    "it": "Palestre e spazi motori"
+  },
+  "description": {
+    "it": "Attività fisica, attrezzature mobili, spogliatoi connessi"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "attrezzature_sportive_sicure",
+      "text": {
+        "it": "Le attrezzature sportive (tappeti, panche, spalliere, materassi) sono in buono stato, stabili e prive di danni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "pavimentazione_antitrauma",
+      "text": {
+        "it": "La pavimentazione è adeguata, antiscivolo, priva di ostacoli e adatta all’uso sportivo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "pavimentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_illuminazione_areazione",
+      "text": {
+        "it": "Gli impianti di illuminazione e areazione sono adeguati e funzionanti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "areazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "spogliatoi_igiene_sicurezza",
+      "text": {
+        "it": "Gli spogliatoi collegati sono puliti, ben segnalati, accessibili e dotati di presidi igienici?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["igiene", "spogliatoi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "accesso_controllato_attivita",
+      "text": {
+        "it": "L’accesso alle attività motorie è controllato da personale abilitato e segnalato?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "sicurezza"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "L’organizzazione delle attività motorie può generare stress per carico fisico o pressione competitiva?"
+      }
+    }
+  ]
+}

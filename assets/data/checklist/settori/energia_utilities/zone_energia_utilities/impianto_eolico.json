@@ -1,0 +1,94 @@
+{
+  "id": "impianto_eolico",
+  "title": {
+    "it": "Torre eolica / generatore"
+  },
+  "description": {
+    "it": "Nacelle, rotori, manutenzione in quota"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklist": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": "Sono previste movimentazioni in quota di componenti pesanti (es. pale, motori, generatori)?"
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": "L’accesso alla navicella o alla torre comporta condizioni assimilabili a spazi confinati?"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "accesso_navicella",
+      "text": {
+        "it": "L’accesso alla navicella avviene in condizioni di sicurezza e con idonei DPI anticaduta?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["lavori_quota", "dpi", "anticaduta"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_lavori_quota",
+      "text": {
+        "it": "Gli operatori sono formati per lavori in quota e per il soccorso in altezza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["formazione", "soccorso", "lavori_quota"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "condizioni_metereologiche",
+      "text": {
+        "it": "Le attività in quota sono sospese in caso di vento forte o maltempo?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["meteo", "rischio_quota", "interruzione_attività"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_rotori",
+      "text": {
+        "it": "I rotori sono bloccati o esclusi in sicurezza prima dell’accesso/manutenzione?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["rotori", "interblocco", "manutenzione"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "linea_vita_disponibile",
+      "text": {
+        "it": "È presente una linea vita certificata o sistema anticaduta permanente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["linea_vita", "anticaduta", "dpi"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

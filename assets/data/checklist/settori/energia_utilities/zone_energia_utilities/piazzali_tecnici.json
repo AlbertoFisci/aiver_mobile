@@ -1,0 +1,92 @@
+{
+  "id": "piazzali_tecnici",
+  "title": {
+    "it": "Piazzali tecnici / zone esterne"
+  },
+  "description": {
+    "it": "Gru, carico componenti, viabilità interna"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti attività di sollevamento o movimentazione di carichi sospesi?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "viabilita_segnaletica_adeguata",
+      "text": {
+        "it": "La viabilità è chiaramente segnalata e conforme alle disposizioni di sicurezza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["viabilità", "segnaletica", "sicurezza_stradale"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "zone_carico_delineate",
+      "text": {
+        "it": "Le aree di carico/scarico sono chiaramente delimitate e visibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "tags": ["carico", "logistica", "delimitazione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "movimentazione_gru_sicura",
+      "text": {
+        "it": "Le operazioni con gru e mezzi di sollevamento avvengono nel rispetto delle distanze e dei piani di sicurezza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["gru", "sollevamento", "sicurezza_operativa"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpc_barriere_segnalazioni",
+      "text": {
+        "it": "Sono presenti barriere, segnalazioni e altri DPC per proteggere i percorsi pedonali e le zone di transito?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["dpc", "barriere", "transito"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_operativa_mezzi",
+      "text": {
+        "it": "Gli operatori dei mezzi sono adeguatamente formati e autorizzati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["formazione", "autorizzazione", "mezzi"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

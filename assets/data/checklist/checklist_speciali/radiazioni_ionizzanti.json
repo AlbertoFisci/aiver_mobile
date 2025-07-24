@@ -1,0 +1,117 @@
+{
+  "id": "radiazioni_ionizzanti",
+  "title": {
+    "it": "Verifica esposizione a radiazioni ionizzanti"
+  },
+  "description": {
+    "it": "Checklist per la verifica delle condizioni di sicurezza in presenza di radiazioni ionizzanti (RX, gamma, beta, neutroni), conforme a D.Lgs. 101/2020 e alle normative tecniche e sanitarie vigenti."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "presenza_sorgenti_ionizzanti",
+      "text": {
+        "it": "Sono presenti sorgenti di radiazioni ionizzanti (es. RX, gamma, beta, neutroni)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "classificazione_ambienti_effettuata",
+      "text": {
+        "it": "È stata effettuata la classificazione radiologica degli ambienti secondo normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "autorizzazione_ministeriale_presente",
+      "text": {
+        "it": "L’utilizzo delle sorgenti è coperto da regolare autorizzazione ministeriale o notifica all’autorità competente?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_segnaletica_dpc",
+      "text": {
+        "it": "È presente segnaletica adeguata e sono stati adottati DPC radioprotettivi (barriere, schermature, chiusure automatiche)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "utilizzo_dpi_radioprotettivi",
+      "text": {
+        "it": "Gli operatori indossano i DPI radioprotettivi previsti (camici piombati, occhiali, dosimetri, protezioni localizzate)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_radioprotezione",
+      "text": {
+        "it": "Il personale esposto ha ricevuto formazione obbligatoria in materia di radioprotezione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_esperti_radioprotezione",
+      "text": {
+        "it": "È previsto il supporto di un Esperto di Radioprotezione (ERP) secondo obbligo normativo?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.5,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "monitoraggio_dosimetrico_attivo",
+      "text": {
+        "it": "È attivo un sistema di monitoraggio dosimetrico personale e ambientale?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "biblioteche_archivi",
+  "title": {
+    "it": "Biblioteche e archivi"
+  },
+  "description": {
+    "it": "Locali per consultazione, lettura o conservazione materiali cartacei e digitali"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "dpi_base_biblioteca",
+      "text": {
+        "it": "Il personale utilizza correttamente i DPI previsti (es. guanti, mascherina, camice)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "salute"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "scaffali_ancorati_stabili",
+      "text": {
+        "it": "Gli scaffali e le librerie sono ancorati, stabili e correttamente distanziati per evitare ribaltamenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["arredi", "stabilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "illuminazione_adeguata",
+      "text": {
+        "it": "L’illuminazione nei locali è sufficiente e ben distribuita per consultazione e lettura sicura?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "ergonomia"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "impianti_elettrici_sicuri",
+      "text": {
+        "it": "Gli impianti elettrici sono protetti e conformi (es. prese, spine, cablaggi dei terminali)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "verifiche"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "areazione_locale",
+      "text": {
+        "it": "È garantita una sufficiente ventilazione nei locali adibiti a archivio e lettura?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "salute"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "materiali_infiamabili_contenuti",
+      "text": {
+        "it": "I materiali infiammabili (carta, toner, liquidi) sono correttamente conservati e distanziati da fonti di calore?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["prevenzione_incendi", "stoccaggio"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "vie_fuga_biblioteca",
+      "text": {
+        "it": "Le vie di fuga sono segnalate, libere da ostacoli e accessibili anche in presenza di scaffalature?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "evacuazione"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono presenti documenti o superfici esposte a potenziale contaminazione biologica (es. muffe, polvere, archivi deteriorati)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti server, apparati wireless o dispositivi ad emissione continua di radiazioni non ionizzanti?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "opere_murarie_finiture",
+  "title": {
+    "it": "Opere murarie e finiture"
+  },
+  "description": {
+    "it": "Intonaci, tramezzi, pavimenti, serramenti"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "amianto",
+      "activation_question": {
+        "it": "Sono presenti materiali che potrebbero contenere amianto (es. vecchie piastrelle, collanti, tubazioni)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Sono previste lavorazioni in quota (es. su ponteggi, scale, trabattelli, solai)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_materiali_rischio",
+      "text": {
+        "it": "Sono stati verificati i materiali potenzialmente pericolosi (es. vecchi intonaci, collanti, vernici, amianto)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["materiali", "amianto", "verifica"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "polveri_emesse_lavorazioni",
+      "text": {
+        "it": "Le lavorazioni (es. taglio piastrelle, demolizioni) producono polveri e sono stati adottati sistemi di contenimento e aspirazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["polveri", "aspirazione", "contenimento"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "dpi_opere_murarie",
+      "text": {
+        "it": "I DPI specifici (mascherine, occhiali, guanti, ginocchiere, scarpe antinfortunistiche) sono disponibili e correttamente utilizzati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "protezione", "utilizzo"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "rumore_macchinari_lavorazioni",
+      "text": {
+        "it": "Le lavorazioni con elevata rumorosità (es. martelli, smerigliatrici) sono state valutate e si usano adeguate protezioni uditive?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rumore", "dpi", "valutazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ergonomia_postazioni",
+      "text": {
+        "it": "Le postazioni di lavoro sono ergonomiche o alternate per ridurre sforzi ripetitivi, posture scorrette o carichi eccessivi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "postazione", "movimenti"],
+      "scoring_weight": 0.8
+    },
+    {
+      "id": "segnalazione_aree_lavoro",
+      "text": {
+        "it": "Le aree di lavoro sono chiaramente delimitate e segnalate per evitare interferenze con altri operatori?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "aree", "interferenze"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "formazione_specifica_finiture",
+      "text": {
+        "it": "Il personale ha ricevuto formazione per l’uso in sicurezza di strumenti e materiali da finitura (es. seghetti, colle, spatole, resine)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "strumenti", "finiture"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

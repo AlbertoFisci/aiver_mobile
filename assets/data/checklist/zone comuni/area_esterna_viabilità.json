@@ -1,0 +1,118 @@
+{
+  "id": "area_esterna_viabilità",
+  "title": {
+    "it": "Ingressi, piazzali, cortili esterni"
+  },
+  "description": {
+    "it": "Viabilità pedonale, cadute, ghiaccio, accessi"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "pavimentazioni_in_buono_stato",
+      "text": {
+        "it": "Le pavimentazioni esterne sono in buono stato, prive di buche, crepe o ostacoli?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "pavimentazioni"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "viabilita_pedonale_sicura_segnalata",
+      "text": {
+        "it": "Sono presenti percorsi pedonali sicuri e segnalati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "segnaletica", "pedoni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_segnaletica_stradale",
+      "text": {
+        "it": "È presente una segnaletica stradale chiara e conforme (orizzontale e verticale)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "segnaletica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "gestione_ghiaccio_inverno",
+      "text": {
+        "it": "È previsto un piano per la gestione del ghiaccio, neve o fango durante l’inverno?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["clima", "emergenze", "stagionalità"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "accessi_controllati",
+      "text": {
+        "it": "Gli accessi all’area esterna sono controllati e protetti (es. sbarre, badge, guardiania)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accessi", "sorveglianza"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "illuminazione_esterna_sufficiente",
+      "text": {
+        "it": "L’illuminazione esterna è sufficiente a garantire la sicurezza in condizioni di scarsa visibilità?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "visibilità", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "drenaggio_acque_meteoriche",
+      "text": {
+        "it": "È garantito un adeguato drenaggio delle acque meteoriche per evitare allagamenti o fanghiglia?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["drenaggio", "acque", "ambiente"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "attraversamenti_sicuri",
+      "text": {
+        "it": "Sono presenti attraversamenti sicuri per i pedoni nei punti di transito veicoli?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "attraversamenti", "pedoni"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

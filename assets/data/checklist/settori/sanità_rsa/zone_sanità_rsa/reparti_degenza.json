@@ -1,0 +1,136 @@
+{
+  "id": "reparti_degenza",
+  "title": {
+    "it": "Reparti degenza / stanze pazienti"
+  },
+  "description": {
+    "it": "Assistenza a lungo termine, movimentazione persone"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": "checklist_reparti_degenza__activation__stress_lavoro_correlato"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_reparti_degenza__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_cartellonistica_sicurezza",
+      "text": {
+        "it": "È presente una cartellonistica di sicurezza aggiornata e ben visibile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.4,
+      "tags": ["cartelli", "informazione", "sicurezza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dispositivi_igiene_disponibili",
+      "text": {
+        "it": "Sono disponibili e funzionanti i dispositivi per l’igiene delle mani (gel, sapone, asciugamani monouso)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["igiene", "mani", "prevenzione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "movimentazione_assistita_pazienti",
+      "text": {
+        "it": "Sono presenti e utilizzati ausili per la movimentazione assistita dei pazienti (sollevatori, barelle ergonomiche)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.1,
+      "tags": ["movimentazione", "pazienti", "ausili"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_movimentazione_pazienti",
+      "text": {
+        "it": "Il personale ha ricevuto una formazione specifica sulla movimentazione sicura dei pazienti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["formazione", "sicurezza", "movimentazione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "ordine_pulizia_ambienti",
+      "text": {
+        "it": "L’ambiente si presenta pulito, ordinato e privo di ostacoli che possano causare infortuni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "tags": ["ordine", "pulizia", "ambiente"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_dpi_personale",
+      "text": {
+        "it": "Il personale utilizza i DPI previsti (guanti, mascherine, occhiali, ecc.) durante le attività assistenziali?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.2,
+      "tags": ["dpi", "personale", "protezione"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "gestione_farmaci_sicura",
+      "text": {
+        "it": "La gestione dei farmaci (stoccaggio, somministrazione, controllo accessi) è sicura e conforme alle procedure?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.1,
+      "tags": ["farmaci", "gestione", "sicurezza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "segnalazioni_stress_lavoro",
+      "text": {
+        "it": "Sono state raccolte o gestite segnalazioni di stress lavoro-correlato tra il personale?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.7,
+      "tags": ["stress", "segnalazioni", "lavoratori"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

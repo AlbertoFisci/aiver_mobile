@@ -1,0 +1,113 @@
+{
+  "id": "preparazione_area",
+  "title": {
+    "it": "Preparazione area di cantiere"
+  },
+  "description": {
+    "it": "Delimitazioni, barriere, segnaletica, accessi temporanei"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "area_delimitata",
+      "text": {
+        "it": "L’area è correttamente delimitata con recinzioni, barriere o nastri segnaletici conformi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.8,
+      "tags": ["delimitazione", "sicurezza_perimetrale", "inizio_lavori"],
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "segnaletica_adeguata",
+      "text": {
+        "it": "È presente segnaletica di sicurezza visibile e conforme per indicare accessi, divieti e pericoli?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.7,
+      "tags": ["segnaletica", "comunicazione_visiva"],
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "accessi_sicuri",
+      "text": {
+        "it": "Gli accessi pedonali e veicolari all’area sono separati e sicuri per tutti i lavoratori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "scoring_weight": 1.9,
+      "tags": ["accessi", "circolazione", "separazione_flussi"],
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "cartellonistica_dvr",
+      "text": {
+        "it": "È presente la cartellonistica obbligatoria (es. estratto DVR, nominativi RSPP, D.L., PSC)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 1.6,
+      "tags": ["obblighi_documentali", "informazioni_cantiere"],
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_interferenze",
+      "text": {
+        "it": "È stata effettuata una verifica del rischio interferenze tra attività e imprese coinvolte?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "scoring_weight": 2.0,
+      "tags": ["interferenze", "coordinamento", "DUVRI", "PSC"],
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "condizioni_ambientali_area",
+      "text": {
+        "it": "Le condizioni ambientali dell’area (illuminazione, ventilazione, meteo) sono adeguate per operare in sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "scoring_weight": 1.4,
+      "tags": ["ambiente_lavoro", "condizioni_meteo", "visibilità"],
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_formazione_obbligatoria",
+      "text": {
+        "it": "I lavoratori presenti sono dotati dei DPI obbligatori e risultano formati per le attività di cantiere?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "scoring_weight": 1.8,
+      "tags": ["dpi", "formazione", "presenza_idonea"],
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

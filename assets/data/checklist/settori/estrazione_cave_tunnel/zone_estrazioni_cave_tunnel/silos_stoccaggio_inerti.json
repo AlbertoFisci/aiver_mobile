@@ -1,0 +1,120 @@
+{
+  "id": "silos_stoccaggio_inerti",
+  "title": {
+    "it": "Silos / tramogge / nastri"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Stoccaggio materiali sfusi, polveri"
+  },
+  "checklist": [
+    {
+      "id": "strutture_silos_integrita",
+      "text": { "it": "I silos, tramogge e nastri sono in buone condizioni strutturali, senza segni di deformazioni o danni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["strutture", "verifica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "accesso_interdizione_non_autorizzati",
+      "text": { "it": "Sono presenti misure di interdizione all’accesso non autorizzato (recinzioni, cartelli, lucchetti)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "sicurezza"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dpi_specifici_per_polveri",
+      "text": { "it": "Sono utilizzati DPI specifici per polveri inalabili (es. maschere filtranti) se necessario?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["dpi", "polveri"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "prevenzione_accumuli_materiale",
+      "text": { "it": "Vengono adottate misure per prevenire accumuli critici o occlusioni nei punti di scarico/carico?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["gestione_materiali", "occlusioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianto_areazione_funzionale",
+      "text": { "it": "Il sistema di ventilazione/estrazione polveri è presente e funzionante nei punti critici?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["areazione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "manutenzione_periodica_nastri",
+      "text": { "it": "I nastri trasportatori sono soggetti a controlli e manutenzioni documentate?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "nastri"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "protezioni_movimenti_meccanici",
+      "text": { "it": "Sono presenti protezioni per gli organi in movimento (nastri, rulli, coclee) per evitare contatti accidentali?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["protezione", "meccanismi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_accesso_silos",
+      "text": { "it": "Il personale è adeguatamente formato per l’accesso, il controllo e l’intervento sui silos?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "spazi_confinati"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "valvole_sicurezza_controllate",
+      "text": { "it": "Le valvole di sicurezza e i sistemi di scarico pressione sono verificati periodicamente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["valvole", "controlli"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "L’accesso a silos, tramogge o condotte può configurare uno spazio confinato?"
+      }
+    }
+  ]
+}

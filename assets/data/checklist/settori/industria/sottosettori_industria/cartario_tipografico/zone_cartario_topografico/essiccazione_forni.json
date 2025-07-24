@@ -1,0 +1,67 @@
+{
+  "id": "essiccazione_forni",
+  "title": { "it": "Forni ed essiccazione carta" },
+  "description": { "it": "Essiccazione rapida, fonti di calore, vapori"
+  },
+  "type": "specifica",
+  "subsector": "cartario_topografico",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "forni_sicuri_isolati_termicamente",
+      "text": { "it": "I forni e le aree di essiccazione sono correttamente isolati termicamente e protetti da contatti accidentali?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["calore", "isolamento", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "sistemi_allarme_temperatura",
+      "text": { "it": "Sono presenti sistemi di allarme e controllo automatico della temperatura e dell’umidità?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["controlli", "allarmi", "umidità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "aree_ventilate_adeguatamente",
+      "text": { "it": "Le aree di essiccazione sono ventilate correttamente per evitare accumulo di vapori o calore eccessivo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "vapori", "calore"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "manutenzione_periodica_impianti",
+      "text": { "it": "Gli impianti di essiccazione e i relativi sistemi di sicurezza sono soggetti a manutenzione periodica documentata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_rischi_termici",
+      "text": { "it": "Gli operatori sono formati sui rischi legati al calore, alla disidratazione e all’interazione con le superfici calde?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "rischio_termico", "operatori"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

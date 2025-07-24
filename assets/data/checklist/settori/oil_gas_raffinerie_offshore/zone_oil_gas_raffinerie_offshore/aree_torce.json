@@ -1,0 +1,110 @@
+{
+  "id": "area_torce",
+  "title": {
+    "it": "Area torce / combustione gas"
+  },
+  "description": {
+    "it": "Strutture di sicurezza per la combustione controllata di gas in eccesso"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "accesso_torce_interdetto",
+      "text": { "it": "L'accesso all’area torce è interdetto e ben delimitato con cartellonistica chiara e barriere?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "segnaletica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "torcia_visivamente_integrata",
+      "text": { "it": "La struttura della torcia appare integra, stabile e priva di danneggiamenti visibili?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["struttura", "verifica_visiva"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "monitoraggio_emissioni_attivo",
+      "text": { "it": "È attivo un sistema di monitoraggio delle emissioni e delle fiammate (fumi, rumore, altezza fiamma)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["emissioni", "monitoraggio"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "torcia_manutenzione_regolare",
+      "text": { "it": "La torcia è oggetto di manutenzione regolare, con documentazione aggiornata disponibile?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "documentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "aree_prossime_sicure",
+      "text": { "it": "Le aree prossime alla torcia (strade, impianti, passaggi) sono a distanza di sicurezza adeguata e protette?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["distanza", "protezione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attivazione_controllata",
+      "text": { "it": "Il sistema di accensione e attivazione della torcia è controllato da remoto e dotato di dispositivi di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["controllo", "automazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_obbligatori_manutentori",
+      "text": { "it": "Durante gli interventi di manutenzione o controllo, i lavoratori utilizzano DPI adeguati (tute ignifughe, casco, visiera, guanti resistenti al calore)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "sicurezza"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "L’area torce è classificata come zona ATEX (atmosfera potenzialmente esplosiva)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Le emissioni luminose o termiche possono generare rischi da radiazioni non ionizzanti (calore, abbagliamento)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Sono previste lavorazioni o accessi in quota (scale, piattaforme, impalcature)?"
+      }
+    }
+  ]
+}

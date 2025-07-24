@@ -1,0 +1,75 @@
+{
+  "id": "aule_riunioni_pubbliche",
+  "title": {
+    "it": "Aule riunioni pubbliche"
+  },
+  "description": {
+    "it": "Spazi per riunioni, conferenze, assemblee con accesso del pubblico"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "segnaletica_vie_esodo",
+      "text": {
+        "it": "La segnaletica delle vie di esodo è presente, visibile e conforme alla normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_accessibilita",
+      "text": {
+        "it": "L’accesso è garantito anche a persone con disabilità (es. rampe, percorsi accessibili, sedute riservate)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "impianti_voce_illuminazione",
+      "text": {
+        "it": "Gli impianti di diffusione sonora e illuminazione di emergenza sono funzionanti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "assenza_ostacoli_percorso_esodo",
+      "text": {
+        "it": "I percorsi di esodo e le uscite di sicurezza sono sgombri e facilmente accessibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "numero_massimo_personale_formato",
+      "text": {
+        "it": "È rispettato il numero massimo di presenze previste e il personale è formato per la gestione delle emergenze?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "centrale_cracking",
+  "title": {
+    "it": "Centrale cracking / distillazione"
+  },
+  "description": {
+    "it": "Forni, colonne di distillazione, reazioni chimiche e catalizzatori"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "forni_controllo_temperatura",
+      "text": { "it": "I forni e le colonne sono dotati di sistemi di controllo temperatura e pressione funzionanti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianto", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "catalizzatori_sicuri_stoccati",
+      "text": { "it": "I catalizzatori e agenti chimici sono conservati in sicurezza, tracciati e stoccati secondo normativa?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["chimico", "stoccaggio"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "monitoraggio_fughe_gas",
+      "text": { "it": "È attivo un sistema di monitoraggio per fughe di gas, vapori infiammabili e anomalie di processo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["monitoraggio", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "interventi_manutenzione_registrati",
+      "text": { "it": "Gli interventi di manutenzione straordinaria e ordinaria sono tracciati, registrati e programmati?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_operatore_prescritti",
+      "text": { "it": "Gli operatori utilizzano i DPI prescritti per alte temperature e vapori (guanti speciali, visiere, tute ignifughe)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "accessi_limitati_zona_reazione",
+      "text": { "it": "L’accesso alle zone con reazioni attive è riservato e segnalato con idonea cartellonistica?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "segnaletica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_valvole_emergenza",
+      "text": { "it": "Sono presenti valvole di sfogo e sistemi di depressurizzazione in caso di emergenza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["emergenza", "impianto"],
+      "scoring_weight": 1.4
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti atmosfere potenzialmente esplosive (gas, vapori, polveri infiammabili)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti generatori di microonde, laser industriali o strumentazione ad alta frequenza?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le attività di supervisione impianto sono soggette a carichi di lavoro e responsabilità elevate?"
+      }
+    }
+  ]
+}

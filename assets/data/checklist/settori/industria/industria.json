@@ -1,0 +1,18 @@
+{
+  "id": "industria",
+  "title": {
+    "it": "Industria"
+  },
+  "description": {
+    "it": "Settore industriale suddiviso in sottosettori specifici: alimentare, metalmeccanico, verniciatura, plastica, carta, legno"
+  },
+  "has_subsectors": true,
+  "subsectors": [
+    "alimentare_conserviero",
+    "cartario_tipografico",
+    "lavorazione_legno",
+    "metalmeccanico_fonderie_carpenterie",
+    "plastica_stampaggio",
+    "verniciatura_galvanica"
+    ]
+}

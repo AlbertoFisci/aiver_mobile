@@ -1,0 +1,169 @@
+{
+  "id": "mobbing",
+  "title": {
+    "it": "Verifica condizioni di rischio da mobbing e molestie organizzative"
+  },
+  "description": {
+    "it": "Checklist per la valutazione di eventuali situazioni riconducibili a mobbing, conflitti sistematici, isolamento lavorativo, comportamenti vessatori o discriminatori nei luoghi di lavoro. Conforme al D.Lgs. 81/08 (Art. 28), alle linee guida INAIL e alla giurisprudenza vigente."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "presenza_segnalazioni_conflitti",
+      "text": {
+        "it": "Sono presenti segnalazioni (formali o informali) di conflitti lavorativi, discriminazioni o atteggiamenti vessatori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_procedure_segnalazione_mobbing",
+      "text": {
+        "it": "Sono previste procedure aziendali chiare per la segnalazione di episodi di mobbing o molestie psicologiche?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.5,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "esclusione_attivita_gruppo",
+      "text": {
+        "it": "Vi sono evidenze di esclusione sistematica da attività comuni, comunicazioni interne o momenti di gruppo?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.2,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "pressioni_ingiustificate_produzione",
+      "text": {
+        "it": "Sono presenti pressioni eccessive o non documentate in ambito produttivo (obiettivi irraggiungibili, continui rimproveri pubblici)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.4,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "isolamento_organizzativo",
+      "text": {
+        "it": "Sono stati riscontrati episodi di isolamento organizzativo (esclusione dalle comunicazioni, marginalizzazione fisica, postazioni separate)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.3,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "turnazione_discriminatoria",
+      "text": {
+        "it": "Vi sono elementi che indicano una turnazione punitiva o discriminatoria rispetto agli altri colleghi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.2,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "offese_umiliazioni_reiterate",
+      "text": {
+        "it": "Sono stati segnalati comportamenti reiterati di offesa, umiliazione, squalifica o scherno nei confronti di uno o più lavoratori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_supporto_superiore",
+      "text": {
+        "it": "In caso di criticità o conflitti, è presente un supporto reale o efficace da parte dei superiori o referenti?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.3,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_programmi_formazione_psicosociale",
+      "text": {
+        "it": "Risultano attivi percorsi formativi aziendali su benessere lavorativo, gestione dei conflitti e rispetto interpersonale?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.0,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "conseguenze_benessere_psicofisico",
+      "text": {
+        "it": "Vi sono evidenze che il contesto lavorativo stia incidendo negativamente sul benessere psicofisico di uno o più dipendenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_strumenti_ascolto_attivo",
+      "text": {
+        "it": "L’organizzazione prevede strumenti di ascolto (es. sportelli interni, canali riservati, audit psicosociali)?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.1,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "esiti_rilevazioni_stress_inascoltati",
+      "text": {
+        "it": "Eventuali esiti negativi di rilevazioni su clima o stress lavoro-correlato sono stati seguiti da interventi concreti?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.0,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

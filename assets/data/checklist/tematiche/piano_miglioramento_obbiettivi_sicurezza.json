@@ -1,0 +1,92 @@
+{
+  "id": "piano_miglioramento_obbiettivi_sicurezza",
+  "title": {
+    "it": "Piano miglioramento e obiettivi sicurezza"
+  },
+  "description": {
+    "it": "Verifica dell’esistenza, aggiornamento e monitoraggio del piano di miglioramento e degli obiettivi di sicurezza"
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "piano_miglioramento_esistente_documentato",
+      "text": {
+        "it": "Esiste un piano di miglioramento formalizzato e aggiornato per la sicurezza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["piano", "miglioramento", "documentazione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "obiettivi_sicurezza_definiti_misurabili",
+      "text": {
+        "it": "Gli obiettivi di sicurezza sono chiaramente definiti, misurabili e condivisi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["obiettivi", "sicurezza", "strategia"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "monitoraggio_periodico_obiettivi",
+      "text": {
+        "it": "È attivo un sistema di monitoraggio periodico del raggiungimento degli obiettivi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["monitoraggio", "verifica", "obiettivi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "azioni_correttive_avviate_se_disallineamento",
+      "text": {
+        "it": "Sono state avviate azioni correttive nel caso di mancato raggiungimento degli obiettivi?"
+      },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["azioni", "correttive", "obiettivi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "formazione_difesa_piano_miglioramento",
+      "text": {
+        "it": "Il piano di miglioramento è conosciuto dai preposti e dai soggetti coinvolti?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "piano", "comunicazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "evidenze_miglioramento_reali_misurabili",
+      "text": {
+        "it": "Sono presenti evidenze misurabili dell’attuazione del piano di miglioramento (indicatori, segnalazioni, miglioramenti visibili)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["evidenze", "miglioramento", "risultati"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

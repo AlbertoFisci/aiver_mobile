@@ -1,0 +1,74 @@
+{
+  "id": "stampa_rotativa",
+  "title": { "it": "Linea stampa / rotative" },
+  "description": { "it": "Stampa offset, flexo, rotocalco"
+  },
+  "type": "specifica",
+  "subsector": "cartario_topografico",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti fonti di radiazioni non ionizzanti come laser di controllo, sensori ottici o componenti elettronici ad alta frequenza?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ripari_protezioni_attive_rotative",
+      "text": { "it": "Le rotative sono dotate di ripari fissi o mobili e protezioni attive in buono stato?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ripari", "macchine", "rotative"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "emissioni_volatile_vernici_controllate",
+      "text": { "it": "Le emissioni volatili di inchiostri e vernici sono controllate con aspirazione localizzata o sistemi filtranti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["VOC", "inchiostri", "ventilazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "accessi_interdetti_parti_pericolose",
+      "text": { "it": "L’accesso alle parti pericolose è impedito da protezioni o segnaletica chiara?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "accesso", "protezioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "sistema_emergenza_rotativa_testato",
+      "text": { "it": "Il sistema di arresto d’emergenza delle rotative è presente, segnalato e testato regolarmente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "test", "arresto"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_specifici_inchiostri_contatto",
+      "text": { "it": "Gli operatori utilizzano DPI adeguati al contatto con inchiostri e solventi (guanti resistenti, occhiali, ecc.)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "inchiostri", "contatto"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

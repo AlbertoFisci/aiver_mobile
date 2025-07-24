@@ -1,0 +1,116 @@
+{
+  "id": "zona_rifiuti_pericolosi",
+  "title": {
+    "it": "Gestione rifiuti pericolosi"
+  },
+  "description": {
+    "it": "Oli, batterie, vernici, solventi, acidi, fitofarmaci"
+  },
+  "type": "specifica",
+  "sector": "servizi_ambientali_rifiuti",
+  "checklist": [
+    {
+      "id": "etichettatura_chiara_rifiuti_pericolosi",
+      "text": { "it": "Tutti i contenitori sono etichettati con simboli di pericolo e indicazioni obbligatorie secondo normativa?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "rischi", "normativa"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "contenitori_specifici_integri_compatibili",
+      "text": { "it": "I contenitori utilizzati sono integri, compatibili con la sostanza contenuta e resistenti a urti o perdite?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["contenitori", "compatibilità", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "registro_carico_scarico_aggiornato",
+      "text": { "it": "Il registro di carico/scarico dei rifiuti pericolosi è aggiornato e accessibile?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "registro", "tracciabilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dispositivi_contenimento_perdite_presenti",
+      "text": { "it": "Sono presenti vasche o altri dispositivi di contenimento per eventuali perdite di sostanze pericolose?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpc", "contenimento", "sversamenti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_schede_sicurezza_consultabili",
+      "text": { "it": "Le schede di sicurezza (SDS) delle sostanze pericolose sono presenti e consultabili dagli operatori?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["schede_sicurezza", "sds", "documentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "verifica_dpi_specifici_rischio_chimico",
+      "text": { "it": "Gli operatori utilizzano correttamente DPI specifici per rischio chimico (guanti, occhiali, tute, maschere)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "chimico", "protezione_individuale"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "verifica_dpi_generici_utilizzati",
+      "text": { "it": "Sono utilizzati correttamente i DPI di base previsti per questa attività (guanti, calzature, visibilità, ecc.)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "verifica_generale"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "amianto",
+      "activation_question": {
+        "it": "Sono presenti rifiuti che potrebbero contenere amianto (frammenti di lastre, vecchie guarnizioni, ecc.)?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Tra i rifiuti pericolosi sono presenti materiali potenzialmente contaminati (es. sanitari, laboratorio)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono in uso dispositivi di rilevazione automatici o sensori non ionizzanti?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "La gestione di rifiuti pericolosi comporta condizioni di lavoro ad alta attenzione o stress operativo?"
+      }
+    }
+  ]
+}

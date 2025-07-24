@@ -1,0 +1,104 @@
+{
+  "id": "ambulatori_visite",
+  "title": {
+    "it": "Ambulatori / visite / day hospital"
+  },
+  "description": {
+    "it": "Ambulatori specialistici e diagnostica: verifica condizioni di sicurezza per pazienti e operatori, presenza radiazioni, DPI e flussi di accesso."
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": "L’ambulatorio utilizza apparecchiature che emettono radiazioni ionizzanti (es. RX, TAC)?"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_cartellonistica",
+      "text": {
+        "it": "La cartellonistica di sicurezza è ben visibile e aggiornata?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "tags": ["cartellonistica", "informazione", "segnaletica"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "ordine_pulizia_luoghi",
+      "text": {
+        "it": "Gli ambienti sono ordinati e puliti, con adeguata gestione dei rifiuti sanitari e non sanitari?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["pulizia", "rifiuti_sanitari", "igiene"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "accessi_controllati",
+      "text": {
+        "it": "L’accesso a locali diagnostici o a rischio è controllato e consentito solo a personale autorizzato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["accesso", "autorizzazioni", "radiazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "verifica_dpi_personale",
+      "text": {
+        "it": "Il personale utilizza correttamente i DPI previsti (camici, mascherine, guanti, ecc.)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["dpi", "personale", "prevenzione"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_schermature_radiazioni",
+      "text": {
+        "it": "In presenza di diagnostica RX/TAC, sono presenti schermature, segnalazioni di pericolo e avvisi di esposizione?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 2.0,
+      "tags": ["radiazioni", "rx", "protezione_radiazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "gestione_flussi_pazienti",
+      "text": {
+        "it": "I flussi di accesso dei pazienti e operatori sono ben organizzati e sicuri?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["flussi_accesso", "pazienti", "organizzazione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

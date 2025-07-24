@@ -1,0 +1,78 @@
+{
+  "id": "stress_lavoro_correlato",
+  "title": {
+    "it": "Verifica stress lavoro-correlato"
+  },
+  "description": {
+    "it": "Checklist per la rilevazione di condizioni di rischio legate allo stress lavoro-correlato, secondo normativa e buone prassi."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "segnalazioni_stress_operatori",
+      "text": {
+        "it": "Sono presenti segnalazioni di malessere, disagio psicologico o stress tra gli operatori?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "turnazioni_usuranti",
+      "text": {
+        "it": "Le turnazioni o gli orari di lavoro risultano particolarmente usuranti o non compatibili con il recupero psicofisico?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "sovraccarico_lavorativo",
+      "text": {
+        "it": "Sono presenti condizioni di sovraccarico lavorativo (es. carenza personale, ritmi elevati, urgenze continue)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_rischio_psicosociale",
+      "text": {
+        "it": "È stata erogata formazione/informazione sul rischio psicosociale e stress lavoro-correlato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_supporto_psicologico",
+      "text": {
+        "it": "È previsto un supporto psicologico o uno sportello di ascolto interno o esterno all’organizzazione?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.5,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

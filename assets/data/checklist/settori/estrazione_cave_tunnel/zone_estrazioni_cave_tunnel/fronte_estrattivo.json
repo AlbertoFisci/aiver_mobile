@@ -1,0 +1,138 @@
+{
+  "id": "fronte_estrattivo",
+  "title": {
+    "it": "Fronte cava / miniera / scavo"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Attività estrattiva in atto (foratura, escavazione)"
+  },
+  "checklist": [
+    {
+      "id": "accesso_riservato_autorizzati",
+      "text": { "it": "L'accesso all'area del fronte è riservato esclusivamente a personale autorizzato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accesso", "autorizzazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "segnalazione_pericoli_visibile",
+      "text": { "it": "Sono presenti segnalazioni ben visibili dei pericoli presenti (crollo, mezzi in movimento, polveri)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "rischi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "fronte_stabile_monitorato",
+      "text": { "it": "Il fronte di scavo è stabile, monitorato e non presenta segni di cedimento?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["stabilità", "geotecnica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "mezzi_manovra_sicura",
+      "text": { "it": "Le manovre dei mezzi avvengono in sicurezza e con visibilità adeguata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mezzi", "movimentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_utilizzati_operatori",
+      "text": { "it": "Gli operatori indossano correttamente i DPI previsti per il fronte estrattivo (casco, visiera, alta visibilità, protezione acustica, calzature rinforzate)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "rischio_proiezioni_materiale",
+      "text": { "it": "Sono adottate misure per proteggere gli operatori da proiezioni di materiale durante le lavorazioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["protezione", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "foratura_sicura_monitorata",
+      "text": { "it": "Le attività di foratura sono svolte con attrezzature sicure e monitoraggio continuo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["foratura", "attrezzature"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_adeguata_dpc",
+      "text": { "it": "Sono presenti adeguati dispositivi di protezione collettiva (parapetti, segnalazioni, delimitazioni)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpc", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "visibilita_turni_notturni",
+      "text": { "it": "Durante turni notturni o con scarsa visibilità, sono garantite illuminazione e segnalazione adeguata dei mezzi e delle aree di lavoro?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["notturno", "illuminazione"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti movimentazioni con escavatori, pale o gru che sollevano materiali?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Sono previste attività in altezza su fronti instabili, macchine o sporgenze?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti aree che configurano spazi confinati (pozzi, cavità, pozzi drenanti)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le condizioni di lavoro in cava possono generare carichi di stress (rumore, turni, clima)?"
+      }
+    }
+  ]
+}

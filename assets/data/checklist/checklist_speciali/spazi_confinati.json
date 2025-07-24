@@ -1,0 +1,169 @@
+{
+  "id": "spazi_confinati",
+  "title": {
+    "it": "Verifica accesso e sicurezza in spazi confinati"
+  },
+  "description": {
+    "it": "Checklist per la verifica della sicurezza prima, durante e dopo l’accesso a spazi confinati, conforme alle normative vigenti (D.Lgs. 81/08, Allegato IV, DPR 177/2011)."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "valutazione_preliminare_rischi",
+      "text": {
+        "it": "È stata effettuata una valutazione preliminare dei rischi specifici dello spazio confinato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "presenza_dvr_duvri_specifici",
+      "text": {
+        "it": "È presente documentazione tecnica (DVR, DUVRI, procedure specifiche) aggiornata e consultabile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "formazione_operatori_autorizzati",
+      "text": {
+        "it": "Gli operatori ammessi all’accesso sono formati e autorizzati secondo quanto previsto dal DPR 177/2011?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_addetto_sorveglianza",
+      "text": {
+        "it": "È presente un addetto alla sorveglianza esterna in comunicazione continua con gli operatori all’interno?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_atmosfera_interna",
+      "text": {
+        "it": "È stata verificata l’assenza di agenti pericolosi nell’atmosfera interna (gas, vapori, ossigeno, ecc.)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "ventilazione_spazio",
+      "text": {
+        "it": "È assicurata una ventilazione naturale o forzata adeguata allo spazio confinato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_dpi_specifici",
+      "text": {
+        "it": "Sono presenti e indossati i DPI obbligatori per l’accesso (es. autorespiratore, imbracatura, rilevatore gas)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_dpc_recupero",
+      "text": {
+        "it": "Sono presenti e pronti all’uso i DPC per il recupero in emergenza (es. treppiede, verricello, cordini)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "piano_emergenza_specifico",
+      "text": {
+        "it": "È predisposto un piano di emergenza specifico per l’attività nello spazio confinato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "prova_comunicazione_dispositivi",
+      "text": {
+        "it": "È stata verificata l’efficacia dei dispositivi di comunicazione tra interno ed esterno?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.5,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false
+    },
+    {
+      "id": "permesso_lavoro_convalidato",
+      "text": {
+        "it": "È stato redatto e convalidato il permesso di lavoro per l’accesso allo spazio confinato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "verifica_post_lavorazione",
+      "text": {
+        "it": "È stato verificato che, al termine dei lavori, non siano presenti operatori, materiali o rischi residui nello spazio confinato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

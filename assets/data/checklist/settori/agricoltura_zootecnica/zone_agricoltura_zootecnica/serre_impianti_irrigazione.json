@@ -1,0 +1,87 @@
+{
+  "id": "serre_impianti_irrigazione",
+  "title": {
+    "it": "Serre e impianti irrigazione"
+  },
+  "description": {
+    "it": "Ambiente confinato caldo/umido, elettrificato"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "verifica_condizioni_microclimatiche",
+      "text": {
+        "it": "Le condizioni microclimatiche (calore, umidità) sono monitorate e gestite per garantire la sicurezza degli operatori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ambiente", "microclima"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "impianti_irrigazione_manutenzione",
+      "text": {
+        "it": "Gli impianti di irrigazione e distribuzione sono in buono stato e sottoposti a controlli periodici?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "manutenzione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "impianti_elettrici_protetti_umidita",
+      "text": {
+        "it": "I componenti elettrici presenti sono protetti da umidità e spruzzi d'acqua?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["elettrico", "protezione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_dispositivi_emergenza",
+      "text": {
+        "it": "Sono presenti e accessibili dispositivi di emergenza (estintori, pulsanti stop, uscite di sicurezza)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "sicurezza generale"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "dpi_utilizzati_ambienti_umidi",
+      "text": {
+        "it": "Vengono utilizzati DPI adatti ad ambienti caldi e umidi (guanti impermeabili, scarpe antiscivolo, abbigliamento traspirante)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "ambiente"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "La serra o l’ambiente irrigato può configurarsi come spazio confinato o con accessi limitati?"
+      }
+    }
+  ]
+}

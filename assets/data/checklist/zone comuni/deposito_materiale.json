@@ -1,0 +1,99 @@
+{
+  "id": "deposito_materiale",
+  "title": {
+    "it": "Deposito materiale / cancelleria / attrezzature"
+  },
+  "description": {
+    "it": "Ripostigli, scaffali, materiali scolastici"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti operazioni con carichi sospesi o movimentazione verticale?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ordine_e_stoccaggio_sicuro",
+      "text": {
+        "it": "I materiali sono ordinati e stoccati in modo sicuro, senza rischio di caduta o ribaltamento?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "ordine", "caduta"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "scaffalature_adeguate_dimensioni_carichi",
+      "text": {
+        "it": "Le scaffalature sono adeguate per dimensioni e portata dei materiali stoccati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scaffalature", "carico", "portata"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "accessibilita_materiali_frequenti",
+      "text": {
+        "it": "I materiali di uso frequente sono accessibili senza sforzi eccessivi o rischi ergonomici?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "accessibilità", "movimentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_vie_esodo_libere",
+      "text": {
+        "it": "Le vie di esodo sono libere da ostacoli e chiaramente segnalate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["esodo", "sicurezza", "uscite"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_previsti_in_area_deposito",
+      "text": {
+        "it": "Sono previsti e utilizzati DPI adeguati per l’accesso e le operazioni nel deposito (es. guanti, scarpe antinfortunistiche)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "deposito", "sicurezza_individuale"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "scaffalature_stabili_fissate",
+      "text": {
+        "it": "Le scaffalature alte o soggette a rischio ribaltamento sono fissate o stabilizzate in modo sicuro?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scaffalature", "stabilità", "ancoraggi"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

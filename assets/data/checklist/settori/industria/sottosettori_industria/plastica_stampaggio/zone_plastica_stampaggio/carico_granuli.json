@@ -1,0 +1,80 @@
+{
+  "id": "carico_granuli",
+  "title": { "it": "Carico granuli e silos" },
+  "description": { "it": "Tramogge, serbatoi, nastri convogliatori"
+  },
+  "type": "specifica",
+  "subsector": "plastica_stampaggio",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti silos, tramogge o ambienti assimilabili a spazi confinati con accesso interno?"
+      }
+    },
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Durante le operazioni di carico/scarico sono movimentati carichi sospesi tramite gru, paranchi o muletti?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "sicurezza_carico_silos",
+      "text": { "it": "Le operazioni di carico nei silos sono eseguite in sicurezza con procedure definite?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["carico", "silos", "procedure"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_adeguata_cartellonistica",
+      "text": { "it": "È presente cartellonistica adeguata su silos, tramogge e nastri (portata, rischio schiacciamento, accesso vietato)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartelli", "sicurezza", "indicazioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "protezione_meccanica_trasportatori",
+      "text": { "it": "I trasportatori e nastri sono protetti da carter o griglie contro il contatto accidentale?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchine", "protezione", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ventilazione_adeguata_polveri",
+      "text": { "it": "È presente un sistema di ventilazione/aspirazione per prevenire l’accumulo di polveri nei punti di carico?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["polveri", "ventilazione", "ambiente"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "addetti_formati_per_rischi_specifici",
+      "text": { "it": "Gli addetti sono formati sui rischi specifici (soffocamento, esplosioni polveri, accesso spazi confinati)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "addetti", "rischi"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

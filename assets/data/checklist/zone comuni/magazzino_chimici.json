@@ -1,0 +1,118 @@
+{
+  "id": "magazzino_chimici",
+  "title": {
+    "it": "Stoccaggio prodotti chimici"
+  },
+  "description": {
+    "it": "Vernici, catalizzatori, acidi, fusti"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti sostanze infiammabili o atmosfere potenzialmente esplosive (es. solventi, vapori, gas)?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono presenti reagenti contaminati, organici o potenzialmente infetti?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "locali_ben_aerati_segregati",
+      "text": {
+        "it": "I locali sono ben aerati, segregati dal resto degli ambienti e adibiti esclusivamente allo stoccaggio chimico?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aerazione", "isolamento", "destinazione_d_uso"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "contenitori_etichette_sicurezza",
+      "text": {
+        "it": "Tutti i contenitori sono integri e dotati di etichettatura conforme e aggiornata?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["contenitori", "etichette", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_dpi_emergenza_adeguati",
+      "text": {
+        "it": "Sono presenti e accessibili i DPI di emergenza (guanti resistenti, maschera, occhiali protettivi)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "emergenza", "accessibilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_meccanica_attiva",
+      "text": {
+        "it": "La ventilazione forzata è presente, funzionante e garantisce ricambio adeguato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "impianto", "ricambio_aria"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "contenimento_sversamenti_kit",
+      "text": {
+        "it": "Sono disponibili sistemi di contenimento sversamenti e kit di emergenza (es. vasche, assorbenti)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sversamenti", "emergenza", "contenimento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_addetti_sicurezza_chimica",
+      "text": {
+        "it": "Gli addetti hanno ricevuto formazione specifica sulla sicurezza chimica e sull’uso dei prodotti stoccati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "addetti", "chimica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "registro_sostanze_schede_sicurezza",
+      "text": {
+        "it": "È presente il registro aggiornato delle sostanze e le schede di sicurezza (SDS) sono consultabili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["registro", "sostanze", "SDS"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

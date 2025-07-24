@@ -1,0 +1,99 @@
+{
+  "id": "refettori_mense_scolastiche",
+  "title": {
+    "it": "Refettori / mense scolastiche"
+  },
+  "description": {
+    "it": "Igiene, HACCP, cucina, contatto alimentare"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "pulizia_piani_lavoro",
+      "text": {
+        "it": "I piani di lavoro e le superfici alimentari sono puliti regolarmente e disinfettati secondo procedure HACCP?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["haccp", "igiene"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "conservazione_alimenti_corretto",
+      "text": {
+        "it": "Gli alimenti sono conservati correttamente (temperatura, contenitori, tracciabilità)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["haccp", "alimentare"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "sanificazione_attrezzature_cucina",
+      "text": {
+        "it": "Le attrezzature da cucina (forni, lavastoviglie, affettatrici) sono in buono stato e sanificate regolarmente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["igiene", "attrezzature"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_dpi_addetti_mensa",
+      "text": {
+        "it": "Gli addetti indossano correttamente i DPI previsti (guanti, copricapo, grembiule, mascherina)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "personale"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_piano_emergenza_mensa",
+      "text": {
+        "it": "È presente un piano di emergenza (incendio, intossicazioni, evacuazione) aggiornato e consultabile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["emergenze", "documentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_locale_mensa",
+      "text": {
+        "it": "Il locale mensa è dotato di adeguata ventilazione naturale o forzata?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "igiene"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Vi è esposizione a rischio biologico per contatto alimentare o presenza di agenti patogeni?"
+      }
+    }
+  ]
+}

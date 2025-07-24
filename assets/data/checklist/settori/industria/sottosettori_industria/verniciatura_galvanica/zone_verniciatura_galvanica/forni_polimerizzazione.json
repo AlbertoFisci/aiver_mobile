@@ -1,0 +1,102 @@
+{
+  "id": "forni_polimerizzazione",
+  "title": { "it": "Forni di cottura / polimerizzazione" },
+  "description": { "it": "Post-verniciatura o trattamenti termici"
+  },
+  "type": "specifica",
+  "subsector": "verniciatura_galvanica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti vapori o sostanze infiammabili che possono generare atmosfere esplosive (ATEX)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono utilizzati dispositivi a radiazione non ionizzante (es. IR, UV, microonde) per i trattamenti?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "forni_manutenzione_documentata",
+      "text": { "it": "I forni sono soggetti a manutenzione periodica con tracciabilità documentale?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "documentazione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sensori_temperatura_funzionanti",
+      "text": { "it": "I sensori di temperatura e sovratemperatura risultano integri e funzionanti?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "temperature", "controlli"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "isolamento_termico_idoneo",
+      "text": { "it": "L’isolamento termico dei forni è integro e conforme alle normative di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["isolamento", "calore", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "gestione_emissioni_fumi_vapori",
+      "text": { "it": "È presente un sistema di aspirazione o filtrazione dei fumi e vapori generati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aspirazione", "emissioni", "filtrazione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "interblocchi_di_sicurezza_attivi",
+      "text": { "it": "Gli interblocchi di sicurezza (porte, sportelli) sono attivi e testati regolarmente?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interblocchi", "sicurezza", "accessi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_rischi_termici",
+      "text": { "it": "Gli operatori sono formati sui rischi termici e le procedure d’emergenza?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "termico", "emergenza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "segnaletica_pericoli_calore",
+      "text": { "it": "Sono presenti segnalazioni visive di pericolo temperatura elevata?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "calore", "forni"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

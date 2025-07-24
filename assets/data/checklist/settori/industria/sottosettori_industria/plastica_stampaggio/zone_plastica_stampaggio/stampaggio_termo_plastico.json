@@ -1,0 +1,80 @@
+{
+  "id": "stampaggio_termoplastico",
+  "title": { "it": "Stampaggio termoplastico" },
+  "description": { "it": "Presse, stampi, camere calde, PLC"
+  },
+  "type": "specifica",
+  "subsector": "plastica_stampaggio",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti vapori infiammabili, polveri combustibili o apparecchiature a rischio ATEX?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti sorgenti di radiazioni non ionizzanti (laser di controllo, sistemi a microonde, fotocellule)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_dispositivi_sicurezza_macchine",
+      "text": { "it": "Le presse e gli stampi sono dotati di dispositivi di sicurezza funzionanti (barriere, interblocchi, emergenze)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchinari", "sicurezza", "emergenza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "verifica_stato_stampi",
+      "text": { "it": "Gli stampi sono in buono stato, puliti, senza usura evidente o deformazioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["manutenzione", "stampi", "efficienza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "protezione_termica_operatori",
+      "text": { "it": "Gli operatori sono protetti da superfici calde e parti in movimento (schermi, guanti, tute resistenti al calore)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "calore", "protezione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "controllo_parametri_stampaggio",
+      "text": { "it": "I parametri di stampaggio (temperatura, pressione, tempo ciclo) sono monitorati e controllati digitalmente?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["automazione", "controllo", "qualità"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "pulizia_area_stampaggio",
+      "text": { "it": "L’area intorno alle presse è pulita, senza accumuli di sfridi, scarti o olii pericolosi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ordine", "pulizia", "prevenzione"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

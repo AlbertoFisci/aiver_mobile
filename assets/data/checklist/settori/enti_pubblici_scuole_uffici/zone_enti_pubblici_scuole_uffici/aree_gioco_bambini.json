@@ -1,0 +1,86 @@
+{
+  "id": "area_gioco_bambini",
+  "title": {
+    "it": "Cortili scolastici / aree gioco"
+  },
+  "description": {
+    "it": "Giochi mobili, pavimentazione anti-trauma, visibilità"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "giochi_in_buono_stato",
+      "text": {
+        "it": "I giochi presenti (scivoli, altalene, strutture) sono in buone condizioni, saldamente fissati e privi di spigoli o parti pericolose?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "giochi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "pavimentazione_antitrauma",
+      "text": {
+        "it": "La pavimentazione dell’area gioco è antitrauma, continua e ben mantenuta?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "pavimentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "visibilita_area_gioco",
+      "text": {
+        "it": "L’area gioco è ben visibile dal personale scolastico e non presenta zone nascoste?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["visibilità", "sorveglianza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "accesso_controllato_area_gioco",
+      "text": {
+        "it": "L’accesso all’area gioco è controllato e non è possibile l’ingresso di estranei?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "controllo"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_cartelli_divieti",
+      "text": {
+        "it": "Sono presenti cartelli di divieto (fumo, animali, ecc.) e regole d’uso ben visibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "regole"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le attività nell’area gioco prevedono una vigilanza costante che può causare stress o sovraccarico al personale?"
+      }
+    }
+  ]
+}

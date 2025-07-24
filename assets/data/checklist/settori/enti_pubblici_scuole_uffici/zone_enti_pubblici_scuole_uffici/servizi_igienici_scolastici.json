@@ -1,0 +1,86 @@
+{
+  "id": "servizi_igienici_scolastici",
+  "title": {
+    "it": "Servizi igienici e bagni scolastici"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "description": {
+    "it": "Pulizia, accessibilità, segnaletica, igiene"
+  },
+  "checklist": [
+    {
+      "id": "igiene_servizi_scolastici",
+      "text": {
+        "it": "I servizi igienici sono puliti, disinfettati regolarmente e in buone condizioni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "servizi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_ausili_accessibilita",
+      "text": {
+        "it": "Sono presenti ausili per l’accessibilità (corrimani, alzawater, lavandini a norma) per persone con disabilità?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accessibilità", "inclusione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_materiali_consumo",
+      "text": {
+        "it": "Sono sempre disponibili materiali di consumo (sapone, carta igienica, asciugamani)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "dotazioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "funzionamento_ventilazione_servizi",
+      "text": {
+        "it": "È garantita una ventilazione adeguata nei servizi (naturale o forzata)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "salute"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_segnaletica_servizi",
+      "text": {
+        "it": "La segnaletica è chiara e ben visibile (maschi/femmine, accessibilità, uscita di emergenza)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "accessibilità"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Vi è esposizione a rischio biologico legato all’uso dei servizi o alla gestione della pulizia?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "modulo_offshore",
+  "title": {
+    "it": "Moduli abitativi / tecnici offshore"
+  },
+  "description": {
+    "it": "Piattaforme marine, alloggi, quadri, passaggi ristretti"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "dpi_offshore_base",
+      "text": { "it": "Gli operatori indossano correttamente tutti i DPI obbligatori (casco, guanti, scarpe, occhiali, tappi o cuffie antirumore)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "vie_fuga_segni_luminosi",
+      "text": { "it": "Le vie di fuga sono segnalate in modo chiaro e dotate di illuminazione di emergenza funzionante?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "segnaletica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_elettrici_quadro",
+      "text": { "it": "I quadri elettrici e gli impianti nelle zone tecniche sono protetti da urti, umidità e ispezionati regolarmente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "verifica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ventilazione_attiva_locali",
+      "text": { "it": "Nei locali abitativi e tecnici è attivo un sistema di ventilazione adeguato e funzionante?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "salute"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "accesso_controllato_zone_tecniche",
+      "text": { "it": "L’accesso alle aree tecniche (quadri, compressori, locali attrezzature) è riservato a personale autorizzato e tracciato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accesso", "autorizzazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presidi_antincendio_presenti",
+      "text": { "it": "Sono presenti e funzionanti presidi antincendio (estintori, sprinkler, rilevatori gas) adeguati alla zona?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["antincendio", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "pulizia_igiene_locali",
+      "text": { "it": "I moduli abitativi e igienici sono mantenuti in condizioni igieniche adeguate e puliti regolarmente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "abitativo"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_piano_emergenza",
+      "text": { "it": "Il piano di emergenza e evacuazione è affisso e facilmente consultabile nei moduli abitativi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "emergenze"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "rischi_ergonomici_alloggi",
+      "text": { "it": "Sono presenti condizioni ergonomiche critiche (letti angusti, passaggi stretti, scale ripide) che potrebbero influire sulla sicurezza?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["ergonomia", "disagio"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "rumore_locale_macchinari",
+      "text": { "it": "Nei locali tecnici sono presenti macchinari rumorosi? Se sì, sono adottate misure di contenimento (cabine, cuffie, isolamento)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": true,
+      "tags": ["rumore", "salute"],
+      "scoring_weight": 1.4
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti passaggi stretti o ambienti con accesso limitato (serbatoi, intercapedini, cunicoli)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Sono presenti condizioni di stress da isolamento, turni prolungati o carico mentale elevato?"
+      }
+    },
+    {
+      "id": "mobbing",
+      "activation_question": {
+        "it": "Sono stati segnalati episodi di conflittualità o disagio sociale nei moduli abitativi?"
+      }
+    }
+  ]
+}

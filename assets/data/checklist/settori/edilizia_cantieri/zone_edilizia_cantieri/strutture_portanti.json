@@ -1,0 +1,140 @@
+{
+  "id": "strutture_portanti",
+  "title": {
+    "it": "Strutture portanti"
+  },
+  "description": {
+    "it": "Cemento armato, acciaio, prefabbricati, pilastri"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono previste movimentazioni di carichi sospesi (travetti, putrelle, casseri, prefabbricati)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Sono previste lavorazioni in quota (es. su ponteggi, scale, trabattelli, solai)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_progetto_strutturale",
+      "text": {
+        "it": "Il progetto strutturale è disponibile e consultabile sul campo?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["documentazione", "progetto", "verifica"],
+      "scoring_weight": 1.8,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "coordinamento_strutture",
+      "text": {
+        "it": "È previsto un adeguato coordinamento tra impresa strutturista, impresa generale e direzione lavori?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["coordinamento", "responsabilità", "imprese"],
+      "scoring_weight": 1.7,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "puntellature_provvisorie",
+      "text": {
+        "it": "Sono presenti puntellature provvisorie in buono stato per sostenere elementi strutturali non ancora stabilizzati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "tags": ["puntelli", "sostegno", "stabilità"],
+      "scoring_weight": 1.9,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpc_montaggio_strutture",
+      "text": {
+        "it": "Durante il montaggio di travi, pilastri o solai sono previsti adeguati dispositivi di protezione collettiva (es. parapetti, reti anticaduta)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["dpc", "anticaduta", "montaggio"],
+      "scoring_weight": 2.0,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_operatori_strutture",
+      "text": {
+        "it": "Gli operatori utilizzano correttamente i DPI richiesti (imbracature, elmetto, scarpe antinfortunistiche, guanti)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "tags": ["dpi", "sicurezza", "operatori"],
+      "scoring_weight": 1.9,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_fissaggi_elementi",
+      "text": {
+        "it": "Gli elementi strutturali installati (travi, pilastri, pannelli) risultano correttamente fissati e bloccati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["fissaggi", "bloccaggi", "verifica"],
+      "scoring_weight": 1.8,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_lavoratori_strutture",
+      "text": {
+        "it": "I lavoratori sono stati formati sulle corrette procedure di montaggio e sicurezza delle strutture portanti?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "tags": ["formazione", "procedure", "montaggio"],
+      "scoring_weight": 1.7,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "condizioni_ambientali_strutture",
+      "text": {
+        "it": "Le condizioni ambientali (vento, visibilità, pioggia) sono compatibili con le operazioni di montaggio delle strutture?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "tags": ["ambiente", "visibilità", "condizioni"],
+      "scoring_weight": 1.6,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

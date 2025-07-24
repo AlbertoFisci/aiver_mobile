@@ -1,0 +1,74 @@
+{
+  "id": "taglio_raccolta",
+  "title": { "it": "Taglio e raccolta fogli / bobine" },
+  "description": { "it": "Macchine da taglio, raccolta, compattazione"
+  },
+  "type": "specifica",
+  "subsector": "cartario_topografico",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti movimentazioni di carichi sospesi o pendenti (es. bobine, pacchi carta)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "macchine_taglio_protezioni_attive",
+      "text": { "it": "Le macchine da taglio sono dotate di protezioni attive e sistemi di arresto d’emergenza funzionanti?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "macchinari", "emergenza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "zone_taglio_ben_delimitate",
+      "text": { "it": "Le zone di taglio e raccolta sono chiaramente delimitate, segnalate e non accessibili al personale non autorizzato?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["perimetrazione", "segnaletica", "accessi"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dispositivi_aspirazione_efficienza",
+      "text": { "it": "Sono presenti dispositivi di aspirazione o raccolta sfridi e funzionano correttamente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aspirazione", "rifiuti", "ordine"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_occhi_mani",
+      "text": { "it": "Gli operatori utilizzano DPI adeguati per la protezione di occhi e mani (occhiali, guanti anti-taglio)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "mani", "occhi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_sicurezza_taglio",
+      "text": { "it": "Gli addetti al taglio hanno ricevuto formazione sui rischi specifici e sull’uso in sicurezza delle macchine?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "taglio", "macchine"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

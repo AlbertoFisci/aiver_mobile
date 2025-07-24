@@ -1,0 +1,170 @@
+{
+  "id": "gestione_emergenze",
+  "title": {
+    "it": "Gestione emergenze e piani di evacuazione"
+  },
+  "description": {
+    "it": "Procedure e presidi per emergenze di ogni tipo (incendio, sanitaria, calamità naturali)"
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "presenza_piano_emergenza",
+      "text": {
+        "it": "È presente un piano di emergenza aggiornato e accessibile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["piano_emergenza", "documentazione", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "piano_conoscenza_operatori",
+      "text": {
+        "it": "Tutti gli operatori conoscono le procedure previste dal piano di emergenza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "emergenze", "procedure"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "segnaletica_uscite_presente",
+      "text": {
+        "it": "La segnaletica delle uscite di emergenza è presente e visibile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "uscite", "emergenze"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "uscite_emergenza_agibili",
+      "text": {
+        "it": "Le uscite di emergenza sono sgombre e facilmente accessibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["uscite", "accessibilità", "evacuazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "illuminazione_emergenza_funzionante",
+      "text": {
+        "it": "L'illuminazione di emergenza è presente e funzionante?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "emergenze", "visibilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_estintori_efficaci",
+      "text": {
+        "it": "Sono presenti estintori correttamente segnalati, accessibili e sottoposti a manutenzione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["estintori", "presidi", "antincendio"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "gestione_primario_sanitario",
+      "text": {
+        "it": "Sono presenti presidi di primo soccorso adeguati e identificati (cassetta, armadietto, defibrillatore se previsto)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["primo_soccorso", "presidi", "emergenze_sanitarie"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_emergenza_effettuata",
+      "text": {
+        "it": "Il personale ha ricevuto una formazione recente in materia di emergenze e evacuazione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "emergenze", "evacuazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "prove_evacuazione_regolari",
+      "text": {
+        "it": "Sono state effettuate prove di evacuazione secondo periodicità prevista?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["evacuazione", "prove", "simulazioni"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "nomina_addetti_emergenza",
+      "text": {
+        "it": "Sono stati nominati gli addetti al primo soccorso e all’antincendio?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["addetti", "emergenze", "nomine"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_addetti_emergenza",
+      "text": {
+        "it": "Gli addetti al primo soccorso e all’antincendio hanno ricevuto formazione adeguata e aggiornata?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "addetti", "emergenze"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "emergenze_disabili_gestite",
+      "text": {
+        "it": "Il piano di emergenza prevede procedure specifiche per la gestione dell’evacuazione di persone con disabilità?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["disabilità", "evacuazione", "inclusione"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

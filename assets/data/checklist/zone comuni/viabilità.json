@@ -1,0 +1,83 @@
+{
+  "id": "viabilita",
+  "title": {
+    "it": "Viabilità interna"
+  },
+  "description": {
+    "it": "Transito mezzi, piazzali industriali"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "separazione_percorsi_mezzi_pedoni",
+      "text": {
+        "it": "I percorsi di mezzi e pedoni sono separati in modo sicuro con barriere o segnaletica chiara?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilita", "segnaletica", "barriere"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_segnaletica_aggiornata",
+      "text": {
+        "it": "È presente una segnaletica chiara, leggibile e aggiornata per tutti i percorsi e le aree di transito?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilita", "segnaletica", "transito"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "visibilita_notturna_zone_transito",
+      "text": {
+        "it": "La visibilità notturna o in condizioni di scarsa illuminazione è garantita (illuminazione, catarifrangenti)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilita", "illuminazione", "sicurezza_notturna"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_operatori_viabilita",
+      "text": {
+        "it": "Gli operatori sono formati sui rischi legati alla viabilità interna e sulle procedure in caso di emergenza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "viabilita", "emergenze"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uso_dpi_visibilita",
+      "text": {
+        "it": "È previsto e rispettato l’uso di DPI ad alta visibilità per il personale in aree di transito?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "visibilita", "transito"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

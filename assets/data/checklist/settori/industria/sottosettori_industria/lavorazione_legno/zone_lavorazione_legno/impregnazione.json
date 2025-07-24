@@ -1,0 +1,91 @@
+{
+  "id": "impregnazione",
+  "title": { "it": "Impregnazione e incapsulamento" },
+  "description": { "it": "Trattamenti chimici antimuffa/insetti"
+  },
+  "type": "specifica",
+  "subsector": "lavorazione_legno",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "I trattamenti coinvolgono materiali organici o possono generare rischi biologici?"
+      }
+    },
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Vengono utilizzati prodotti chimici infiammabili o con rischio di esplosione (ATEX)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "impianto_chiuso_controllato",
+      "text": { "it": "L’impianto di impregnazione è chiuso e dotato di controlli automatici dei parametri (pressione, temperatura)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianto", "controlli", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "prodotti_etichette_schede_sicurezza",
+      "text": { "it": "Tutti i prodotti chimici sono etichettati correttamente e corredati di schede di sicurezza (SDS) aggiornate?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["etichette", "SDS", "chimici"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpi_chimici_specifici_presenti",
+      "text": { "it": "Sono presenti e utilizzati DPI specifici per rischio chimico (guanti, occhiali, tuta, maschera filtrante)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "chimico", "protezione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "areazione_locale_trattamenti",
+      "text": { "it": "L’area è dotata di adeguata areazione o aspirazione localizzata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "DPC", "aspirazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "conservazione_sicura_prodotti",
+      "text": { "it": "I prodotti chimici sono conservati in contenitori idonei, in aree dedicate e sicure?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "chimici", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_operatori_trattamenti",
+      "text": { "it": "Gli operatori hanno ricevuto formazione specifica sui trattamenti chimici e sulle misure di sicurezza correlate?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "chimici", "operatori"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

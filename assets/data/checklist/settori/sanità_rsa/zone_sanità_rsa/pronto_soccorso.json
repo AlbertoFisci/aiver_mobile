@@ -1,0 +1,122 @@
+{
+  "id": "pronto_soccorso",
+  "title": {
+    "it": "Pronto soccorso / emergenze"
+  },
+  "description": {
+    "it": "Aree ad alta intensità, triage, codice rosso"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": "checklist_pronto_soccorso__activation__stress_lavoro_correlato"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_pronto_soccorso__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "gestione_accessi_ambulanze",
+      "text": {
+        "it": "L’accesso dei mezzi di soccorso è sicuro e regolamentato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["accessi", "emergenza", "ambulanze"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "gestione_flussi_pazienti",
+      "text": {
+        "it": "Sono definite e operative le procedure per la gestione dei flussi pazienti in emergenza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["flussi", "triage", "emergenza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_presidi_urgenze",
+      "text": {
+        "it": "Sono disponibili e correttamente mantenuti i presidi per le emergenze (barelle, defibrillatori, respiratori)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.2,
+      "tags": ["presidi", "urgenza", "attrezzature"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_formazione_emergenza",
+      "text": {
+        "it": "Il personale è adeguatamente formato per la gestione di emergenze sanitarie critiche?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.3,
+      "tags": ["formazione", "gestione_critica", "sanitaria"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "dpi_specifici_emergenza",
+      "text": {
+        "it": "Sono presenti e disponibili DPI specifici per la gestione di emergenze (guanti resistenti, visiere, protezioni respiratorie)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.1,
+      "tags": ["dpi", "emergenza", "protezione"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_codici_colore",
+      "text": {
+        "it": "Il triage avviene secondo procedure definite e con corretta attribuzione dei codici colore?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.6,
+      "tags": ["triage", "codici_colore", "emergenza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_uscite_emergenza_funzionanti",
+      "text": {
+        "it": "Le uscite di emergenza e i percorsi di evacuazione sono accessibili e liberi da ostacoli?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["uscite", "evacuazione", "sicurezza"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "centrali_termiche",
+  "title": {
+    "it": "Centrali termiche / impianti gas / compressori"
+  },
+  "description": {
+    "it": "Locali tecnici contenenti caldaie, centrali gas, compressori, forni"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "locale_riservato_segnalato",
+      "text": { "it": "L'accesso al locale tecnico è riservato, segnalato e dotato di chiusura a chiave?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "segnaletica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_ispezionati_regolarmente",
+      "text": { "it": "Caldaie, forni e compressori sono oggetto di ispezione e manutenzione periodica documentata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "documentazione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_rilevatori_gas",
+      "text": { "it": "Sono presenti rilevatori di gas funzionanti, posizionati in punti strategici?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["gas", "rilevamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ventilazione_locale_efficace",
+      "text": { "it": "Il locale è dotato di adeguata ventilazione naturale o forzata per evitare accumulo di vapori?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presidi_antincendio_funzionanti",
+      "text": { "it": "Sono presenti presidi antincendio funzionanti (estintori, spegnimento automatico, rilevatori fumo)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["antincendio", "emergenze"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "linee_gas_etichettate",
+      "text": { "it": "Le linee del gas e dei fluidi sono chiaramente identificate e segnalate con etichette o pittogrammi?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "identificazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "formazione_operatori_specifica",
+      "text": { "it": "Gli operatori addetti alla centrale hanno ricevuto formazione specifica su rischi, emergenze e uso impianti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "rischi"],
+      "scoring_weight": 1.4
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "L’ambiente contiene zone classificate ATEX (es. presenza gas o vapori infiammabili)?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti ambienti con accesso limitato o confinato (cisterne, cunicoli, locali ristretti)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti radiazioni non ionizzanti (es. forni a microonde, induzione, linee ad alta frequenza)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le condizioni di lavoro in questi ambienti possono generare stress termico o mentale?"
+      }
+    }
+  ]
+}

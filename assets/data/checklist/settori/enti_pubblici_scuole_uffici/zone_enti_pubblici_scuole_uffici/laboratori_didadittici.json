@@ -1,0 +1,111 @@
+{
+  "id": "laboratori_didattici",
+  "title": {
+    "it": "Laboratori didattici / scientifici"
+  },
+  "description": {
+    "it": "Ambienti destinati ad attività pratiche, esperimenti, dimostrazioni con sostanze o attrezzature particolari"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "dpi_base_laboratorio",
+      "text": {
+        "it": "Sono utilizzati correttamente i DPI previsti per le attività in laboratorio (camici, guanti, occhiali)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "chimici_stoccaggio_sicuro",
+      "text": {
+        "it": "Le sostanze chimiche e reagenti sono conservate in contenitori idonei, etichettati e armadi ventilati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["chimico", "stoccaggio"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "aspirazione_cappe_sicure",
+      "text": {
+        "it": "Le cappe aspiranti e i sistemi di ventilazione sono funzionanti e attivati durante gli esperimenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianto_elettrico_banchi",
+      "text": {
+        "it": "L’impianto elettrico (banchi prova, prese, spine) è protetto e regolarmente manutenuto?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "verifiche"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presidi_emergenza_laboratorio",
+      "text": {
+        "it": "Sono presenti presidi di emergenza (docce lavaocchi, estintori, kit pronto soccorso) funzionanti e accessibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "presidi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "istruzioni_sicurezzza_visibili",
+      "text": {
+        "it": "Le istruzioni di sicurezza per esperimenti, attrezzature e sostanze sono affisse e facilmente consultabili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "informazione"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "gestione_sostanze_pericolose",
+      "activation_question": {
+        "it": "Nel laboratorio sono usate sostanze pericolose (infiammabili, corrosive, tossiche)?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono previste manipolazioni biologiche o attività con materiali organici potenzialmente contaminanti?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti dispositivi con emissioni EMF, laser o attrezzature con onde ad alta frequenza?"
+      }
+    }
+  ]
+}

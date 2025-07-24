@@ -1,0 +1,104 @@
+{
+  "id": "monitoraggio_ambientale",
+  "title": {
+    "it": "Postazioni monitoraggio ambientale"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Gas, polveri, acque sotterranee"
+  },
+  "checklist": [
+    {
+      "id": "strumentazione_tarata_verificata",
+      "text": { "it": "La strumentazione utilizzata è regolarmente tarata e verificata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["strumenti", "verifica", "taratura"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_utilizzati_monitoraggi",
+      "text": { "it": "Gli operatori utilizzano DPI adeguati durante i monitoraggi (maschere, guanti, visiere)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_operatori_monitoraggi",
+      "text": { "it": "Il personale addetto è formato sull’uso delle apparecchiature e sulle misure di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "strumentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rilevazione_gas_presenti",
+      "text": { "it": "Sono attivi dispositivi di rilevamento gas nelle aree a rischio (es. CH4, CO2, H2S)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["gas", "sensori"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "misure_contenimento_sversamenti",
+      "text": { "it": "Sono previste misure di contenimento per eventuali sversamenti o contaminazioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "controlli"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "gestione_documentale_rilievi",
+      "text": { "it": "I risultati dei monitoraggi sono documentati e tracciati correttamente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "rilievi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_procedure_emergenza",
+      "text": { "it": "Sono disponibili procedure operative e di emergenza per eventi critici (sversamenti, superamento limiti)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["procedure", "emergenze"],
+      "scoring_weight": 1.4
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Durante il monitoraggio possono essere rilevati agenti biologici o contaminanti organici?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le attività di monitoraggio sono svolte in condizioni potenzialmente stressanti (solitudine, condizioni climatiche, esposizione prolungata)?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "cabina_verniciatura",
+  "title": { "it": "Cabina verniciatura" },
+  "description": { "it": "Manuale o automatica, solventi, nebbie"
+  },
+  "type": "specifica",
+  "subsector": "verniciatura_galvanica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti miscele infiammabili o solventi che possono generare atmosfere esplosive (ATEX)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ventilazione_adeguata_verniciatura",
+      "text": { "it": "La cabina è dotata di ventilazione forzata o aspirazione localizzata funzionante?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "estrazione", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "filtri_manutenzione_regolare",
+      "text": { "it": "I filtri dell’impianto di aspirazione sono sottoposti a manutenzione regolare?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["manutenzione", "impianto", "filtri"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_indumenti_verniciatura",
+      "text": { "it": "Gli operatori indossano DPI specifici per la verniciatura (tuta, guanti, protezione vie respiratorie)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "verniciatura", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_cartellonistica_pericoli",
+      "text": { "it": "Sono presenti cartelli di pericolo e istruzioni operative visibili all’ingresso e all’interno della cabina?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartelli", "informazioni", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianto_messa_terra_verniciatura",
+      "text": { "it": "Tutti i componenti metallici e le attrezzature sono correttamente messi a terra per evitare inneschi?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ATEX", "messa_terra", "scariche"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "assenza_fonti_accensione",
+      "text": { "it": "Sono escluse fonti di accensione all’interno della cabina (fiamme libere, interruttori non protetti)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ATEX", "ignizione", "protezione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rifiuti_vernici_bonificati",
+      "text": { "it": "I contenitori usati e i rifiuti di vernice vengono smaltiti secondo le norme ambientali e aziendali?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rifiuti", "smaltimento", "bonifica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_operatori_verniciatura",
+      "text": { "it": "Gli operatori hanno ricevuto formazione specifica per l’uso della cabina e dei prodotti impiegati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "operatori", "verniciatura"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

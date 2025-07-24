@@ -1,0 +1,134 @@
+{
+  "id": "cabine_mt_bt",
+  "title": {
+    "it": "Cabine MT/BT e quadri elettrici"
+  },
+  "description": {
+    "it": "Cabine prefabbricate, sezionatori, trasformatori"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti atmosfere potenzialmente esplosive (es. gas, vapori, polveri) nell’area della cabina?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "accesso_riservato_personale_autorizzato",
+      "text": {
+        "it": "L’accesso alla cabina è riservato esclusivamente a personale autorizzato e formato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["accesso", "formazione", "autorizzazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "segnalazione_pericolo_elettrico",
+      "text": {
+        "it": "Sono presenti cartelli e segnalazioni di pericolo elettrico ben visibili agli ingressi?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["segnaletica", "pericolo", "visibilità"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dispositivi_interblocco_funzionanti",
+      "text": {
+        "it": "I dispositivi di interblocco e sezionamento risultano funzionanti e accessibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["interblocco", "sicurezza", "manutenzione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_dpc_antincendio",
+      "text": {
+        "it": "Sono presenti dispositivi di protezione collettiva antincendio adeguati (es. estintori CO₂, segnalazioni, accessi liberi)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["dpc", "antincendio", "emergenza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "impianto_di_messa_a_terra",
+      "text": {
+        "it": "È presente un impianto di messa a terra certificato e controllato periodicamente?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["messa_a_terra", "impianti", "verifiche"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "verifica_microclima_condizioni_ambientali",
+      "text": {
+        "it": "Le condizioni ambientali interne (temperatura, umidità, ventilazione) sono adeguate al funzionamento in sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "scoring_weight": 1.3,
+      "tags": ["microclima", "ambiente", "cabina"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_elettrici_utilizzati",
+      "text": {
+        "it": "Vengono utilizzati DPI specifici per lavori elettrici (guanti isolanti, visiera, tappeto isolante, ecc.)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dpi", "lavori_elettrici", "protezione_individuale"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_pes_pav_cei_11_27",
+      "text": {
+        "it": "Il personale operativo è formato e qualificato secondo norma CEI 11-27 (PES, PAV, PEI)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["formazione", "cei1127", "pes", "pav"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

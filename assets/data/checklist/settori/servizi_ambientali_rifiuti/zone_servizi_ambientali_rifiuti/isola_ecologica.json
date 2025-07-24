@@ -1,0 +1,121 @@
+{
+  "id": "isola_ecologica",
+  "title": {
+    "it": "Isola ecologica / centro raccolta"
+  },
+  "description": {
+    "it": "Raccolta differenziata, accesso utenti"
+  },
+  "type": "specifica",
+  "sector": "servizi_ambientali_rifiuti",
+  "checklist": [
+    {
+      "id": "separazione_percorsi_utenza_mezzi",
+      "text": { "it": "I percorsi per l’utenza e quelli dei mezzi sono separati e chiaramente segnalati?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["viabilità", "utenza", "sicurezza"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "accesso_regolamentato_con_controlli",
+      "text": { "it": "L’accesso degli utenti è regolamentato e avviene sotto controllo del personale?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["utenza", "accesso", "organizzazione"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "formazione_operatori_utenza",
+      "text": { "it": "Gli operatori sono formati per gestire in sicurezza l’interazione con l’utenza?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori", "utenza"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "presenza_dispositivi_emergenza",
+      "text": { "it": "Sono presenti e accessibili dispositivi antincendio e di emergenza (es. estintori, cassette pronto soccorso)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "attrezzature", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "cassoni_segni_usura_adeguati",
+      "text": { "it": "I cassoni e contenitori sono in buono stato e privi di segni di usura o danneggiamenti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["contenitori", "attrezzature", "manutenzione"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "manutenzione_periodica_mezzi_attrezzature",
+      "text": { "it": "Le attrezzature e i mezzi utilizzati sono sottoposti a manutenzione periodica documentata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "mezzi", "documentazione"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "rifiuti_organici_biologici_gestiti_sicurezza",
+      "text": { "it": "Eventuali rifiuti organici o a rischio biologico sono gestiti con dispositivi e DPI idonei?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["dpi", "biologico", "rifiuti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_dpi_generici_utilizzati",
+      "text": { "it": "Sono utilizzati correttamente i DPI di base previsti per questa attività (guanti, calzature, visibilità, ecc.)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori", "verifica_generale"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti movimentazioni con gru, carrelli elevatori o cassoni sospesi?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Sono presenti rifiuti organici, sanitari o con rischio biologico potenziale?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Gli operatori sono esposti a situazioni stressanti o conflittuali con l’utenza?"
+      }
+    }
+  ]
+}

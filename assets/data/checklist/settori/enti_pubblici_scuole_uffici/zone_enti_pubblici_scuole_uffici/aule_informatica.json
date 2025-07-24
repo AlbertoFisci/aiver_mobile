@@ -1,0 +1,86 @@
+{
+  "id": "aule_informatica",
+  "title": {
+    "it": "Aule informatica e server scolastici"
+  },
+  "description": {
+    "it": "PC, stampanti, LAN, UPS, disturbi elettromagnetici"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "checklist": [
+    {
+      "id": "impianti_elettrici_sicuri",
+      "text": {
+        "it": "Le prese elettriche, multiprese e cablaggi sono ordinati, funzionanti e privi di danni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "elettrico"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ventilazione_aule_server",
+      "text": {
+        "it": "I locali (aule o server room) sono dotati di ventilazione adeguata per evitare surriscaldamenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "ventilazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "distanza_schermi_lavoratori",
+      "text": {
+        "it": "Le postazioni di lavoro rispettano la distanza visiva e ergonomica consigliata tra utenti e monitor?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "postazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "pavimenti_liberi_cavi",
+      "text": {
+        "it": "I pavimenti sono liberi da cavi volanti o intralci che possano causare inciampi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["infortuni", "ordine"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sicurezza_server_backup",
+      "text": {
+        "it": "I dispositivi server e NAS sono protetti da UPS, backup regolari e limitazione degli accessi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["server", "sicurezza"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti dispositivi con emissioni EMF, Wi-Fi potente o apparati ad alta frequenza?"
+      }
+    }
+  ]
+}

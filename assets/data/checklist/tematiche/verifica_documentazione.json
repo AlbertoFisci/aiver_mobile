@@ -1,0 +1,139 @@
+{
+  "id": "verifica_documentazione",
+  "title": {
+    "it": "Verifica documentale generale"
+  },
+  "description": {
+    "it": "Controllo generale della documentazione obbligatoria ai fini della sicurezza e della salute nei luoghi di lavoro."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "dvr_presente_aggiornato",
+      "text": {
+        "it": "È presente un Documento di Valutazione dei Rischi (DVR) aggiornato e firmato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "dvr", "valutazione_rischi"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "nomine_sicurezza_complete",
+      "text": {
+        "it": "Sono presenti e aggiornate le nomine delle figure chiave della sicurezza (RSPP, preposti, dirigenti, primo soccorso, antincendio)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["nomine", "sicurezza", "organigramma"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "registro_infortuni_presenti",
+      "text": {
+        "it": "È presente il registro degli infortuni e/o la documentazione relativa ad incidenti e near miss?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["incidenti", "registro", "near_miss"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "evidenze_formazione_dpi",
+      "text": {
+        "it": "Sono disponibili le evidenze documentali della formazione, informazione e distribuzione DPI ai lavoratori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "dpi", "informazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "psc_presente_cantieri",
+      "text": {
+        "it": "Nei cantieri, è presente un PSC (Piano di Sicurezza e Coordinamento) valido, se previsto?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["psc", "cantieri", "coordinamento"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "registro_attrezzature_manutenzione",
+      "text": {
+        "it": "Esiste un registro con controlli e manutenzione periodica delle attrezzature e impianti?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["attrezzature", "manutenzione", "registro"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "documentazione_visite_mediche",
+      "text": {
+        "it": "È disponibile documentazione delle visite mediche effettuate dai lavoratori (sorveglianza sanitaria)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["sorveglianza_sanitaria", "visite_mediche"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "registro_verifiche_interne",
+      "text": {
+        "it": "Sono presenti evidenze di verifiche interne (audit, controlli, check interni)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["verifiche_interne", "audit", "controlli"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "privacy_dati_salute_sicurezza",
+      "text": {
+        "it": "La documentazione relativa alla salute e sicurezza è gestita nel rispetto della normativa privacy (GDPR)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["privacy", "gdpr", "dati_sensibili"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

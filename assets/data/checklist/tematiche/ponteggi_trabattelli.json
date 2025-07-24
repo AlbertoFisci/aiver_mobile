@@ -1,0 +1,133 @@
+{
+  "id": "ponteggi_trabattelli",
+  "title": {
+    "it": "Ponteggi, trabattelli e postazioni elevabili"
+  },
+  "description": {
+    "it": "Ponteggi fissi, mobili, trabattelli, PLE e piattaforme per lavori in quota"
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Le attività prevedono l’uso di ponteggi, trabattelli o piattaforme di lavoro in quota?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "documentazione_ponteggio",
+      "text": {
+        "it": "Il ponteggio o trabattello è corredato da progetto o disegno esecutivo, relazione tecnica e libretto d’uso?"
+      },
+      "mandatory": true,
+      "note": true,
+      "dpi_linked": false,
+      "tags": ["documentazione", "progetto", "disegno", "libretto"],
+      "scoring_weight": 1.9,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "montaggio_smontaggio_autorizzati",
+      "text": {
+        "it": "Il montaggio, smontaggio e trasformazione è effettuato da personale autorizzato e formato (PIMUS, art. 136)?"
+      },
+      "mandatory": true,
+      "note": false,
+      "dpi_linked": false,
+      "tags": ["formazione", "montaggio", "pimus"],
+      "scoring_weight": 2.0,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_ancoraggi_stabilità",
+      "text": {
+        "it": "Sono stati verificati gli ancoraggi, la stabilità e l’orizzontalità della struttura?"
+      },
+      "mandatory": true,
+      "note": true,
+      "dpi_linked": false,
+      "tags": ["ancoraggi", "stabilità", "struttura"],
+      "scoring_weight": 2.0,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_quota",
+      "text": {
+        "it": "Gli operatori indossano DPI di III categoria anticaduta ove previsto (imbracatura, casco, cordino, retrattile)?"
+      },
+      "mandatory": true,
+      "note": false,
+      "dpi_linked": true,
+      "tags": ["dpi", "anticaduta", "quota"],
+      "scoring_weight": 2.0,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpc_parapetti_botole",
+      "text": {
+        "it": "Sono presenti dispositivi di protezione collettiva (parapetti completi, botole, bordi anti-caduta)?"
+      },
+      "mandatory": true,
+      "note": true,
+      "dpi_linked": false,
+      "tags": ["dpc", "parapetti", "sicurezza"],
+      "scoring_weight": 1.8,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_condizioni_meteo",
+      "text": {
+        "it": "L’utilizzo avviene in condizioni meteo idonee (assenza di forti venti, pioggia intensa, visibilità ridotta)?"
+      },
+      "mandatory": false,
+      "note": true,
+      "dpi_linked": false,
+      "tags": ["meteo", "vento", "visibilità"],
+      "scoring_weight": 1.6,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "ispezione_giornata_struttura",
+      "text": {
+        "it": "La struttura è ispezionata giornalmente prima dell’uso e dopo eventi critici (pioggia, urti)?"
+      },
+      "mandatory": true,
+      "note": false,
+      "dpi_linked": false,
+      "tags": ["controllo", "giornaliero", "ponteggio"],
+      "scoring_weight": 1.7,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_uso_ple_trabattelli",
+      "text": {
+        "it": "Il personale che utilizza PLE o trabattelli ha ricevuto formazione specifica ai sensi dell’Accordo Stato-Regioni?"
+      },
+      "mandatory": true,
+      "note": false,
+      "dpi_linked": false,
+      "tags": ["formazione", "ple", "trabattelli"],
+      "scoring_weight": 1.8,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

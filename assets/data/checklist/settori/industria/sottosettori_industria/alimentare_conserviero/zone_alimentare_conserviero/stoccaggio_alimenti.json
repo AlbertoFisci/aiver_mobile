@@ -1,0 +1,96 @@
+{
+  "id": "stoccaggio_alimenti",
+  "title": { "it": "Magazzino alimenti (climatizzato)" },
+  "description": { "it": "Scaffali alti, pallet, temperatura controllata"
+  },
+
+  "type": "specifica",
+  "subsector": "alimentare_conserviero",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti movimentazioni frequenti di carichi sospesi o pallet con carrelli elevatori?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "temperatura_monitorata_regolare",
+      "text": { "it": "La temperatura del magazzino è monitorata regolarmente e mantenuta entro i limiti previsti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["temperatura", "conservazione", "monitoraggio"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "scaffalature_stabili_etichettate",
+      "text": { "it": "Le scaffalature sono stabili, ben ancorate e chiaramente etichettate?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scaffali", "stabilità", "etichettatura"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_dpc_incendio",
+      "text": { "it": "Sono presenti adeguati dispositivi di protezione collettiva contro incendi (estintori, rilevatori, uscite)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPC", "incendio", "emergenza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "movimentazione_sicura_pallet",
+      "text": { "it": "La movimentazione dei pallet avviene in sicurezza (spazi adeguati, visibilità, percorsi dedicati)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["movimentazione", "pallet", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "pulizia_periodica_pavimenti",
+      "text": { "it": "I pavimenti sono sottoposti a pulizia periodica per evitare accumulo di sporco o formazione di muffe?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pulizia", "muffe", "pavimenti"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_barriere_insetti_roditori",
+      "text": { "it": "Sono presenti barriere o sistemi per prevenire l’ingresso di insetti e roditori?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["barriere", "parassiti", "protezione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_adeguati_addetti_magazzino",
+      "text": { "it": "Gli addetti al magazzino utilizzano DPI adeguati (scarpe antiscivolo, guanti, eventuale gilet visibile)?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "magazzino", "addetti"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

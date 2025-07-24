@@ -1,0 +1,127 @@
+{
+  "id": "impianto_selezione",
+  "title": {
+    "it": "Impianto selezione rifiuti"
+  },
+  "description": {
+    "it": "Nastri, separatori, cernita manuale o automatica"
+  },
+  "type": "specifica",
+  "sector": "servizi_ambientali_rifiuti",
+  "checklist": [
+    {
+      "id": "presenza_protezioni_nastri",
+      "text": { "it": "Tutti i nastri trasportatori sono dotati di protezioni contro contatti accidentali o intrappolamenti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "protezioni", "meccanica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_addetti_selezione",
+      "text": { "it": "Gli addetti alla selezione sono formati sulle corrette procedure operative e di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "impianti_manutenzione_documentata",
+      "text": { "it": "Tutti gli impianti di selezione sono sottoposti a manutenzione documentata e periodica?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti", "documentazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "illuminazione_adeguata_postazioni",
+      "text": { "it": "Le postazioni di lavoro manuale sono dotate di illuminazione adeguata per ridurre l'affaticamento visivo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "illuminazione"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "dpi_specifici_correttamente_usati",
+      "text": { "it": "I DPI specifici per la selezione (guanti anti-taglio, mascherine, occhiali) sono forniti e correttamente utilizzati?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "selezione", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_pulsanti_emergenza_visibili",
+      "text": { "it": "Sono presenti e facilmente accessibili pulsanti di arresto di emergenza lungo i nastri?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "impianti", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_zone_silenziose_pausa",
+      "text": { "it": "Sono previsti ambienti silenziosi o pause protette per gli addetti alla cernita manuale?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["ergonomia", "pause", "ambiente_lavoro"],
+      "scoring_weight": 0.8
+    },
+    {
+      "id": "verifica_dpi_generici_utilizzati",
+      "text": { "it": "Sono utilizzati correttamente i DPI di base previsti per questa attività (guanti, calzature, visibilità, ecc.)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "verifica_generale"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti carichi sospesi o sollevamenti meccanizzati (gru, pale, ribaltatori)?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "I materiali trattati possono contenere residui organici o contaminanti biologici?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Il lavoro comporta attività ripetitive, tempi serrati o condizioni ambientali stressanti?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Vengono utilizzati dispositivi a laser, IR o altri sistemi a radiazione non ionizzante per la selezione?"
+      }
+    }
+  ]
+}

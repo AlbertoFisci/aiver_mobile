@@ -1,0 +1,124 @@
+{
+  "id": "celle_frigorifere",
+  "title": { "it": "Celle frigo / surgelazione" },
+  "description": { "it": "Celle positive/negative, movimentazione pallet"
+  },
+  "type": "specifica",
+  "subsector": "alimentare_conserviero",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Le celle hanno accesso limitato, dimensioni ristrette o rischio di intrappolamento?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Il personale opera per periodi prolungati in ambienti freddi o isolati con turni ripetitivi?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "porte_apertura_urgente",
+      "text": { "it": "Le celle sono dotate di dispositivi per apertura dall’interno in caso di emergenza?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "sicurezza", "celle"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "temperatura_monitorata_registrata",
+      "text": { "it": "La temperatura interna è monitorata e registrata regolarmente con sistemi automatici?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["temperatura", "monitoraggio", "registrazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "illuminazione_interna_adeguata",
+      "text": { "it": "L’illuminazione interna delle celle è sufficiente e ben distribuita?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "celle", "visibilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "pavimenti_anti_scivolo_freddo",
+      "text": { "it": "I pavimenti sono antiscivolo e adatti a basse temperature?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pavimenti", "antiscivolo", "celle"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_accesso_sicuro",
+      "text": { "it": "Gli operatori sono formati per l’accesso sicuro alle celle frigorifere?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "celle", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_specifici_bassa_temperatura",
+      "text": { "it": "Sono forniti e utilizzati DPI specifici per basse temperature (guanti, giacche, scarpe, copricapo)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "freddo", "abbigliamento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sbrinamento_manutenzione_periodica",
+      "text": { "it": "È prevista una manutenzione periodica degli impianti e sbrinamento delle superfici?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["manutenzione", "celle", "impianti"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_allarmi_temperatura",
+      "text": { "it": "Sono presenti allarmi acustici/visivi in caso di superamento soglie di temperatura?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["allarmi", "temperatura", "emergenze"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ordine_traffico_sicuro_pallet",
+      "text": { "it": "Il transito di pallet e operatori è sicuro, ordinato e ben segnalato?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["logistica", "pallet", "movimentazione"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

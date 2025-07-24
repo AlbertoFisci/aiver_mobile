@@ -1,0 +1,86 @@
+{
+  "id": "scale_emergenze_scuola",
+  "title": {
+    "it": "Scale di emergenza / antincendio"
+  },
+  "type": "specifica",
+  "sector": "enti_pubblici_scuole_uffici",
+  "description": {
+    "it": "Percorsi esterni, scale in metallo, evacuazione"
+  },
+  "checklist": [
+    {
+      "id": "scale_strutturalmente_idonee",
+      "text": {
+        "it": "Le scale di emergenza sono strutturalmente integre e ancorate saldamente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "strutture"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_parapetti_corrimano",
+      "text": {
+        "it": "Sono presenti e in buone condizioni parapetti e corrimani?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["strutture", "cadute"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "assenza_ostacoli_scale",
+      "text": {
+        "it": "Le scale di emergenza sono libere da ostacoli e materiali abbandonati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["evacuazione", "ostacoli"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "illuminazione_emergenza_scale",
+      "text": {
+        "it": "Le scale sono dotate di illuminazione di emergenza funzionante e visibile?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "illuminazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "segnaletica_direzionale_presente",
+      "text": {
+        "it": "È presente segnaletica direzionale e informativa chiara lungo il percorso?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "evacuazione"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Le scale si sviluppano in altezza o in esterno, configurandosi come attività in quota?"
+      }
+    }
+  ]
+}

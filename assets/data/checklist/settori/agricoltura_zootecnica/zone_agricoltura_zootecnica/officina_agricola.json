@@ -1,0 +1,87 @@
+{
+  "id": "officina_agricola",
+  "title": {
+    "it": "Officina agricola / manutenzione mezzi"
+  },
+  "description": {
+    "it": "Attrezzature, riparazioni, saldatura"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "macchinari_conformi_e_manutenzione",
+      "text": {
+        "it": "Le attrezzature e i macchinari sono conformi alle normative CE e sottoposti a manutenzione documentata?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["macchinari", "conformità"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_dispositivi_emergenza_officina",
+      "text": {
+        "it": "Sono presenti e accessibili i dispositivi di emergenza (estintori, kit di pronto soccorso, interruttori di sicurezza)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "antincendio"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ventilazione_adeguata_saldature",
+      "text": {
+        "it": "L’ambiente è sufficientemente ventilato durante le operazioni di saldatura o verniciatura?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "saldatura"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "uso_dpi_specifici_manutenzione",
+      "text": {
+        "it": "Durante le operazioni di manutenzione e riparazione vengono utilizzati DPI adeguati (guanti, visiera, tuta, protezioni udito)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "manutenzione"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "deposito_sicuro_materiali_pericolosi",
+      "text": {
+        "it": "I materiali pericolosi (oli, solventi, gas tecnici) sono stoccati in modo sicuro e secondo normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["materiali_pericolosi", "stoccaggio"],
+      "scoring_weight": 1.4
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Vengono effettuate saldature o usati strumenti che generano radiazioni non ionizzanti?"
+      }
+    }
+  ]
+}

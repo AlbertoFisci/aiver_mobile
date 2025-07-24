@@ -1,0 +1,151 @@
+{
+  "id": "impianto_elettrico_e_locali_tecnici",
+  "title": {
+    "it": "Impianto elettrico e locali tecnici"
+  },
+  "description": {
+    "it": "Controlli su quadri elettrici, locali tecnici, server, UPS, sezionamento, protezioni e documentazione impianto elettrico generale."
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparati attivi che emettono radiazioni non ionizzanti (es. Wi-Fi, apparati radio, antenne)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "accesso_limitato_autorizzati",
+      "text": {
+        "it": "L’accesso è riservato esclusivamente a personale tecnico autorizzato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "autorizzati", "locali_tecnici"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_climatizzazione_locali",
+      "text": {
+        "it": "I locali sono adeguatamente ventilati e/o climatizzati per garantire il corretto funzionamento degli apparati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["climatizzazione", "ventilazione", "impianti_elettrici"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "assenza_materiali_combustibili",
+      "text": {
+        "it": "Nei locali non sono presenti materiali combustibili o infiammabili non pertinenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["materiali", "prevenzione_incendi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "quadro_elettrico_conforme",
+      "text": {
+        "it": "Il quadro elettrico è conforme (chiuso, etichettato, con protezione differenziale, manutenzione periodica)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["quadro_elettrico", "manutenzione", "differenziale"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_lavori_in_ambiente_elettrico",
+      "text": {
+        "it": "Il personale ha ricevuto formazione specifica per operare in ambienti elettrici (PES/PAV/PEI se richiesto)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "PES", "PEI", "sicurezza_elettrica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianto_elettrico_messa_a_terra",
+      "text": {
+        "it": "L’impianto elettrico è dotato di messa a terra e protezione contro le sovratensioni, documentate e collaudate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["messa_a_terra", "collaudo", "sovratensioni"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "prese_multiple_protette",
+      "text": {
+        "it": "Sono utilizzate solo prese multiple e prolunghe in buono stato e dotate di protezioni adeguate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["prese", "prolunghe", "protezioni"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "interruttori_sezionatori_identificati",
+      "text": {
+        "it": "Gli interruttori e sezionatori principali sono identificabili e facilmente accessibili?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interruttori", "sezionamento", "accessibilità"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "cablaggi_ordina_sicuri",
+      "text": {
+        "it": "I cablaggi elettrici (cavi, canaline) sono ordinati, protetti e privi di danneggiamenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cablaggio", "cavi", "sicurezza_elettrica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "documentazione_impianto_elettrico_disponibile",
+      "text": {
+        "it": "È disponibile la documentazione tecnica e di conformità dell’impianto elettrico?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "impianto_elettrico", "conformità"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

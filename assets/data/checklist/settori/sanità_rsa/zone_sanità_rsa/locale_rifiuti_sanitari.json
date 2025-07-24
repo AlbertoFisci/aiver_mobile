@@ -1,0 +1,80 @@
+{
+  "id": "locale_rifiuti_sanitari",
+  "title": {
+    "it": "Locale rifiuti sanitari"
+  },
+  "description": {
+    "it": "Raccolta infettivi e rifiuti pericolosi"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": "checklist_locale_rifiuti_sanitari__activation__atex"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_locale_rifiuti_sanitari__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "contenitori_idonei_rifiuti",
+      "text": {
+        "it": "I rifiuti sono collocati in contenitori idonei, separati per tipologia (es. infettivi, taglienti, chimici)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["contenitori", "rifiuti", "classificazione"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "cartellonistica_adeguata",
+      "text": {
+        "it": "È presente segnaletica di pericolo e cartellonistica informativa ben visibile?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.5,
+      "tags": ["segnaletica", "pericolo", "informazione"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_raccolta_rifiuti",
+      "text": {
+        "it": "Il personale utilizza DPI adeguati per la movimentazione e gestione dei rifiuti sanitari?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dpi", "movimentazione", "rifiuti_sanitari"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_rifiuti_sanitari",
+      "text": {
+        "it": "Il personale ha ricevuto formazione specifica sulla gestione dei rifiuti pericolosi e infettivi?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["formazione", "rifiuti", "biologico"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

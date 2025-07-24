@@ -1,0 +1,48 @@
+{
+  "id": "estrazione_cave_tunnel",
+  "title": {
+    "it": "Estrazione / Cave / Tunnel"
+  },
+  "description": {
+    "it": "Attività estrattive e di scavo: cave, gallerie, frantumazione, trasporto materiali, esplosivi, monitoraggi ambientali"
+  },
+  "has_subsectors": false,
+  "comuni": [
+    "magazzino_logistica",
+    "officina_manutenzione",
+    "spogliatoi_mense",
+    "uffici_servizi",
+    "sala_controllo",
+    "viabilita",
+    "spazi_comuni",
+    "locali_quadri_elettrici",
+    "deposito_materiale",
+    "area_esterna_viabilita",
+    "cucine_laboratori_preparazione",
+    "magazzino_chimici",
+    "aree_aperte_pubblico"
+  ],
+  "tematiche": [
+    "ponteggi_trabattelli",
+    "cultura_coinvolgimento_sicurezza",
+    "gestione_sostanze_pericolose",
+    "piano_miglioramento_obbiettivi_sicurezza",
+    "organizzazione_servizio_prevenzione_protezione",
+    "gestione_emergenze",
+    "formazione_sicurezza",
+    "sorveglianza_sanitaria",
+    "verifica_documentazione",
+    "gestione_interferenze",
+    "Verifiche_globali_macchine_impianti",
+    "Verifiche_globali_DPI_DPC_attrezzature"
+  ],
+  "specifiche": [
+    "fronte_estrattivo",
+    "gallerie_tunnel",
+    "impianto_frantumazione",
+    "postazione_carico_mezzi",
+    "zona_esplosivi",
+    "silos_stoccaggio_inerti",
+    "monitoraggio_ambientale"
+  ]
+}

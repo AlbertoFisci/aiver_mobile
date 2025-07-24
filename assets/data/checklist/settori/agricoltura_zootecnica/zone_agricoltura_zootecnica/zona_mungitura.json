@@ -1,0 +1,87 @@
+{
+  "id": "zona_mungitura",
+  "title": {
+    "it": "Sala mungitura e raccolta latte"
+  },
+  "description": {
+    "it": "Automazioni, igiene, contatto animale"
+  },
+  "type": "specifica",
+  "sector": "agricoltura_zootecnica",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "igiene_postazioni_e_attrezzature",
+      "text": {
+        "it": "Le postazioni di mungitura e le attrezzature vengono pulite e sanificate regolarmente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["igiene", "attrezzature"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_dpi_specifici_mungitura",
+      "text": {
+        "it": "Gli operatori utilizzano DPI specifici per attività di mungitura (guanti, stivali, indumenti protettivi)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "mungitura"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "movimentazione_animali_sicura",
+      "text": {
+        "it": "La movimentazione degli animali verso la zona mungitura avviene in modo sicuro e senza stress per l’operatore?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["sicurezza_animali", "movimentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_mungitura_manutenzione",
+      "text": {
+        "it": "Gli impianti di mungitura sono sottoposti a manutenzione periodica e funzionano correttamente?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rischio_biologico_gestito",
+      "text": {
+        "it": "Sono adottate misure per ridurre il rischio biologico (contatto con fluidi, disinfezione, uso DPI)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["rischio_biologico", "dpi"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Gli operatori possono entrare in contatto con fluidi biologici o rifiuti animali?"
+      }
+    }
+  ]
+}

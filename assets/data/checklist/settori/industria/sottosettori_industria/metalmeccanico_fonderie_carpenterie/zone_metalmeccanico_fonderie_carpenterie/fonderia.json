@@ -1,0 +1,103 @@
+{
+  "id": "fonderia",
+  "title": { "it": "Fonderia e forni di fusione" },
+  "description": { "it": "Forni elettrici, crogioli, colata, scorie"
+  },
+  "type": "specifica",
+  "subsector": "metalmeccanico_fonderie_carpenterie",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti atmosfere potenzialmente esplosive (es. polveri metalliche, vapori infiammabili)?"
+      }
+    },
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti carichi sospesi movimentati tramite gru, paranchi o carriponte?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_dispositivi_estrazione_fumi",
+      "text": {
+        "it": "Sono presenti ed efficienti i sistemi di estrazione fumi e vapori da fusione?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["estrazione", "fumi", "fusione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "pavimentazione_antisdrucciolo",
+      "text": {
+        "it": "La pavimentazione è antisdrucciolo, resistente al calore e libera da ostacoli?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pavimentazione", "sicurezza", "calore"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_specifici_alta_temperatura",
+      "text": {
+        "it": "Gli operatori utilizzano DPI specifici per l’alta temperatura (guanti, visiere, indumenti ignifughi)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "calore", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "contenimento_scorie_rischio",
+      "text": {
+        "it": "Sono adottate misure per contenere scorie, schizzi di metallo e materiali incandescenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scorie", "contenimento", "incandescenza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_rischio_fusione",
+      "text": {
+        "it": "Gli operatori sono formati sui rischi di fusione, colata e contatto con metalli liquidi?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "fusione", "colata"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_vasca_emergenza_ustioni",
+      "text": {
+        "it": "È presente una vasca o doccia di emergenza per rischio ustioni o contatti con metalli liquidi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "ustioni", "sicurezza"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

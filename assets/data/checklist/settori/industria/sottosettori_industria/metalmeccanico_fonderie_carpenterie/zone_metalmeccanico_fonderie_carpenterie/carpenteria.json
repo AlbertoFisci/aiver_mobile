@@ -1,0 +1,91 @@
+{
+  "id": "carpenteria",
+  "title": { "it": "Carpenteria metallica" },
+  "description": { "it": "Assemblaggi strutture in ferro/acciaio"
+  },
+  "type": "specifica",
+  "subsector": "metalmeccanico_fonderie_carpenterie",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti attività con carichi sospesi movimentati tramite gru, paranchi o altri sistemi di sollevamento?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Gli operatori lavorano in quota o su strutture metalliche non protette da parapetti?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_piani_lavoro_stabili",
+      "text": { "it": "I piani di lavoro, trabattelli o impalcati sono stabili, completi e con parapetti?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["quota", "sicurezza", "impalcature"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_specifici_quota_carpenteria",
+      "text": { "it": "Gli operatori usano DPI specifici per lavori in quota (imbracature, cordini, casco con sottogola)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "quota", "anticaduta"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "aree_cantiere_delimitate_cartelli",
+      "text": { "it": "Le aree di carpenteria sono delimitate e segnalate con cartelli di pericolo?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["delimitazione", "cartelli", "visibilità"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "verifica_strumenti_taglio_saldatura",
+      "text": { "it": "Gli strumenti di taglio e saldatura sono in buone condizioni e sottoposti a manutenzione periodica?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["manutenzione", "saldatura", "attrezzature"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "uso_dispositivi_sollevamento_sicuri",
+      "text": { "it": "I dispositivi di sollevamento sono certificati, ispezionati e correttamente utilizzati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sollevamento", "gru", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_dispositivi_contenimento_scintille",
+      "text": { "it": "Sono presenti dispositivi per contenere scintille o detriti nelle aree di saldatura/taglio?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scintille", "contenimento", "sicurezza"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

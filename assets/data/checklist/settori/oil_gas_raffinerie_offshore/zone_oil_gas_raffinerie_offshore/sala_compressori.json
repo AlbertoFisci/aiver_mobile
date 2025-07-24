@@ -1,0 +1,115 @@
+{
+  "id": "sala_compressori",
+  "title": {
+    "it": "Compressori / turboespansori / pompe"
+  },
+  "description": {
+    "it": "Rumore, vibrazioni, pressione"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "accesso_autorizzato_sala",
+      "text": { "it": "L’accesso alla sala compressori è riservato esclusivamente a personale autorizzato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["accesso", "autorizzazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_cartelli_rischi",
+      "text": { "it": "Sono presenti cartelli di avviso relativi a rumore, pressione, superfici calde o altri rischi specifici?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "rischi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_rumore_vibrazioni",
+      "text": { "it": "Gli operatori indossano i DPI idonei contro rumore e vibrazioni (cuffie, guanti antivibrazione)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "rumore"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "barriere_contro_rumore",
+      "text": { "it": "Sono presenti barriere acustiche, insonorizzazioni o cabine per ridurre l’esposizione al rumore?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["dpc", "rumore"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "ventilazione_adeguata_sala",
+      "text": { "it": "La ventilazione nella sala è sufficiente per garantire sicurezza e comfort operativo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "salute"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_sotto_manutenzione",
+      "text": { "it": "Gli impianti sono sottoposti a manutenzione preventiva e risultano privi di anomalie visibili?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_sfiati_sicuri",
+      "text": { "it": "Eventuali sfiati o sovrappressioni sono canalizzati in modo sicuro e segnalati?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["pressione", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "documentazione_impianto_presente",
+      "text": { "it": "È disponibile la documentazione tecnica e il registro manutenzione dell’impianto?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "impianti"],
+      "scoring_weight": 1.3
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparati che generano forti campi elettromagnetici (es. motori, inverter, quadri ad alta potenza)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le condizioni ambientali della sala compressori possono generare stress (rumore continuo, isolamento)?"
+      }
+    }
+  ]
+}

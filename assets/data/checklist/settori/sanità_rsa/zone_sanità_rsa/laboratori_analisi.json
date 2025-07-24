@@ -1,0 +1,98 @@
+{
+  "id": "laboratori_analisi",
+  "title": {
+    "it": "Laboratori analisi / diagnostica"
+  },
+  "description": {
+    "it": "Biologia, chimica, microbiologia"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": "checklist_laboratori_analisi__activation__radiazioni_non_ionizzanti"
+    },
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": "checklist_laboratori_analisi__activation__radiazioni_ionizzanti"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_laboratori_analisi__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "dpi_specifici_laboratorio",
+      "text": {
+        "it": "Il personale utilizza DPI specifici per il laboratorio (guanti, occhiali, camici monouso)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dpi", "laboratorio", "protezione_individuale"],
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "cappe_biologiche_o_chimiche",
+      "text": {
+        "it": "Sono presenti cappe biologiche o chimiche funzionanti e certificate per le lavorazioni previste?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["cappe", "ventilazione", "laboratorio", "rischio_chimico"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_sicurezza_laboratorio",
+      "text": {
+        "it": "Il personale ha ricevuto formazione specifica sui rischi chimici, biologici e radiologici?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["formazione", "rischio_chimico", "rischio_biologico", "rischio_radiazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "etichettatura_sostanze",
+      "text": {
+        "it": "Tutte le sostanze pericolose sono correttamente etichettate secondo normativa CLP?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["etichettatura", "clp", "sostanze_pericolose"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "smaltimento_materiali_reattivi",
+      "text": {
+        "it": "Sono presenti procedure sicure per lo smaltimento di reagenti e materiali contaminati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["smaltimento", "rifiuti_pericolosi", "reagenti", "contaminazione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

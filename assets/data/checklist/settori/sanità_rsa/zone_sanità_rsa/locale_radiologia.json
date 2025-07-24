@@ -1,0 +1,92 @@
+{
+  "id": "locale_radiologia",
+  "title": {
+    "it": "Reparto RX / TAC / radioterapia"
+  },
+  "description": {
+    "it": "Bunker piombati, sorgenti ionizzanti, sorgenti sigillate"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti sorgenti ionizzanti fisse o mobili (es. TAC, RX, radioterapia)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "accesso_riservato",
+      "text": {
+        "it": "L’accesso al reparto è riservato al solo personale autorizzato e correttamente segnalato?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["accesso", "autorizzazioni", "radiazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "barriere_piombate_integrita",
+      "text": {
+        "it": "Le barriere piombate, i bunker o gli schermi protettivi risultano integri e correttamente posizionati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["barriere", "radiazioni", "protezione_collettiva"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "formazione_rischio_radiazioni",
+      "text": {
+        "it": "Il personale ha ricevuto formazione specifica sul rischio da radiazioni ionizzanti e sull’uso delle protezioni?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["formazione", "rischio_radiazioni", "dpi"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "monitoraggio_dosimetrico",
+      "text": {
+        "it": "Il monitoraggio dosimetrico del personale è attivo e aggiornato (badge, controlli periodici)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dosimetria", "sorveglianza", "radiazioni"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "dpi_specifici_radiazioni",
+      "text": {
+        "it": "Sono disponibili e correttamente utilizzati i DPI specifici (es. grembiuli piombati, schermi mobili)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["dpi", "radiazioni", "protezione_individuale"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

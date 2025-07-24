@@ -1,0 +1,102 @@
+{
+  "id": "taglio_saldatura",
+  "title": { "it": "Taglio e saldatura" },
+  "description": { "it": "Plasma, laser, ossitaglio, postazioni saldatori"
+  },
+  "type": "specifica",
+  "subsector": "metalmeccanico_fonderie_carpenterie",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti sorgenti di radiazioni non ionizzanti (laser, arco elettrico, microonde)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Le attività di saldatura o taglio avvengono in quota o su impalcature/trabattelli?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_dpi_saldatura",
+      "text": { "it": "Sono utilizzati correttamente i DPI specifici per saldatura/taglio (guanti, visiera, maschera, grembiule, protezione occhi)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "saldatura", "protezione"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "ventilazione_localizzata_efficiente",
+      "text": { "it": "È presente e funzionante una ventilazione localizzata per fumi e gas di saldatura/taglio?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ventilazione", "fumi", "estrazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_integrita_cablaggi",
+      "text": { "it": "Cavi e impianti elettrici delle macchine da taglio/saldatura sono integri e a norma?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["elettrico", "cavi", "manutenzione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "protezione_anti_incendio_presente",
+      "text": { "it": "Sono presenti DPC contro incendi (coperte ignifughe, estintori, barriere) nelle aree di saldatura/taglio?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["incendio", "DPC", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "superfici_lavoro_infiammabili_assenti",
+      "text": { "it": "Le superfici o i materiali infiammabili sono assenti o protetti nell’area di taglio/saldatura?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["infiammabili", "prevenzione", "fuoco"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "protezione_terze_persone_barriere",
+      "text": { "it": "Sono presenti barriere o schermature per proteggere terzi da scintille, fumi e radiazioni?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["barriere", "protezione", "terzi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_cartelli_pericolo",
+      "text": { "it": "Sono affissi cartelli di pericolo in prossimità delle aree di saldatura/taglio?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartelli", "segnaletica", "avviso"],
+      "scoring_weight": 1.1
+    }
+  ]
+}

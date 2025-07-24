@@ -1,0 +1,74 @@
+{
+  "id": "bobine_stoccaggio",
+  "title": { "it": "Magazzino bobine carta" },
+  "description": { "it": "Bobine grandi, scaffali verticali, navette"
+  },
+  "type": "specifica",
+  "subsector": "cartario_topografico",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti movimentazioni di carichi sospesi o con mezzi di sollevamento (carroponti, navette, forche)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "bobine_immagazzinate_sicure",
+      "text": { "it": "Le bobine sono immagazzinate in modo stabile e sicuro (no rischio rotolamento o ribaltamento)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "stabilità", "ordine"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "corsie_accesso_libere_segnalate",
+      "text": { "it": "Le corsie di accesso sono libere, segnalate e senza ostacoli?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accessi", "sicurezza", "segnaletica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "movimentazione_meccanica_sicura",
+      "text": { "it": "La movimentazione meccanica delle bobine (carrelli, navette, muletti) avviene in sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["movimentazione", "mezzi", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "illuminazione_adeguata_magazzino",
+      "text": { "it": "L’illuminazione nel magazzino è adeguata anche nelle aree più interne e alte?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "visibilità"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "segnaletica_pericolo_visibile",
+      "text": { "it": "È presente segnaletica visibile di pericolo e istruzioni per il sollevamento bobine?" },
+      "note": false,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cartelli", "istruzioni", "sicurezza"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "torre_perforazione",
+  "title": {
+    "it": "Torre di perforazione / trivellazione"
+  },
+  "description": {
+    "it": "Rotary, sistema pozzo, fango, tubazioni"
+  },
+  "type": "specifica",
+  "sector": "oil_gas_raffinerie_offshore",
+  "checklist": [
+    {
+      "id": "dpi_perforazione_indossati",
+      "text": { "it": "Gli operatori indossano correttamente i DPI specifici per l’attività di perforazione (casco, guanti, visiera, antiscivolo, antitaglio)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "sicurezza"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "sistema_rotary_sicuro",
+      "text": { "it": "Il sistema rotary e il tavolo rotante sono protetti e utilizzati secondo le procedure di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianto", "rotary"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "controllo_fango_drilling",
+      "text": { "it": "Il sistema di gestione del fango di perforazione è integro e monitorato per evitare dispersioni o contaminazioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["ambientale", "fluido"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "scale_passerelle_sicure",
+      "text": { "it": "Le scale, piattaforme e passerelle della torre sono in buono stato e dotate di corrimano e protezioni?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["accesso", "dpc"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attrezzature_verificate",
+      "text": { "it": "Le attrezzature di perforazione (verricelli, ganci, morse) sono verificate periodicamente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["verifica", "manutenzione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_piano_emergenza_torre",
+      "text": { "it": "È affisso un piano di emergenza specifico per la torre con indicazioni chiare?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "emergenza"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "segregazione_zone_pericolose",
+      "text": { "it": "Le zone più pericolose sono segregate o delimitate da barriere fisiche e cartelli di avviso?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "dpc"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "procedure_abbassamento_torre",
+      "text": { "it": "Le operazioni di montaggio o abbassamento torre seguono precise procedure di sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["procedura", "struttura"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "illuminazione_turni_notturni",
+      "text": { "it": "È garantita un’adeguata illuminazione della torre durante i turni notturni?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "notturno"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_adeguata_dpc_perforazione",
+      "text": { "it": "Sono presenti DPC adeguati (parapetti, dispositivi anticaduta, protezioni meccaniche) nella zona torre?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpc", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "manovre_carichi_verificate",
+      "text": { "it": "Le manovre con carichi sospesi (tubi, aste) avvengono in sicurezza e con mezzi idonei?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["carichi_sospesi", "movimentazione"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "monitoraggio_gas_idrogeno_solforato",
+      "text": { "it": "È attivo un sistema di rilevamento gas per H2S e altre sostanze pericolose durante le fasi di perforazione?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["gas", "monitoraggio"],
+      "scoring_weight": 1.6
+    },
+    {
+      "id": "verifica_struttura_torre",
+      "text": { "it": "La struttura della torre è integra, stabile e ispezionata periodicamente da personale qualificato?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["struttura", "verifica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "registro_ispezioni_presente",
+      "text": { "it": "È disponibile il registro delle ispezioni effettuate sulla torre e le sue attrezzature?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "registro"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "operatori_formati_emergenze",
+      "text": { "it": "Gli operatori della torre sono formati per rispondere a emergenze specifiche (fuoco, crollo, sversamento)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "emergenze"],
+      "scoring_weight": 1.5
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono previste movimentazioni con gru, carrucole o verricelli di carichi sospesi (aste, tubazioni)?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti ambienti ristretti o a rischio confinamento (pozzo, intercapedini, sottostrutture)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "Sono previste attività in altezza su scale, piattaforme o torre stessa?"
+      }
+    }
+  ]
+}

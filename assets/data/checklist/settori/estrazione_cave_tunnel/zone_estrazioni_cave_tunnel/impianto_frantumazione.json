@@ -1,0 +1,115 @@
+{
+  "id": "impianto_frantumazione",
+  "title": {
+    "it": "Impianto di frantumazione / vagliatura"
+  },
+  "type": "specifica",
+  "sector": "estrazioni_cave_tunnel",
+  "description": {
+    "it": "Rumore, polveri, nastri trasportatori"
+  },
+  "checklist": [
+    {
+      "id": "protezione_organi_moventi",
+      "text": { "it": "Tutti gli organi in movimento (nastri, cinghie, frantoi) sono protetti contro contatti accidentali?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "macchine"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "impianto_aspirazione_polveri",
+      "text": { "it": "È presente un impianto di aspirazione o contenimento delle polveri generabili durante il processo?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["ambiente", "polveri"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "livelli_rumore_contenuti",
+      "text": { "it": "Sono adottate misure per la riduzione del rumore e sono presenti segnalazioni acustiche e visive?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rumore", "segnalazioni"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dispositivi_emergenza_accessibili",
+      "text": { "it": "I dispositivi di emergenza (stop, pulsanti, estintori) sono presenti e facilmente accessibili?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenze", "sicurezza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "segnaletica_sicurezza_presente",
+      "text": { "it": "È presente adeguata segnaletica di sicurezza (avvertenze, obblighi DPI, pericoli specifici)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "informazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "manutenzione_periodica_documentata",
+      "text": { "it": "Le macchine e gli impianti sono sottoposti a manutenzione periodica e registrata?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["manutenzione", "impianti"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_antipolvere_anti_rumore_utilizzati",
+      "text": { "it": "Gli operatori utilizzano correttamente i DPI per protezione da rumore e polveri (maschere, cuffie, occhiali)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_operatori_impianto",
+      "text": { "it": "Gli operatori sono formati sulle procedure di uso in sicurezza dell’impianto e gestione delle emergenze?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori"],
+      "scoring_weight": 1.2
+    }
+  ],
+  "special_checklists": [
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti sorgenti di radiazioni non ionizzanti (laser per allineamento, microonde, saldatura)?"
+      }
+    },
+    {
+      "id": "stress_lavoro_correlato",
+      "activation_question": {
+        "it": "Le condizioni di lavoro (rumore continuo, ambienti chiusi, carichi cognitivi) possono generare stress?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "id": "verifiche_globali_dpi_dpc_attrezzature_macchine_impianti",
+  "title": {
+    "it": "Verifiche globali DPI, DPC, attrezzature, macchine e impianti"
+  },
+  "description": {
+    "it": "Verifica trasversale e globale dell’aderenza alle normative in materia di dispositivi di protezione individuale e collettiva e attrezzature di lavoro, gestione scadenze e documentazione.",
+    "type": "tematica",
+    "risk_scale": "NC_nota_avvertenza"
+  },
+  "checklist": [
+    {
+        "id": "dpi_01",
+        "text": {
+          "it": "È presente un elenco aggiornato dei DPI per ciascuna mansione?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "gestione", "mansioni"],
+        "scoring_weight": 1.3
+      },
+      {
+        "id": "dpi_02",
+        "text": {
+          "it": "I DPI forniti sono certificati CE e idonei all’attività svolta?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "certificazione", "attività"],
+        "scoring_weight": 1.4
+      },
+      {
+        "id": "dpi_03",
+        "text": {
+          "it": "È documentata la consegna dei DPI a ciascun lavoratore?"
+        },
+        "note": true,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "consegna", "documentazione"],
+        "scoring_weight": 1.3
+      },
+      {
+        "id": "dpi_04",
+        "text": {
+          "it": "I DPI risultano in buono stato e adeguatamente conservati?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "manutenzione", "conservazione"],
+        "scoring_weight": 1.3
+      },
+      {
+        "id": "dpi_05",
+        "text": {
+          "it": "I lavoratori sono stati formati sull’uso corretto dei DPI?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": true,
+        "tags": ["dpi", "formazione", "addestramento"],
+        "scoring_weight": 1.5
+      },
+      {
+        "id": "dpi_06",
+        "text": {
+          "it": "Esiste un registro delle sostituzioni e delle verifiche DPI?"
+        },
+        "note": true,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "registro", "verifiche"],
+        "scoring_weight": 1.2
+      },
+      {
+        "id": "dpi_07",
+        "text": {
+          "it": "I DPI monouso vengono smaltiti correttamente?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "monouso", "smaltimento"],
+        "scoring_weight": 1.1
+      },
+      {
+        "id": "dpi_08",
+        "text": {
+          "it": "È presente un sistema per la segnalazione dei DPI danneggiati?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "danneggiamenti", "segnalazioni"],
+        "scoring_weight": 1.3
+      },
+      {
+        "id": "dpi_09",
+        "text": {
+          "it": "I DPI scaduti vengono rimossi tempestivamente dal magazzino?"
+        },
+        "note": true,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": false,
+        "tags": ["dpi", "scadenze", "magazzino"],
+        "scoring_weight": 1.2
+      },
+      {
+        "id": "dpi_10",
+        "text": {
+          "it": "La scelta dei DPI rispetta la valutazione dei rischi aziendali?"
+        },
+        "note": false,
+        "mandatory": false,
+        "dpi_linked": true,
+        "allow_photo": true,
+        "allow_audio": false,
+        "allow_file": true,
+        "tags": ["dpi", "scelta", "valutazione_rischi"],
+        "scoring_weight": 1.4
+      },
+    {
+      "id": "dpi_01",
+      "text": {
+        "it": "È presente un elenco aggiornato dei DPI per ciascuna mansione?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "gestione", "mansioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_02",
+      "text": {
+        "it": "I DPI forniti sono certificati CE e idonei all’attività svolta?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "certificazione", "attività"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_03",
+      "text": {
+        "it": "È documentata la consegna dei DPI a ciascun lavoratore?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "consegna", "documentazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_04",
+      "text": {
+        "it": "I DPI risultano in buono stato e adeguatamente conservati?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "manutenzione", "conservazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_05",
+      "text": {
+        "it": "I lavoratori sono stati formati sull’uso corretto dei DPI?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["dpi", "formazione", "addestramento"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpi_06",
+      "text": {
+        "it": "Esiste un registro delle sostituzioni e delle verifiche DPI?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "registro", "verifiche"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dpi_07",
+      "text": {
+        "it": "I DPI monouso vengono smaltiti correttamente?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "monouso", "smaltimento"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "dpi_08",
+      "text": {
+        "it": "È presente un sistema per la segnalazione dei DPI danneggiati?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "danneggiamenti", "segnalazioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_09",
+      "text": {
+        "it": "I DPI scaduti vengono rimossi tempestivamente dal magazzino?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "scadenze", "magazzino"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dpi_10",
+      "text": {
+        "it": "La scelta dei DPI rispetta la valutazione dei rischi aziendali?"
+      },
+      "note": false,
+      "mandatory": false,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["dpi", "scelta", "valutazione_rischi"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "attrezzature_01",
+      "text": {
+        "it": "Tutte le attrezzature sono conformi alla normativa vigente?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "conformità", "normativa"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "attrezzature_02",
+      "text": {
+        "it": "Ogni attrezzatura è identificata e schedulata per le verifiche?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "verifiche", "identificazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "attrezzature_03",
+      "text": {
+        "it": "Le verifiche periodiche sono documentate per tutte le attrezzature?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "verifiche", "documentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "attrezzature_04",
+      "text": {
+        "it": "Gli operatori sono stati addestrati all’uso delle attrezzature?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "formazione", "uso"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attrezzature_05",
+      "text": {
+        "it": "Le attrezzature sono in buone condizioni di conservazione e uso?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["attrezzature", "condizioni", "manutenzione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "attrezzature_06",
+      "text": {
+        "it": "È presente il libretto d’uso e manutenzione per ogni attrezzatura?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "manuale", "manutenzione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attrezzature_07",
+      "text": {
+        "it": "Esistono procedure di controllo pre-utilizzo?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "controllo", "preuso"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attrezzature_08",
+      "text": {
+        "it": "Sono stati segnalati malfunzionamenti e sono stati gestiti?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "malfunzionamenti", "gestione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "attrezzature_09",
+      "text": {
+        "it": "Le attrezzature obsolete sono state dismesse o segregate?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["attrezzature", "obsolescenza", "dismissione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "attrezzature_10",
+      "text": {
+        "it": "Gli accessori di sollevamento risultano in regola e certificati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["attrezzature", "accessori", "sollevamento", "certificazione"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

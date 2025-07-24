@@ -1,0 +1,80 @@
+{
+  "id": "finiture_legno",
+  "title": { "it": "Levigatura, bordatura, incollaggio" },
+  "description": { "it": "Polveri fini, colle, abrasivi"
+  },
+  "type": "specifica",
+  "subsector": "lavorazione_legno",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Vengono utilizzati prodotti infiammabili o con rischio di esplosione (es. colle, solventi)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti fonti di radiazione non ionizzante (es. lampade UV per asciugatura)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "impianti_aspirazione_efficienza",
+      "text": { "it": "Gli impianti di aspirazione polveri e vapori sono presenti e in buone condizioni di efficienza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPC", "aspirazione", "polveri"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_colle_solventi_sicuri",
+      "text": { "it": "Le colle e i solventi utilizzati sono conservati e utilizzati in modo sicuro, secondo le schede SDS?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["SDS", "chimici", "colla"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "uso_dpi_specifici_polveri_vapori",
+      "text": { "it": "Gli operatori utilizzano DPI idonei contro polveri e vapori (maschere FFP2/FFP3, occhiali)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "protezione", "polveri"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "macchine_protezioni_attive",
+      "text": { "it": "Le macchine per levigatura e bordatura hanno protezioni attive contro l’accesso alle parti in movimento?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchine", "protezioni", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_addetti_prodotti_chimici",
+      "text": { "it": "Gli addetti sono formati sui rischi derivanti dall’uso di colle, solventi e abrasivi?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "chimici", "sicurezza"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "segheria_taglio",
+  "title": { "it": "Segheria e taglio legno" },
+  "description": { "it": "Tronchi, seghe a nastro, circolari, CNC"
+  },
+  "type": "specifica",
+  "subsector": "lavorazione_legno",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "carichi_sospesi",
+      "activation_question": {
+        "it": "Sono presenti carichi sospesi o movimentazione di tavole e pannelli in quota?"
+      }
+    },
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti silos o ambienti chiusi potenzialmente classificabili come spazi confinati?"
+      }
+    },
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti polveri combustibili o ambienti con possibile rischio ATEX?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "seghe_protezioni_presenti_efficienza",
+      "text": { "it": "Le seghe (nastro, circolari, CNC) sono dotate di protezioni funzionanti e in buono stato?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["protezioni", "macchinari", "seghe"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "aspirazione_trucioli_efficiente",
+      "text": { "it": "È presente un sistema di aspirazione trucioli efficace e correttamente mantenuto?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aspirazione", "DPC", "pulizia"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_dpi_specifici_taglio",
+      "text": { "it": "Gli operatori utilizzano DPI adeguati (occhiali, mascherina, cuffie, guanti, calzature antinfortunistiche)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "protezione", "operatori"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "ordine_accessi_rispettato",
+      "text": { "it": "Sono rispettate le regole di accesso e di transito nelle zone operative?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["sicurezza", "transito", "accessi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "stoccaggio_tronchi_sicuro",
+      "text": { "it": "I tronchi e il materiale grezzo sono stoccati in modo stabile e sicuro?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "stabilità", "materiali"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_operatori_taglio",
+      "text": { "it": "Gli operatori addetti al taglio hanno ricevuto formazione specifica e recente?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "operatori", "sicurezza"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

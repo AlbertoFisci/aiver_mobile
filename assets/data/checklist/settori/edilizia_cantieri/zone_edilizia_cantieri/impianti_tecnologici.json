@@ -1,0 +1,132 @@
+{
+  "id": "impianti_tecnologici",
+  "title": {
+    "it": "Impianti tecnologici"
+  },
+  "description": {
+    "it": "Elettrico, HVAC, idrico, domotica"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti ambienti o impianti con potenziale rischio di atmosfere esplosive (ATEX)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparati o impianti che generano radiazioni non ionizzanti (es. Wi-Fi, antenne, impianti HVAC ad alta frequenza)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_documentazione_impianti",
+      "text": {
+        "it": "È presente la documentazione tecnica e la conformità normativa degli impianti installati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "impianti", "normativa"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "lavori_sotto_tensione_autorizzati",
+      "text": {
+        "it": "Eventuali lavori su impianti elettrici sono eseguiti da personale autorizzato e abilitato ai lavori sotto tensione (PES/PAV/PEI)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["autorizzazioni", "elettrico", "PES_PAV_PEI"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "messa_in_sicurezza_impianti",
+      "text": {
+        "it": "Gli impianti sono stati messi in sicurezza prima dell’intervento (interruttori, sezionatori, messa a terra)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["messa_a_sicuro", "impianti", "tensione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_dpc_impianti",
+      "text": {
+        "it": "Sono presenti adeguati dispositivi di protezione collettiva (barriere, avvisi, delimitazioni, blocchi automatici)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPC", "barriere", "segnaletica"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_elettrico_hvac",
+      "text": {
+        "it": "Sono utilizzati correttamente i DPI specifici per lavori elettrici e HVAC (guanti isolanti, visiere, calzature dielettriche, maschere)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "HVAC", "elettrico"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "rischi_rumore_vibrazioni",
+      "text": {
+        "it": "Durante le lavorazioni sugli impianti sono valutati e controllati i rischi da rumore e vibrazioni (es. utensili rotanti, trapani)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["rumore", "vibrazioni", "utensili"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "formazione_specifica_impianti",
+      "text": {
+        "it": "Gli operatori hanno ricevuto formazione e addestramento specifico per lavorare su impianti tecnologici?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "impianti", "addestramento"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_interferenze_impianti",
+      "text": {
+        "it": "Le attività su impianti interferiscono con altre lavorazioni o zone? Sono state prese misure per evitarle?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["interferenze", "coordinamento", "rischi_conflitto"],
+      "scoring_weight": 1.2
+    }
+  ]
+}

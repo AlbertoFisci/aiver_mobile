@@ -1,0 +1,118 @@
+{
+  "id": "gestione_sostanze_pericolose",
+  "title": {
+    "it": "Gestione sostanze pericolose"
+  },
+  "description": {
+    "it": "Checklist per la verifica della sicurezza nella manipolazione, utilizzo e stoccaggio di sostanze chimiche pericolose (D.Lgs. 81/08, Titolo IX)."
+  },
+  "type": "tematica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [],
+  "checklist": [
+    {
+      "id": "presenza_sostanze_pericolose_identificate",
+      "text": {
+        "it": "Sono state identificate tutte le sostanze pericolose presenti (etichettatura, classificazione, SDS)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["sostanze_pericolose", "identificazione", "etichettatura"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "schede_sicurezza_disponibili_aggiornate",
+      "text": {
+        "it": "Le schede di sicurezza (SDS) delle sostanze presenti sono disponibili e aggiornate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["SDS", "schede_sicurezza", "documentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "corretto_stoccaggio_sostanze",
+      "text": {
+        "it": "Le sostanze sono stoccate correttamente (compatibilità, contenitori idonei, areazione)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "compatibilità", "areazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "dpi_specifici_per_rischio_chimico",
+      "text": {
+        "it": "Sono previsti e utilizzati DPI specifici per il rischio chimico (guanti, visiere, tute)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "rischio_chimico", "protezione_individuale"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_dispositivi_protezione_collettiva",
+      "text": {
+        "it": "Sono presenti e funzionanti i dispositivi di protezione collettiva (es. cappe, ventilazione, docce emergenza)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPC", "ventilazione", "docce_emergenza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_specifica_sostanze_chimiche",
+      "text": {
+        "it": "Gli operatori hanno ricevuto formazione specifica sui rischi delle sostanze utilizzate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "rischio_chimico", "operatori"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "presenza_kit_emergenza",
+      "text": {
+        "it": "È presente un kit di emergenza adeguato per incidenti con sostanze chimiche?"
+      },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["kit_emergenza", "incidenti_chimici", "pronto_intervento"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "procedure_scritta_uso_sicuro",
+      "text": {
+        "it": "Sono disponibili procedure scritte per la manipolazione sicura delle sostanze pericolose?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["procedure", "manipolazione", "scritte"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

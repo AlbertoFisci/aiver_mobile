@@ -1,0 +1,108 @@
+{
+  "id": "zona_pretrattamento",
+  "title": { "it": "Sabbiatura / sgrassaggio" },
+  "description": { "it": "Fase di pulizia meccanica o chimica"
+  },
+  "type": "specifica",
+  "subsector": "verniciatura_galvanica",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Vengono utilizzati solventi, vapori o prodotti infiammabili in quantità significative?"
+      }
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "I materiali da pulire possono contenere contaminanti organici o residui biologici?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono impiegati dispositivi a radiazione UV o IR per lo sgrassaggio o il pretrattamento?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "prodotti_chimici_identificati",
+      "text": { "it": "I prodotti chimici utilizzati per la pulizia sono chiaramente identificati ed etichettati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "chimici", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianto_aspirazione_efficiente",
+      "text": { "it": "È presente un impianto di aspirazione localizzata o ventilazione adeguata?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aspirazione", "ventilazione", "aria"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "dpi_specifici_utilizzati",
+      "text": { "it": "Gli operatori utilizzano DPI idonei (guanti, occhiali, maschere) per le sostanze impiegate?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "protezione", "chimici"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "contenitori_sicuri_stoccaggio",
+      "text": { "it": "I contenitori chimici sono conservati in armadi o locali adeguati e separati da fonti di calore?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["stoccaggio", "chimici", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sicurezza_macchine_sabbiatura",
+      "text": { "it": "Le sabbiatrici sono dotate di protezioni, interblocchi e mantenute in buono stato?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["macchine", "sabbiatura", "interblocchi"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_uso_prodotti",
+      "text": { "it": "Gli addetti hanno ricevuto formazione specifica sull’uso dei prodotti chimici utilizzati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "chimici", "rischi"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "gestione_emergenze_versamenti",
+      "text": { "it": "Sono presenti kit o procedure in caso di sversamenti accidentali o emergenze chimiche?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["emergenza", "sversamenti", "chimici"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "uffici_servizi",
+  "title": {
+    "it": "Uffici / Servizi"
+  },
+  "description": {
+    "it": "Postazioni fisse, videoterminali, sale riunioni, segreterie"
+  },
+  "type": "comune",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "mobbing",
+      "activation_question": {
+        "it": "Sono presenti situazioni conflittuali, discriminazioni o episodi a rischio mobbing nei luoghi di lavoro?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "ergonomia_postazioni_videoterminali",
+      "text": {
+        "it": "Le postazioni con videoterminali sono ergonomiche, con sedute regolabili, schermi posizionati correttamente e supporti adeguati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ergonomia", "videoterminali", "sedute"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "illuminazione_naturale_artificiale_adeguata",
+      "text": {
+        "it": "L’illuminazione (naturale e artificiale) è sufficiente, uniforme, priva di riflessi e abbagliamenti?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["illuminazione", "comfort_visivo", "uffici"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "ventilazione_microclima_confort",
+      "text": {
+        "it": "La ventilazione e il microclima garantiscono condizioni di benessere durante l’intera permanenza?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["microclima", "ventilazione", "comfort_termico"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dispositivi_sicurezza_segnalati",
+      "text": {
+        "it": "I dispositivi di sicurezza (estintori, evacuatori, allarmi, piani di evacuazione) sono chiaramente visibili e segnalati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["sicurezza", "segnaletica", "emergenza"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "assenza_fonti_rumore_molesto",
+      "text": {
+        "it": "Non sono presenti fonti di rumore molesto o fastidioso (stampanti, ventilatori, telefoni, impianti)?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["rumore", "comfort_acustico", "disturbi"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "presenza_aree_ristoro_o_pause",
+      "text": {
+        "it": "Sono presenti aree dedicate al ristoro e alle pause, separate dagli spazi operativi?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["pause", "ristoro", "benessere"],
+      "scoring_weight": 1.1
+    },
+    {
+      "id": "formazione_videoterminali_81",
+      "text": {
+        "it": "Il personale che lavora al videoterminale ha ricevuto formazione e informazione ai sensi dell’art. 175 e allegato XXXIV del D.Lgs. 81/08?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["formazione", "videoterminali", "dlgs81"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "farmacia_ospedaliera",
+  "title": {
+    "it": "Farmacia ospedaliera"
+  },
+  "description": {
+    "it": "Stoccaggio e distribuzione farmaci"
+  },
+  "type": "specifica",
+  "sector": "sanità_rsa",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": "checklist_farmacia_ospedaliera__activation__atex"
+    },
+    {
+      "id": "rischio_biologico",
+      "activation_question": "checklist_farmacia_ospedaliera__activation__rischio_biologico"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_ventilazione_locale",
+      "text": {
+        "it": "Il locale è dotato di ventilazione adeguata per evitare accumuli di vapori o sostanze pericolose?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["ventilazione", "rischio_chimico", "vapori"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "stoccaggio_farmaci_corretto",
+      "text": {
+        "it": "I farmaci sono stoccati secondo normativa (T, umidità, scadenze, sostanze stupefacenti)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["stoccaggio", "farmaci", "conservazione", "sostanze_stupefacenti"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "formazione_sicurezza_farmaci",
+      "text": {
+        "it": "Il personale ha ricevuto formazione su rischio chimico, manipolazione e stoccaggio farmaci?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["formazione", "rischio_chimico", "manipolazione", "sicurezza"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "dpi_farmaci_pericolosi",
+      "text": {
+        "it": "Sono disponibili e usati DPI specifici per la manipolazione di farmaci pericolosi (es. antineoplastici)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["dpi", "farmaci_pericolosi", "antineoplastici", "protezione"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

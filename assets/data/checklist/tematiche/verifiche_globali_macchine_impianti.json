@@ -1,0 +1,153 @@
+{
+  "id": "verifiche_globali_dpi_dpc_attrezzature_macchine_impianti",
+  "title": {
+    "it": "Verifiche globali DPI, DPC, attrezzature, macchine e impianti"
+  },
+  "description": {
+    "it": "Verifica trasversale e globale dell’aderenza alle normative in materia di macchine e impianti, gestione scadenze e documentazione.",
+    "type": "tematica",
+    "risk_scale": "NC_nota_avvertenza"
+  },
+  "checklist": [
+    {
+      "id": "impianti_01",
+      "text": {
+        "it": "Gli impianti sono conformi ai requisiti normativi vigenti?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "normativa", "conformità"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "impianti_02",
+      "text": {
+        "it": "Ogni impianto ha un progetto e dichiarazione di conformità?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "documentazione", "conformità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_03",
+      "text": {
+        "it": "Le verifiche impiantistiche sono documentate e aggiornate?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "verifiche", "documentazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_04",
+      "text": {
+        "it": "Gli impianti elettrici sono protetti e sezionabili in emergenza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "elettrici", "emergenza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "impianti_05",
+      "text": {
+        "it": "Gli impianti di terra risultano a norma e verificati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "messa_terra", "verifica"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "impianti_06",
+      "text": {
+        "it": "Gli impianti a pressione sono sottoposti a controlli regolari?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "pressione", "controlli"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_07",
+      "text": {
+        "it": "Gli impianti antincendio sono funzionanti e verificati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "antincendio", "verifica"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "impianti_08",
+      "text": {
+        "it": "Le centraline e quadri risultano correttamente etichettati?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "quadri", "etichettatura"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_09",
+      "text": {
+        "it": "I lavoratori sono formati su rischi impiantistici specifici?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["impianti", "formazione", "rischi_specifici"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "impianti_10",
+      "text": {
+        "it": "Gli impianti obsoleti o pericolosi sono stati disattivati o messi in sicurezza?"
+      },
+      "note": true,
+      "mandatory": false,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["impianti", "sicurezza", "obsolescenza"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

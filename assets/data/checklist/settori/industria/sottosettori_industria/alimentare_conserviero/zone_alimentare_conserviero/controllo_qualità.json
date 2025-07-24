@@ -1,0 +1,101 @@
+{
+  "id": "controllo_qualita",
+  "title": { "it": "Laboratori / controllo qualità" },
+  "description": { "it": "Test microbiologici, HACCP, analisi interne"
+  },
+  "type": "specifica",
+  "subsector": "alimentare_conserviero",
+  "special_checklists": [
+    {
+      "id": "rischio_biologico",
+      "activation_question": {
+        "it": "Si effettuano analisi microbiologiche o test su campioni biologici potenzialmente contaminati?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparecchiature con emissioni di radiazioni non ionizzanti (es. UV, laser, microonde)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "laboratorio_organizzato_sicuro",
+      "text": { "it": "Il laboratorio è organizzato, ordinato e strutturato in modo da garantire la sicurezza degli operatori?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["laboratorio", "sicurezza", "organizzazione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "presenza_cappe_sicure_ventilate",
+      "text": { "it": "Sono presenti cappe aspiranti o armadi ventilati per la manipolazione di sostanze pericolose?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["cappe", "ventilazione", "sicurezza"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "sostanze_classificate_etichettate",
+      "text": { "it": "Le sostanze utilizzate sono correttamente etichettate e dotate di schede di sicurezza aggiornate?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["sostanze", "etichettatura", "sicurezza"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "formazione_protocollo_haccp",
+      "text": { "it": "Gli operatori sono formati sui protocolli HACCP e sul corretto campionamento?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "HACCP", "operatori"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "registrazioni_campionamenti_complete",
+      "text": { "it": "Le registrazioni dei campionamenti e delle analisi sono complete e tracciabili?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["registrazioni", "analisi", "tracciabilità"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "smaltimento_campioni_regolare",
+      "text": { "it": "I campioni e i reagenti usati vengono smaltiti correttamente secondo le procedure previste?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["smaltimento", "reagenti", "campioni"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_specifici_analisi",
+      "text": { "it": "Sono disponibili e utilizzati DPI specifici per le attività di laboratorio (guanti, occhiali, camici)?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "laboratorio", "sicurezza"],
+      "scoring_weight": 1.4
+    }
+  ]
+}

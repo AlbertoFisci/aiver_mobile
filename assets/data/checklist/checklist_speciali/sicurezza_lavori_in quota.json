@@ -1,0 +1,104 @@
+{
+  "id": "sicurezza_lavori_in_quota",
+  "title": {
+    "it": "Controlli sicurezza lavori in quota"
+  },
+  "description": {
+    "it": "Checklist per la verifica della sicurezza nei lavori in quota, conforme al Titolo IV, D.Lgs. 81/08, artt. 115-118, con attenzione particolare a DPI di III categoria, linee vita, parapetti, sistemi anticaduta e formazione specifica."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "verifica_linea_vita",
+      "text": {
+        "it": "È presente una linea vita certificata, testata e ispezionata periodicamente?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "dpi_categoria_iii_presenti",
+      "text": {
+        "it": "Sono disponibili e in buono stato i DPI di III categoria anticaduta (imbracature, cordini, dissipatori, caschi con sottogola)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "addestramento_dpi_quota",
+      "text": {
+        "it": "Gli operatori sono stati adeguatamente addestrati all’uso dei DPI di III categoria e alle manovre di soccorso in quota?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_parapetti_ponteggi",
+      "text": {
+        "it": "Parapetti, ponteggi o protezioni collettive sono installati correttamente e completi di tavola fermapiede?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "condizioni_meteo_quota",
+      "text": {
+        "it": "Le attività in quota sono sospese in caso di vento forte, temporali o condizioni climatiche sfavorevoli?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "piano_emergenza_quota",
+      "text": {
+        "it": "È previsto un piano di emergenza e recupero in caso di incidente in quota?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "verifica_ancoraggi",
+      "text": {
+        "it": "I punti di ancoraggio utilizzati sono certificati e compatibili con i DPI impiegati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

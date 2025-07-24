@@ -1,0 +1,45 @@
+{
+  "id": "verniciatura_galvanica",
+  "title": {
+    "it": "Verniciatura / Galvanica"
+  },
+  "description": {
+    "it": "Trattamenti superficiali industriali: verniciatura, galvanica, forni e preparazioni chimiche"
+  },
+  "comuni": [
+    "magazzino_logistica",
+    "officina_manutenzione",
+    "spogliatoi_mense",
+    "uffici_servizi",
+    "sala_controllo",
+    "viabilita",
+    "spazi_comuni",
+    "locali_quadri_elettrici",
+    "deposito_materiale",
+    "area_esterna_viabilita",
+    "cucine_laboratori_preparazione",
+    "magazzino_chimici",
+    "aree_aperte_pubblico"
+  ],
+  "tematiche": [
+    "ponteggi_trabattelli",
+    "cultura_coinvolgimento_sicurezza",
+    "gestione_sostanze_pericolose",
+    "piano_miglioramento_obbiettivi_sicurezza",
+    "organizzazione_servizio_prevenzione_protezione",
+    "gestione_emergenze",
+    "formazione_sicurezza",
+    "sorveglianza_sanitaria",
+    "verifica_documentazione",
+    "gestione_interferenze",
+    "Verifiche_globali_macchine_impianti",
+    "Verifiche_globali_DPI_DPC_attrezzature"
+  ],
+  "specifiche": [
+    "cabina_verniciatura",
+    "impianto_galvanico",
+    "forni_polimerizzazione",
+    "zona_pretrattamento",
+    "magazzino_chimici"
+  ]
+}

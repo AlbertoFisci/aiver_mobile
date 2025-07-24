@@ -1,0 +1,80 @@
+{
+  "id": "miscelazione_additivi",
+  "title": { "it": "Miscelazione e additivi" },
+  "description": { "it": "Additivi chimici, catalizzatori, polimeri"
+  },
+  "type": "specifica",
+  "subsector": "plastica_stampaggio",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "spazi_confinati",
+      "activation_question": {
+        "it": "Sono presenti serbatoi, miscelatori o ambienti assimilabili a spazi confinati accessibili internamente?"
+      }
+    },
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Le polveri, vapori o sostanze utilizzate possono generare atmosfere esplosive (ATEX)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "schede_sicurezza_presenti_accessibili",
+      "text": { "it": "Le schede di sicurezza (SDS) degli additivi utilizzati sono presenti e accessibili?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["SDS", "documentazione", "chimici"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "contenitori_etichettati_conformi",
+      "text": { "it": "I contenitori degli additivi sono etichettati in modo chiaro e conformi alle normative CLP?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["etichettatura", "contenitori", "CLP"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "aerazione_adeguata_ambienti_chimici",
+      "text": { "it": "L’aerazione dei locali è adeguata a prevenire l’accumulo di vapori e sostanze nocive?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["aerazione", "ambienti", "vapori"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_specifici_disponibili_obbligatori",
+      "text": { "it": "Sono disponibili e utilizzati DPI specifici (guanti, occhiali, maschere) in base agli additivi impiegati?" },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "chimici", "protezione"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_rischi_chimici_addetti",
+      "text": { "it": "Gli addetti sono formati sui rischi chimici e le misure di prevenzione durante la miscelazione?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "chimici", "prevenzione"],
+      "scoring_weight": 1.5
+    }
+  ]
+}

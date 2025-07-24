@@ -1,0 +1,130 @@
+name: aiver_mobile
+description: Applicazione mobile AiVer per gestione HSE
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🌍 Localizzazione
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+  # 📦 Stato, routing e logica
+  provider: ^6.1.2
+  go_router: ^13.2.2
+  flutter_hooks: ^0.20.4
+
+  # 💾 Storage locale e sync
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  cloud_firestore: ^5.0.0
+  firebase_core: ^3.0.0
+  firebase_storage: ^12.0.0
+  firebase_auth: ^5.0.0
+  shared_preferences: ^2.2.2
+
+  # 🔐 Permessi e file
+  permission_handler: ^11.3.1
+  file_picker: ^8.0.3
+  share_plus: ^7.2.1
+  http: ^1.2.1
+
+  # 🖼️ UI, font, splash, responsive
+  flutter_svg: ^2.0.10+1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.9
+  google_fonts: ^6.2.1
+  responsive_framework: ^1.1.1
+  cupertino_icons: ^1.0.6
+
+  # ✍️ Firme e media
+  signature: ^5.4.1
+  image_picker: ^1.0.7
+  just_audio: ^0.9.36
+  flutter_sound: ^9.2.13
+
+  # 🔔 Notifiche
+  flutter_local_notifications: ^17.1.2
+  firebase_messaging: ^15.0.0
+
+  # 📤 PDF, stampa, export
+  pdf: ^3.10.6
+  printing: ^5.12.0
+
+  # 📅 Calendari, form, ID
+  table_calendar: ^3.0.9
+  flutter_form_builder: ^10.1.0
+  uuid: ^4.2.2
+
+  # 📊 Analytics e crash
+  firebase_analytics: ^11.0.0
+  firebase_crashlytics: ^4.0.0
+
+  # 🧪 Debug / sviluppo
+  logger: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.9
+  hive_generator: ^2.0.1
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/data/checklist/
+    - assets/data/checklist/checklist_speciali/
+    - assets/data/checklist/settori/
+    - assets/data/checklist/settori/agricoltura_zootecnica/
+    - assets/data/checklist/settori/agricoltura_zootecnica/zone_agricoltura_zootecnica/
+    - assets/data/checklist/settori/edilizia_cantieri/
+    - assets/data/checklist/settori/edilizia_cantieri/zone_edilizia_cantieri/
+    - assets/data/checklist/settori/energia_utilities/
+    - assets/data/checklist/settori/energia_utilities/zone_energia_utilities/
+    - assets/data/checklist/settori/enti_pubblici_scuole_uffici/
+    - assets/data/checklist/settori/enti_pubblici_scuole_uffici/zone_enti_pubblici_scuole_uffici/
+    - assets/data/checklist/settori/estrazione_cave_tunnel/
+    - assets/data/checklist/settori/estrazione_cave_tunnel/zone_estrazioni_cave_tunnel/
+    - assets/data/checklist/settori/estrazione_cave_tunnel/estrazione_cave_tunnel.json
+    - assets/data/checklist/settori/industria/
+    - assets/data/checklist/settori/industria/sottosettori_industria/
+    - assets/data/checklist/settori/oil_gas_raffinerie_offshore/
+    - assets/data/checklist/settori/oil_gas_raffinerie_offshore/zone_oil_gas_raffinerie_offshore/
+    - assets/data/checklist/settori/sanità_rsa/
+    - assets/data/checklist/settori/sanità_rsa/zone_sanità_rsa/
+    - assets/data/checklist/settori/servizi_ambientali_rifiuti/
+    - assets/data/checklist/settori/servizi_ambientali_rifiuti/zone_servizi_ambientali_rifiuti/
+    - assets/data/checklist/zone comuni/
+    - assets/data/checklist/tematiche/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/aiver_icon.png"
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icons/aiver_splash.png
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+  fullscreen: true

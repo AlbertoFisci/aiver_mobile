@@ -1,0 +1,138 @@
+{
+  "id": "demolizioni_edili",
+  "title": {
+    "it": "Demolizioni edili"
+  },
+  "description": {
+    "it": "Parziali o totali, controllate, meccaniche"
+  },
+  "type": "specifica",
+  "sctor": "edilizia_cantieri",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "demolizioni_complesse",
+      "activation_question": {
+        "it": "Si tratta di una demolizione complessa o controllata, che richiede tecniche speciali o sequenze operative particolari?"
+      }
+    },
+    {
+      "id": "amianto",
+      "activation_question": {
+        "it": "Sono presenti materiali che potrebbero contenere amianto (es. vecchie coperture, coibentazioni, tubazioni)?"
+      }
+    },
+    {
+      "id": "sicurezza_lavori_in_quota",
+      "activation_question": {
+        "it": "La demolizione comporta lavori in quota o rischio di caduta dall’alto (ponteggi, tetti, solai, impalcature)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "presenza_piano_demolizione",
+      "text": {
+        "it": "È presente un piano di demolizione redatto da tecnico abilitato con indicazioni operative e di sicurezza?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["documentazione", "sicurezza", "progetto"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "verifica_materiali_rischio",
+      "text": {
+        "it": "È stata effettuata la verifica dei materiali a rischio (amianto, piombo, polveri, vernici tossiche) prima dell’inizio lavori?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["materiali_pericolosi", "valutazione_rischi"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "formazione_operatori_demolizione",
+      "text": {
+        "it": "Gli operatori sono formati specificamente per attività di demolizione e uso macchine operatrici?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["formazione", "operatori", "abilitazione"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "verifica_dpc_caduta_materiali",
+      "text": {
+        "it": "Sono presenti dispositivi di protezione collettiva per contenere la caduta di materiali (reti, parapetti, barriere)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPC", "caduta", "barriere"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "segnaletica_interdizione_area",
+      "text": {
+        "it": "L’area di demolizione è chiaramente delimitata e segnalata con divieti di accesso?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["segnaletica", "accesso", "perimetrazione"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "interruzione_servizi_essenziali",
+      "text": {
+        "it": "Sono stati interrotti o isolati in sicurezza tutti i servizi (acqua, gas, elettricità) nelle zone da demolire?"
+      },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["servizi", "isolamento", "rischio_elettrico"],
+      "scoring_weight": 1.3
+    },
+    {
+      "id": "dpi_demolizione",
+      "text": {
+        "it": "I DPI specifici (elmetti, visiere, protezione udito, mascherine antipolvere) sono forniti e correttamente utilizzati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["DPI", "protezione", "polveri"],
+      "scoring_weight": 1.4
+    },
+    {
+      "id": "verifica_condizioni_ambientali_demolizione",
+      "text": {
+        "it": "Le condizioni ambientali e meteo (vento, visibilità, stabilità strutturale) permettono lo svolgimento sicuro della demolizione?"
+      },
+      "note": false,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["ambiente", "meteo", "stabilità"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

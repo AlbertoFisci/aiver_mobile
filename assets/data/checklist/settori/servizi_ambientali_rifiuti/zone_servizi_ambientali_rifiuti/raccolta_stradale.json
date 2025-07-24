@@ -1,0 +1,101 @@
+{
+  "id": "raccolta_stradale",
+  "title": {
+    "it": "Raccolta rifiuti stradale"
+  },
+  "description": {
+    "it": "RSU/RSP con mezzi compattatori"
+  },
+  "type": "specifica",
+  "sector": "servizi_ambientali_rifiuti",
+  "checklist": [
+    {
+      "id": "mezzi_revisionati_efficienza",
+      "text": { "it": "I mezzi utilizzati sono regolarmente revisionati e in buone condizioni di efficienza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["mezzi", "manutenzione"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "operatori_formati_raccolta",
+      "text": { "it": "Gli operatori sono formati sulle corrette modalità di raccolta e sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": true,
+      "allow_file": false,
+      "tags": ["formazione", "operatori"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "movimentazione_sicura_rifiuti",
+      "text": { "it": "La movimentazione dei rifiuti avviene in condizioni sicure per gli operatori e per l'ambiente?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["movimentazione", "rifiuti"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "dpi_indossati_operatori",
+      "text": { "it": "Gli operatori indossano correttamente i DPI previsti (guanti, alta visibilità, calzature, ecc.)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "operatori"],
+      "scoring_weight": 1.5
+    },
+    {
+      "id": "presenza_kit_emergenze",
+      "text": { "it": "È presente a bordo dei mezzi un kit di emergenza (guanti, assorbente, estintore)?" },
+      "note": true,
+      "mandatory": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true,
+      "tags": ["emergenze", "dotazioni"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "visibilita_operatori_notturna",
+      "text": { "it": "Durante turni serali/notturni è garantita la visibilità degli operatori (luci, bande riflettenti)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["visibilità", "dpi", "notturno"],
+      "scoring_weight": 1.2
+    },
+    {
+      "id": "procedure_scarico_sicure",
+      "text": { "it": "Le procedure di scarico presso i centri di raccolta avvengono in sicurezza?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["scarico", "procedure"],
+      "scoring_weight": 1.0
+    },
+    {
+      "id": "verifica_dpi_generici_utilizzati",
+      "text": { "it": "Sono utilizzati correttamente i DPI di base previsti per questa attività (guanti, calzature, visibilità, ecc.)?" },
+      "note": true,
+      "mandatory": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false,
+      "tags": ["dpi", "verifica_generale"],
+      "scoring_weight": 1.3
+    }
+  ]
+}

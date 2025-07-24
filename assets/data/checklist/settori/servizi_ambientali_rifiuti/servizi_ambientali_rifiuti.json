@@ -1,0 +1,47 @@
+{
+  "id": "servizi_ambientali_rifiuti",
+  "title": {
+    "it": "Servizi Ambientali / Rifiuti"
+  },
+  "description": {
+    "it": "Gestione rifiuti urbani e speciali: raccolta, selezione, stoccaggio, rifiuti pericolosi, compostaggio"
+  },
+  "has_subsectors": false,
+  "comuni": [
+    "magazzino_logistica",
+    "officina_manutenzione",
+    "spogliatoi_mense",
+    "uffici_servizi",
+    "sala_controllo",
+    "viabilita",
+    "spazi_comuni",
+    "locali_quadri_elettrici",
+    "deposito_materiale",
+    "area_esterna_viabilita",
+    "cucine_laboratori_preparazione",
+    "magazzino_chimici",
+    "aree_aperte_pubblico"
+  ],
+  "tematiche": [
+    "ponteggi_trabattelli",
+    "cultura_coinvolgimento_sicurezza",
+    "gestione_sostanze_pericolose",
+    "piano_miglioramento_obbiettivi_sicurezza",
+    "organizzazione_servizio_prevenzione_protezione",
+    "gestione_emergenze",
+    "formazione_sicurezza",
+    "sorveglianza_sanitaria",
+    "verifica_documentazione",
+    "gestione_interferenze",
+    "Verifiche_globali_macchine_impianti",
+    "Verifiche_globali_DPI_DPC_attrezzature"
+  ],
+  "specifiche": [
+    "raccolta_stradale",
+    "isola_ecologica",
+    "impianto_selezione",
+    "zona_stoccaggio_rifiuti",
+    "zona_rifiuti_pericolosi",
+    "impianto_compostaggio"
+  ]
+}

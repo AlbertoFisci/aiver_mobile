@@ -1,0 +1,153 @@
+{
+  "id": "amianto",
+  "title": {
+    "it": "Verifica sicurezza e gestione del rischio amianto"
+  },
+  "description": {
+    "it": "Checklist per la verifica della sicurezza nelle attività con presenza nota o sospetta di materiali contenenti amianto (MCA), conforme a D.Lgs. 81/08, Legge 257/92 e DM 6/09/94."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "verifica_presenza_mca",
+      "text": {
+        "it": "È stata accertata e documentata la presenza o assenza di materiali contenenti amianto (MCA)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["rilevamento", "documentazione", "MCA"],
+      "scoring_weight": 1.8,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "valutazione_rischio_amianto",
+      "text": {
+        "it": "È stata effettuata una valutazione del rischio esposizione a fibre di amianto?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["valutazione", "rischio", "amianto"],
+      "scoring_weight": 2.0,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "notifica_asl_bonifica",
+      "text": {
+        "it": "È stata effettuata la notifica obbligatoria all’ASL per attività di bonifica amianto (piano di lavoro)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["notifica", "asl", "bonifica"],
+      "scoring_weight": 1.9,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "operatori_formati_amianto",
+      "text": {
+        "it": "Gli operatori incaricati hanno ricevuto formazione specifica secondo normativa vigente?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["formazione", "operatori", "amianto"],
+      "scoring_weight": 1.7,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "utilizzo_dpi_specifici_amianto",
+      "text": {
+        "it": "Vengono utilizzati DPI idonei per attività con MCA (es. tuta monouso, FFP3, guanti, calzari)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": true,
+      "tags": ["dpi", "ffp3", "tuta", "guanti"],
+      "scoring_weight": 2.0,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "presenza_dpc_contenimento",
+      "text": {
+        "it": "Sono presenti adeguati dispositivi di protezione collettiva (es. confinamenti, aspiratori filtranti, aree filtro)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["dpc", "confinamento", "aspirazione"],
+      "scoring_weight": 1.9,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_barriere_zone_filtro",
+      "text": {
+        "it": "Sono correttamente installate barriere di isolamento e zone filtro tra l’area contaminata e le altre zone?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["isolamento", "barriere", "filtro"],
+      "scoring_weight": 1.8,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "cartellonistica_amianto",
+      "text": {
+        "it": "È presente idonea segnaletica che indica il rischio amianto e l’accesso riservato al personale autorizzato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["segnaletica", "cartelli", "rischio"],
+      "scoring_weight": 1.6,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "gestione_mca_rimossi",
+      "text": {
+        "it": "I materiali contenenti amianto rimossi sono correttamente incapsulati, etichettati e stoccati secondo normativa?"
+      },
+      "note": false,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["gestione", "rifiuti", "etichettatura"],
+      "scoring_weight": 1.9,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "verifica_documentazione_fine_lavori",
+      "text": {
+        "it": "È stata redatta e trasmessa la documentazione di fine lavori per bonifica MCA, come previsto dalla normativa?"
+      },
+      "note": true,
+      "mandatory": true,
+      "dpi_linked": false,
+      "tags": ["documentazione", "fine lavori", "bonifica"],
+      "scoring_weight": 1.8,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    }
+  ]
+}

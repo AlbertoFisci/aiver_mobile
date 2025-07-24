@@ -1,0 +1,143 @@
+{
+  "id": "rischio_biologico",
+  "title": {
+    "it": "Verifica esposizione e gestione rischio biologico"
+  },
+  "description": {
+    "it": "Checklist per la valutazione dell'esposizione ad agenti biologici, misure di contenimento, gestione DPI e procedure di emergenza in ambienti a rischio infettivo."
+  },
+  "type": "speciale",
+  "risk_scale": "NC_nota_avvertenza",
+  "checklist": [
+    {
+      "id": "presenza_agenti_biologici",
+      "text": {
+        "it": "Sono presenti attività che comportano esposizione ad agenti biologici classificati (es. virus, batteri, funghi)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "classificazione_agenti",
+      "text": {
+        "it": "Gli agenti biologici presenti sono stati classificati e documentati secondo normativa?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "formazione_rischio_biologico",
+      "text": {
+        "it": "Il personale è stato adeguatamente formato sul rischio biologico e sulle procedure di sicurezza?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "vaccinazioni_disponibili",
+      "text": {
+        "it": "Sono state verificate ed eventualmente offerte le vaccinazioni raccomandate (es. epatite B, antinfluenzale)?"
+      },
+      "note": false,
+      "mandatory": false,
+      "scoring_weight": 1.5,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "utilizzo_dpi_biologico",
+      "text": {
+        "it": "Sono utilizzati DPI idonei per la protezione da agenti biologici (guanti, visiere, maschere, camici)?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "contenitori_biologici",
+      "text": {
+        "it": "Sono disponibili contenitori e sacchetti idonei per il materiale potenzialmente infetto o contaminato?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "procedure_esposizione",
+      "text": {
+        "it": "Sono presenti procedure scritte in caso di esposizione accidentale (punture, contatto, aerosol)?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "registrazione_esposizioni",
+      "text": {
+        "it": "Eventuali esposizioni accidentali sono registrate e seguite da sorveglianza sanitaria?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": true
+    },
+    {
+      "id": "barriere_protezioni",
+      "text": {
+        "it": "Sono presenti barriere fisiche e protezioni per evitare il contatto con materiali contaminati?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "dpi_linked": true,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "segnaletica_rischio_bio",
+      "text": {
+        "it": "È presente segnaletica adeguata nei locali con rischio biologico?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}

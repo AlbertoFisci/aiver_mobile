@@ -1,0 +1,104 @@
+{
+  "id": "centrale_produzione",
+  "title": {
+    "it": "Centrale di produzione energia"
+  },
+  "description": {
+    "it": "Motori, turbine, caldaie, cogenerazione"
+  },
+  "type": "specifica",
+  "sector": "energia_utilities",
+  "risk_scale": "NC_nota_avvertenza",
+  "special_checklists": [
+    {
+      "id": "atex",
+      "activation_question": {
+        "it": "Sono presenti atmosfere potenzialmente esplosive (gas, vapori, polveri)?"
+      }
+    },
+    {
+      "id": "radiazioni_non_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti apparati con emissioni di radiazioni non ionizzanti (es. microonde, convertitori, RF)?"
+      }
+    },
+    {
+      "id": "radiazioni_ionizzanti",
+      "activation_question": {
+        "it": "Sono presenti controlli CND o dispositivi che emettono radiazioni ionizzanti (es. RX)?"
+      }
+    }
+  ],
+  "checklist": [
+    {
+      "id": "verifica_conformita_impianti",
+      "text": {
+        "it": "Gli impianti di produzione (motori, turbine, caldaie) sono conformi alle normative tecniche e in buono stato di manutenzione?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.9,
+      "tags": ["impianti", "manutenzione", "normativa"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_linee_alta_temperatura",
+      "text": {
+        "it": "Le linee ad alta temperatura (vapore, olio diatermico, gas) sono protette, isolate e segnalate?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.8,
+      "tags": ["temperature", "isolate", "linee_critiche"],
+      "dpi_linked": false,
+      "allow_photo": true,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "aree_calde_rischi_incendio",
+      "text": {
+        "it": "Sono adottate misure specifiche contro il rischio incendio nelle aree calde?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 2.0,
+      "tags": ["incendio", "aree_calde", "prevenzione"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "verifica_dpi_termici_e_antinfortunistici",
+      "text": {
+        "it": "Sono disponibili e utilizzati DPI anticalore, antiscottature e antinfortunistici adeguati?"
+      },
+      "note": true,
+      "mandatory": true,
+      "scoring_weight": 1.7,
+      "tags": ["dpi", "calore", "protezione_individuale"],
+      "dpi_linked": true,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    },
+    {
+      "id": "segnaletica_rischio_specifico",
+      "text": {
+        "it": "La segnaletica di pericolo è presente, visibile e specifica per i rischi dell’area?"
+      },
+      "note": false,
+      "mandatory": true,
+      "scoring_weight": 1.6,
+      "tags": ["segnaletica", "visibilità", "rischi_area"],
+      "dpi_linked": false,
+      "allow_photo": false,
+      "allow_audio": false,
+      "allow_file": false
+    }
+  ]
+}
